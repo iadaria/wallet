@@ -1,0 +1,15 @@
+
+/** Authorization */
+
+export const DEVICE_TOKEN_STORAGE_KEY = 'DEVICE_TOKEN';
+export const PIN_SALT_STORAGE_KEY = 'PIN_SALT';
+export const DEVICE_UNIQUE_ID = "DEVICE_UNIQUE_ID";
+
+/** Review */
+
+export const REVIEW_STORAGE_KEY = 'REVIEW';
+
+export const REVIEW_NEED_STORAGE_KEY = 'REVIEW_NEED';
+export const REVIEW_LAST_ASKING_STORAGE_KEY = 'REVIEW_LAST_ASKING';
+export const REVIEW_ASKING_COUNT_STORAGE_KEY = 'REVIEW_ASKING_COUNT';
+

@@ -1,0 +1,20 @@
+# 0
+
+- delete permissions
+- rename globalpass module
+- add sentry after all, because i need additional time.
+
+# 1
+
+"rn-globalpass": "file:/Users/daria/Documents/temp/rn-globalpass",
+
+> yarn add file:/Users/daria/Documents/temp/rn-globalpass
+
+> sentry
+> camera
+
+# ?
+
+% https://www.rapidtables.org/ru/math/number/Percentage.html
+
+# Я посмотрела код на мобиле, у нас Accepted статус от kyc не считается, нужно

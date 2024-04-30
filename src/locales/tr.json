@@ -1,0 +1,1932 @@
+{
+  "AppDomainErrors": {
+    "default_error": "Bir hata oluştu",
+    "not_exists_code": "Bir hata oluştu",
+    "default_error_message": "Bilinmeyen bir sorun oluştu",
+    "invalid_code": "Geçersiz kod",
+    "invalid_code_message": "Yanlış kod",
+    "failed_to_verify_message": "Yanlış kod",
+    "verify_code_invalid_message": "Yanlış kod",
+    "registration_incorrect_email": "Kayıt başarısız",
+    "registration_incorrect_referral": "Kayıt başarısız",
+    "registration_incorrect_phone": "Kayıt başarısız",
+    "registration_incorrect_password_policy": "Kayıt başarısız",
+    "incorrect_password_policy": "Kayıt başarısız",
+    "incorrect_password_policy_message": "Şifre 8 karakterden kısa olmamalıdır",
+    "registration_user_exists": "Kayıt başarısız",
+    "registration_incorrect_email_message": "Geçersiz bir e-posta",
+    "registration_incorrect_referral_message": "Referans linki gecersiz",
+    "registration_incorrect_phone_message": "Yanlış telefon numarası",
+    "registration_phone_in_use": "Telefon numarası zaten kullanılıyor",
+    "registration_phone_in_use_message": "Telefon numarası başka bir hesapta kullanılıyor",
+    "registration_user_exists_message": "Bu kullanıcı zaten kayıtlı",
+    "login_no_device_token_message": "Lütfen sayfayı güncelleyin ve tekrar giriş yapın",
+    "login_invalid_sign_message": "Lütfen sayfayı güncelleyin ve tekrar giriş yapın",
+    "invalid_sign_message": "Bir hata oluştu, lütfen desteğe başvurun",
+    "wrong_pin_code_title": "Hata",
+    "wrong_pin_code_message": "Kurulumda yanlış pin kodu. Lütfen tekrar deneyin",
+    "login_user_not_found": "Başarısız üye girişi",
+    "login_user_not_found_message": "Hesap bulunamadı",
+    "login_user_not_verified": "E-posta doğrulanmadı",
+    "login_user_not_verified_message": "Hesabı doğrulamak için lütfen e-postaya gidin ve mektubumuzdaki linki tıklayın",
+    "validation_error": "Portala başarısız giriş",
+    "internal_error": "Portala başarısız giriş",
+    "validation_error_message": "Lütfen desteğe başvurun",
+    "internal_error_message": "Lütfen desteğe başvurun",
+    "login_captcha_required": "Başarısız giriş",
+    "login_captcha_required_message": "Captcha başarısız",
+    "withdraw_need_kyc": "Başvuru yapma hatası",
+    "withdraw_google_or_phone_verification_required": "Başvuru yapma hatası",
+    "withdraw_google_or_phone_required": "Başvuru yapma hatası",
+    "withdraw_email_verification_required": "Başvuru yapma hatası",
+    "withdraw_target_account_not_found": "Başvuru yapma hatası",
+    "withdraw_target_incorrect_amount": "Başvuru yapma hatası",
+    "withdraw_target_overdraft": "Başvuru yapma hatası",
+    "withdraw_target_too_big_amount": "Başvuru yapma hatası",
+    "withdraw_target_min_amount_required": "Başvuru yapma hatası",
+    "withdraw_usdt_min_amount_required": "Başvuru yapma hatası",
+    "withdraw_incorrect_fund_type": "Başvuru yapma hatası",
+    "withdraw_should_be_in_date_range": "Başvuru yapma hatası",
+    "withdraw_invalid_addr": "Başvuru yapma hatası",
+    "widthdraw_invalid_amount": "Başvuru yapma hatası",
+    "withdraw_no_account": "Başvuru yapma hatası",
+    "receiver_self_reference": "Başvuru yapma hatası",
+    "withdraw_overdraft": "Başvuru yapma hatası",
+    "withdraw_limit_per_day": "Başvuru yapma hatası",
+    "no_receiver_data": "Başvuru yapma hatası",
+    "no_amount": "Başvuru yapma hatası",
+    "receiver_not_found": "Başvuru yapma hatası",
+    "withdraw_verification_failed": "Başvuru yapma hatası",
+    "withdraw_incorrect_verify_topic": "Başvuru yapma hatası",
+    "withdraw_face_verify_timeout": "Başvuru yapma hatası",
+    "incorrect_fund": "Başvuru yapma hatası",
+    "transfer_request_verdraft": "Başvuru yapma hatası",
+    "verification_code_not_found": "Başvuru yapma hatası",
+    "verification_code_attemp_limit": "Başvuru yapma hatası",
+    "invalid_leading_field": "Başvuru yapma hatası",
+    "incorrect_to_fund": "Başvuru yapma hatası",
+    "incorrect_from_fund": "Başvuru yapma hatası",
+    "incorrect_withdraw_date_range": "Başvuru yapma hatası",
+    "transfer_amount_less_than_zero": "Başvuru yapma hatası",
+    "invalid_address": "Başvuru yapma hatası",
+    "withdraw_need_kyc_message": "KYC doğrulamayı geçmeniz gerekiyor",
+    "withdraw_google_or_phone_verification_required_message": "2 Adımlı doğrulama şifresi yanlış",
+    "withdraw_google_or_phone_required_message": "2 Adımlı doğrulama yüklü değil",
+    "withdraw_email_verification_required_message": "E-posta adresinizi doğrulamadınız",
+    "withdraw_target_account_not_found_message": "Geçersiz cüzdan adresi",
+    "withdraw_target_incorrect_amount_message": "Geçersiz tutar",
+    "widthdraw_invalid_amount_message": "Geçersiz tutar",
+    "invalid_leading_field_message": "Geçersiz tutar",
+    "transfer_amount_less_than_zero_message": "Geçersiz tutar",
+    "withdraw_target_overdraft_message": "Yeni başvuru yapmak ve mevcut başvuruları işlemek için cüzdandaki para yetersiz",
+    "withdraw_overdraft_message": "Yeni başvuru yapmak ve mevcut başvuruları işlemek için cüzdandaki para yetersiz",
+    "transfer_request_verdraft_message": "Yeni başvuru yapmak ve mevcut başvuruları işlemek için cüzdandaki para yetersiz",
+    "withdraw_target_too_big_amount_message": "Cüzdandaki yetersiz bakiye",
+    "withdraw_target_min_amount_required_message": "Çok az tutar girildi",
+    "withdraw_usdt_min_amount_required_message": "Çok az tutar girildi",
+    "withdraw_incorrect_fund_type_message": "Yanlış transfer fonu türü girildi",
+    "incorrect_fund_message": "Yanlış transfer fonu türü girildi",
+    "withdraw_should_be_in_date_range_message": "2 Adımlı doğrulama kodunun süresi doldu",
+    "verification_code_attemp_limit_message": "2 Adımlı doğrulama kodunun süresi doldu",
+    "withdraw_invalid_addr_message": "Yanlış adres girildi",
+    "invalid_address_message": "Yanlış adres girildi",
+    "withdraw_no_account_message": "Girilen alıcı adresi bulunamadı",
+    "receiver_self_reference_message": "",
+    "withdraw_limit_per_day_message": "Günlük para çekme limiti aşıldı",
+    "no_receiver_data_message": "Alıcı adresi yanlış girildi veya bulunamadı",
+    "receiver_not_found_message": "Alıcı adresi yanlış girildi veya bulunamadı",
+    "no_amount_message": "Tutar belirtilmedi",
+    "withdraw_verification_failed_message": "Geçersiz 2 Adımlı doğrulama kodu girildi",
+    "withdraw_incorrect_verify_topic_message": "Geçersiz 2 Adımlı doğrulama kodu girildi",
+    "verification_code_not_found_message": "Geçersiz 2 Adımlı doğrulama kodu girildi",
+    "withdraw_face_verify_timeout_message": "Yüz verileriniz bulunamadı. Tekrar deneyin",
+    "withdraw_cancel_request_not_found": "Bir hata oluştu",
+    "withdraw_request_invalid_id": "Bir hata oluştu",
+    "withdraw_request_invalid_status": "Bir hata oluştu",
+    "withdraw_tx_type_not_supported": "Bir hata oluştu",
+    "withdraw_tx_hash_required": "Bir hata oluştu",
+    "withdraw_denied": "Bir hata oluştu",
+    "transfer_disabled": "Bir hata oluştu",
+    "transfer_not_found": "Bir hata oluştu",
+    "insufficient_funds": "Bir hata oluştu",
+    "invalid_amount": "Bir hata oluştu",
+    "failed_to_verify": "Bir hata oluştu",
+    "error": "Bir hata oluştu",
+    "not_found": "Bir hata oluştu",
+    "invalid hash": "Bir hata oluştu",
+    "sms_minimal_delay": "Bir hata oluştu",
+    "pre_device_token_invalid": "Bir hata oluştu",
+    "incorrect amount": "Bir hata oluştu",
+    "withdraw_fee mismatch": "Bir hata oluştu",
+    "withdraw_suspended": "Bir hata oluştu",
+    "withdraw_Invalid address": "Bir hata oluştu",
+    "must_have_fee": "Bir hata oluştu",
+    "verify_code_invalid": "Bir hata oluştu",
+    "withdraw_cancel_request_not_found_message": "Para çekme talebi iptal edilemiyor",
+    "withdraw_tx_type_not_supported_message": "Para çekme talebi iptal edilemiyor",
+    "withdraw_request_invalid_id_message": "Talep oluşturulamıyor. Tekrar deneyin",
+    "withdraw_request_invalid_status_message": "Talep oluşturulamıyor. Tekrar deneyin",
+    "withdraw_tx_hash_required_message": "Eksik işlem TxID",
+    "withdraw_denied_message": "Talep reddedildi.  Lütfen desteğe başvurun.",
+    "transfer_disabled_message": "Transfer talebi oluşturulamıyor",
+    "transfer_not_found_message": "Talep iptal edilemiyor",
+    "incorrect_to_fund_message": "Alım için geçersiz para birimi",
+    "incorrect_from_fund_message": "Geçersiz gönderme para birimi",
+    "incorrect_withdraw_date_range_message": "Para çekme talebi oluşturulamıyor",
+    "insufficient_funds_message": "Yetersiz bakiye",
+    "invalid_amount_message": "Geçersiz tutar",
+    "usdt value should be greater than 50$": "usdt değeri 50 doların üzerinde olmalıdır",
+    "not_found_message": "Geçersiz PIN kod",
+    "invalid hash_message": "PIN kodu eşleşmiyor",
+    "sms_minimal_delay_message": "Gönderilen mesaj sınırına ulaştınız. Daha sonra tekrar deneyin.",
+    "pre_device_token_invalid_message": "Geçersiz kod",
+    "incorrect amount_message": "Geçersiz tutar",
+    "not_exists_code_message": "Yanlış kod",
+    "withdraw_fee mismatch_message": "Komisyonların senkronizasyonunun bozulması. Tekrar deneyin",
+    "withdraw_suspended_message": "Para çekme hizmeti geçici olarak askıya alındı",
+    "withdraw_Invalid address_message": "Yanlış adres",
+    "must_have_fee_message": "İşlem hızı seçmeniz gerekiyor",
+    "cannot_use_withdraw_yet_message": "Üzgünüz, işlem geçici olarak askıya alındı. Bu sorun üzerinde çalışıyoruz.",
+    "cannot_buy": "Satın alma hatası",
+    "cannot_buy_message": "Token satın alamıyorsunuz",
+    "overdraft": "Satın alma hatası",
+    "overdraft_message": "Satın alma sınırını aştınız",
+    "2fa_must_be_enabled": "Bir hata oluştu",
+    "2fa_must_be_enabled_message": "2FA etkinleştirilmelidir",
+    "use_p2p_instead": "Bir hata oluştu",
+    "use_p2p_instead_message": "Bunun yerine P2P kullanın"
+  },
+  "ServerDomainErrors": {
+    "TokenSale": "Lütfen desteğe başvurun",
+    "twoFaDomain": "Lütfen desteğe başvurun",
+    "Shop": "Lütfen desteğe başvurun",
+    "Withdraw": "Lütfen desteğe başvurun",
+    "securityServiceDomain": "Lütfen desteğe başvurun",
+    "StableDomain": "Lütfen desteğe başvurun",
+    "Sunrise": "Lütfen desteğe başvurun",
+    "KycDomain": "Lütfen desteğe başvurun",
+    "EmptyDomain": "Lütfen desteğe başvurun",
+    "TokenSale_message": "Tokenlerle ilgili işlemler şu anda mevcut değil",
+    "twoFaDomain_message": "2 Adımlı doğrulama işlemlerle ilgili sorunlar",
+    "Shop_message": "Mağaza ile ilgili işlemler şu anda mevcut değil",
+    "Withdraw_message": "Para çekme ile ilgili işlemler şu anda mevcut değil",
+    "securityServiceDomain_message": "",
+    "StableDomain_message": "Sabit hesaplarla ilgili işlemler şu anda mevcut değil",
+    "Sunrise_message": "“Sunrise”",
+    "KycDomain_message": "KYC ile ilgili işlemler şu anda mevcut değil",
+    "EmptyDomain_message": "Hizmetlerden biri çalışmıyor"
+  },
+  "GlobalPassBio": {
+    "backButtonText": "Geri",
+    "titlePendingFaceauthWithdraw": "Bekleniyor. Başvurunuz işlenmek üzere gönderildi"
+  },
+  "TabNavigator": {
+    "home": "Hesaplar",
+    "transfer": "Transferler",
+    "shop": "Sollar Gifts",
+    "settings": "Ayarlar",
+    "sunrise": "Sunrise",
+    "profile": "Profil",
+    "tokenSale": "Tokenler"
+  },
+  "Initial": {
+    "signIn": "Giriş yap",
+    "signUp": "Üye ol"
+  },
+  "SignIn": {
+    "submit": "Giriş yap",
+    "title": "Hesap girişi",
+    "emailPlaceholder": "E-posta",
+    "passwordPlaceholder": "Şifre"
+  },
+  "SignUp": {
+    "emailPlaceholder": "E-posta",
+    "passwordPlaceholder": "Şifre",
+    "title": "Hesap oluştur",
+    "namePlaceholder": "Adı",
+    "phonePlaceholder": "Telefon numarası",
+    "referralPlaceholder": "Referans ortağım",
+    "submit": "Üyeliği tamamla"
+  },
+  "signUpFormStore": {
+    "emailRequiredError": "Lütfen e-posta adresi girin.",
+    "emailInvalidError": "Geçersiz e-posta",
+    "passwordRequiredError": "Lütfen şifrenizi girin",
+    "passwordInvalidError": "",
+    "passwordTooShortError": "Şifre 8 karakterden kısa olmamalıdır",
+    "passwordIdenticalCharsError": "Şifre 3 ayni karakterden yanyana olmamalıdır",
+    "nameRequiredError": "Lütfen adınızı girin",
+    "phoneRequiredError": "Lütfen telefon numaranızı girin",
+    "phoneInvalidError": "Geçersiz telefon numarası. Örnek: +905123456789",
+    "emailConfirmationAlertTitle": "E-posta doğrulaması",
+    "emailConfirmationAlertMessage": "E-posta adresini doğrulamak için lütfen e-postaya gidin ve mektubumuzdaki linki tıklayın",
+    "emailConfirmationAlertButton": "OK"
+  },
+  "signInFormStore": {
+    "emailRequiredError": "Lütfen e-posta adresi girin.",
+    "emailInvalidError": "Geçersiz e-posta",
+    "passwordRequiredError": "Lütfen şifrenizi girin"
+  },
+  "RegisterDevice": {
+    "title": "Cihaz yetkilendirmesi",
+    "tip": "",
+    "codePlaceholder": "Mektuptan kod",
+    "submit": "Yetkilendirmek"
+  },
+  "Deposit": {
+    "screenTitle": "Yatırmak",
+    "token": "Tokenler",
+    "network": "Blok zinciri ağı",
+    "address": "Adres",
+    "copyButtonText": "Adresi kopyalamak",
+    "usdtTip": ""
+  },
+  "Transfer": {
+    "tabRenderError": "Bilinmeyen bir sorun oluştu",
+    "appTopbarTitle": "Transfer",
+    "convertationTab": "Dönüştürmek",
+    "toSavingTab": "Birikim hesabına",
+    "byEmailTab": "E-posta ile"
+  },
+  "StablesAllAccounts": {
+    "appTopbarTitle": "Bütün sabit+ hesaplar",
+    "createBrightButton": "Yeni Sabit+ hesap açmak",
+    "allClosedAccounts": "Kapalı Sabit+ hesaplar",
+    "legacyHint": ""
+  },
+  "SetupPIN": {
+    "step1Title": "PIN kodu oluştur",
+    "step2Title": "PIN kod (tekrar)",
+    "errPINsVary": "PIN kodunun tekrarı yanlış."
+  },
+  "PIN": {
+    "PINFormTip": "PIN kodu girin"
+  },
+  "CreateBrightAccount": {
+    "appTopbarTitle": "Yeni Sabit+ hesap açmak",
+    "sunnyBookPromoWarning": "",
+    "sunnyBookPromoLink": "Web siteyi aç"
+  },
+  "Kyc": {
+    "appTopbarTitle": "KYC",
+    "cameraPermissionTitle": "Kameraya erişime izin ver",
+    "cameraPermissionMessage": "Belgelerin fotoğraflarını çekebilmek için kameraya erişim gereklidir",
+    "cameraPermissionButtonOK": "İzin ver",
+    "cameraPermissionButtonCancel": "Yasakla"
+  },
+  "MainSettings": {
+    "appTopbarTitle": "Ayarlar",
+    "lang": "DİL",
+    "logoutButton": "Oturumu kapat",
+    "twoFactorSectionTitle": "2 Adımlı doğrulama",
+    "reinvestmentSectionTitle": "Yeniden yatırımlar",
+    "changePasswordSectionTitle": "Şifre değişikliği",
+    "changeEmailSectionTitle": "Mevcut E - posta",
+    "changePhoneSectionTitle": "Mevcut telefon numarası"
+  },
+  "StableScreen": {
+    "appTopbarTitle": "Sabit+",
+    "controlClose": "Hesabı kapatmak",
+    "deposit": "Başlangıç tutarı",
+    "hasCapitalization": "Gelirin kapitalizasyonu ( Mevduat hesabı üzerinden elde edilen gelirin yüzdesi mevduat hesabına eklenir ve bir sonraki ayda artırılan hesap üzerinden yüzde tahakkuk edilir. )",
+    "capTrue": "Evet",
+    "capFalse": "Hayır",
+    "monthIncome": "Aylık gelir",
+    "term": "Yatırımlarımı geri alma süresi",
+    "termMonthUnit": "Ay",
+    "totalPayout": "Genel gelir",
+    "netIncome": "Net geliriniz",
+    "optYes": "Var",
+    "verifyTitle": "İadeyi onayla",
+    "verifyText": "Devam etmek için doğrulama kodunu girin",
+    "verifySubmit": "Onaylamak",
+    "controlEdit": "Düzenlemek",
+    "controlInfo": "Hesap bilgileri",
+    "paymentSchedule": "Gelir takvimi",
+    "payRest": "Gelir kalanı",
+    "interestRate": "Faiz oranı",
+    "closedAccount": "Hesap kapatıldı",
+    "dateClose": "Kapanış tarihi",
+    "legacyOpenWeb": "Bir hesabı kapatmak için uygulamanın web sürümünü kullanın",
+    "confirmCloseStableTitle": "Hesap kapatma onayı",
+    "confirmCloseStableBody": "İşlemi onaylamak için size bir kod gönderdik",
+    "confirmCloseStableSubmit": "Hesap kapatmayı onaylayın"
+  },
+  "StableTermsBottomSheet": {
+    "replenishment": "Yatırmak",
+    "optYes": "Var",
+    "partialWithdrawal": "Kısmi çekme",
+    "prolongation": "Uzatma",
+    "optNo": "Sağlanmıyor",
+    "earlyClosure": "Erken fesih",
+    "smallText": "",
+    "accountTerms": "Mevduat koşulları"
+  },
+  "StableClose": {
+    "earlyCLosureNotice": "Dikkat edin! Erken fesih halinde  kapatılması durumunda, hesabın ne kadar süreyle açıldığına bakılmaksızın, depozitinde daha önce yatırılan tüm ödenmiş faizlerin, mevduat ayları için yıllık %13 oranında yeniden hesaplanacaktır.",
+    "closeStableTitle": "Sabit+ hesabı kapat",
+    "noCapitalization": "Sermayesiz",
+    "cancelCloseStable": "İptal",
+    "closeStable": "Hesabı kapat"
+  },
+  "TwoFactorVerifyPopup": {
+    "inputLabel": "KODU GİRİN",
+    "cancelButton": "İptal"
+  },
+  "TwoFactorRequiresPopup": {
+    "title": "2FA kapalı",
+    "text": "Hesabınızın güvenliğini sağlamak için 2 Adımlı doğrulamayı ayarlamanız gerekir. Geçici olarak bu seçenek yalnızca web sürümünde mevcuttur.",
+    "open": "Web sitesine gidin",
+    "close": "Kapatmak"
+  },
+  "TransferFromSavingForm": {
+    "insufficientFunds": "Yetersiz bakiye",
+    "confirmTransferDetails": "İşlemi onaylamak için size bir kod gönderdik",
+    "selectSourceText": "NEREDEN TRANSFER YAPILMALI?",
+    "selectSourceTitle": "Nereden transfer yapılmalı?",
+    "sumToTransfer": "Çekme tutarı",
+    "sumToTransferPlaceholder": "Fon para birimi tutarı",
+    "transferButton": "TRANSFER",
+    "confirmTransfer": "Transfer onayı",
+    "confirmTransferButton": "Göndermek",
+    "transferSuccess": "Transfer tamamlandı",
+    "transferAmount": "Transfer tutarını girin",
+    "amountMustBePositive": "Tutar sadece sayı olmalıdır",
+    "selectFund": "Bir fon seçin",
+    "invalidNumber": "Bir sayı girin"
+  },
+  "StableAccountWidget": {
+    "closed": "Kapalı",
+    "stable": "Sabit",
+    "expectedPayout": "Beklenen gelir tutarı",
+    "until": "önceki"
+  },
+  "WithdrawForm": {
+    "insufficientFunds": "Yetersiz bakiye",
+    "address": "Adres",
+    "amountFund": "Fon para birimi tutarı",
+    "transferSuccess": "Transfer tamamlandı",
+    "enterTransferAmount": "Transfer tutarını girin",
+    "amountMustBePositive": "Tutar sadece sayı olmalıdır",
+    "selectFund": "Bir fon seçin",
+    "invalidNumber": "Bir sayı girin",
+    "transferFromWallet": "CÜZDANDAN ÇEKMEK",
+    "selectWallet": "Nereden çekmek?",
+    "amount": "TUTAR",
+    "targetWallet": "CÜZDAN ADRESİ",
+    "targetWalletPlaceholder": "Bir adres girin veya tarayın",
+    "dailyWithdrawalLimit": "Günlük para çekme limiti",
+    "withdrawal": "Çekmek",
+    "withdrawQuestion": "Çekilsin mi?",
+    "confirmWithdrawal": "İşlemi onaylamak için SMS kodunu girin",
+    "send": "Göndermek",
+    "enterTargetAddress": "Hedef adresi belirtin",
+    "invalidAddress": "Geçersiz adres",
+    "dailyLimitExceed": "Tutar günlük sınırı aşıyor"
+  },
+  "AccountAddress": {
+    "copied": "Kopyalandı",
+    "accountAddress": "HESAP ADRESİ",
+    "generateQrCode": "QR kodu oluştur"
+  },
+  "Courses": {
+    "pair": "Çift",
+    "buying": "Satın almak",
+    "selling": "Satmak"
+  },
+  "Filter": {
+    "transfer": "TRANSFER",
+    "filter": "FİLTRE",
+    "income": "YATIRMAK",
+    "withdraw": "ÇEKMEK",
+    "operations": "İŞLEMLERİM"
+  },
+  "mapIncomeType": {
+    "transferFrom": "Transfer",
+    "transfer": "Transfer",
+    "input": "Yatırmak",
+    "transferInput": "Yatırmak",
+    "income": "Kazançlarım",
+    "commision_1": "Referans ortaklar (1)",
+    "commision_2": "Referans ortaklar (2)",
+    "commision_3": "Referans ortaklar (3)",
+    "commision_4": "Referans ortaklar (4)",
+    "commision_5": "Referans ortaklar (5)",
+    "p2pTransferOutput": "Transfer (E-posta)",
+    "bonus": "Bonuslar",
+    "stableBase": "",
+    "stableCreate": "",
+    "stable_refund": "",
+    "stable_income": "",
+    "stable_decrease": "",
+    "withdraw": "Çekmek"
+  },
+  "Period": {
+    "week": "Hafta",
+    "month": "Ay",
+    "year": "Yıl",
+    "all": "Herşey"
+  },
+  "SuccessTransferPopup": {
+    "ok": "OK"
+  },
+  "TransferByEmailForm": {
+    "insufficientFunds": "Yetersiz bakiye",
+    "verifyBody": "İşlemi onaylamak için size bir kod gönderdik",
+    "sourceFund": "NEREDEN TRANSFER YAPILMALI?",
+    "sourceFundPopup": "Nereden transfer yapılmalı?",
+    "transferAmount": "Çekme tutarı",
+    "amountFund": "Fon para birimi tutarı",
+    "transfer": "TRANSFER",
+    "verifySubmit": "Göndermek",
+    "transferSuccess": "Transfer tamamlandı",
+    "enterAmount": "Transfer tutarını girin",
+    "amountMustBePositive": "Tutar sadece sayı olmalıdır",
+    "selectFund": "Bir fon seçin",
+    "invalidNumber": "Bir sayı girin",
+    "targetEmail": "ALICININ E-POSTA",
+    "enterTargetEmail": "Kullanıcı E-postasını Girin",
+    "message": "MESAJ",
+    "messagePlaceholder": "Bir mesaj yazın (isteğe bağlı)",
+    "verifyTitle": "E-posta ile transferi onayla",
+    "invalidEmail": "Geçerli bir E-posta girin"
+  },
+  "TransferConvertationForm": {
+    "insufficientFunds": "Yetersiz bakiye",
+    "confirmTransferBody": "İşlemi onaylamak için size bir kod gönderdik",
+    "sourceFund": "NEREDEN TRANSFER YAPILMALI?",
+    "sourceFundTitle": "Nereden transfer yapılmalı?",
+    "transferAmount": "Çekme tutarı",
+    "amountFund": "Fon para birimi tutarı",
+    "transfer": "TRANSFER",
+    "confirmTransferSubmit": "Göndermek",
+    "transferSuccess": "Transfer tamamlandı",
+    "enterTransferAmount": "Transfer tutarını girin",
+    "amountMustBePositive": "Tutar sadece sayı olmalıdır",
+    "selectFund": "Bir fon seçin",
+    "invalidNumber": "Bir sayı girin",
+    "enterTargetAddress": "Hedef adresi belirtin",
+    "destinationFund": "NEREYE TRANSFER YAPILMALI?",
+    "destinationFundTitle": "Nereye çekmek?",
+    "destinationFundAmount": "ALACAK TUTAR",
+    "destinationFundAmountPlaceholder": "Alım için para birimindeki tutar",
+    "confirmTransferTitle": "Dönüşüm onayı",
+    "fundSourceMustNotBeEqualToDestination": "Para çekme fonu, hedef fondan farklı olmalıdır",
+    "fundDestinationMustNotBeEqualToSource": "Hedef fonu, para çekme fonundan farklı olmalıdır"
+  },
+  "START_DAY_TRANSACTION": {
+    "monday": "Pazartesinden",
+    "tuesday": "Salıdan",
+    "wednesday": "Çarşambadan",
+    "thursday": "Perşembeden",
+    "fridays": "Cumadan",
+    "saturday": "Cumartesinden",
+    "sunday": "Pazardan"
+  },
+  "END_DAY_TRANSACTION": {
+    "monday": "Pazartesiye",
+    "tuesday": "Salıya",
+    "wednesday": "Çarşambaya",
+    "thursday": "Perşembeye",
+    "fridays": "Cumaya",
+    "saturday": "Cumartesiye",
+    "sunday": "Pazara"
+  },
+  "SAME_DATE_TRANSACTION": {
+    "monday": "Pazartesileri",
+    "tuesday": "Salıları",
+    "wednesday": "Çarşambaları",
+    "thursday": "Perşembeleri",
+    "fridays": "Cumaları",
+    "saturday": "Cumartesileri",
+    "sunday": "Pazarları"
+  },
+  "TransferToSavingForm": {
+    "insufficientFunds": "Yetersiz bakiye",
+    "confirmTransferBody": "İşlemi onaylamak için size bir kod gönderdik",
+    "sourceFund": "NEREDEN TRANSFER YAPILMALI?",
+    "sourceFundTitle": "Nereden transfer yapılmalı?",
+    "transferAmount": "Çekme tutarı",
+    "amountFund": "Fon para birimi tutarı",
+    "transfer": "TRANSFER",
+    "confirmTransfer": "Transfer onayı",
+    "confirmTransferSubmit": "Göndermek",
+    "transferSuccess": "Transfer tamamlandı",
+    "enterAmount": "Transfer tutarını girin",
+    "amountMustBePositive": "Tutar sadece sayı olmalıdır",
+    "selectFund": "Bir fon seçin",
+    "invalidNumber": "Bir sayı girin"
+  },
+  "WalletItem": {
+    "wallet": "CÜZDAN",
+    "details": "İşlemlerim",
+    "myAddress": "Benim adresim",
+    "shareAddress": "Adresi paylaş...",
+    "qrWithAddress": "Adresle QR'yi açın"
+  },
+  "PINForm": {
+    "logout": "ÇIKIŞ"
+  },
+  "BrightAccountWidget": {
+    "until": "Önceki"
+  },
+  "CustomDrawer": {
+    "accounts": "Hesaplar",
+    "transfers": "Transferler",
+    "settings": "Ayarlar",
+    "main": "Ana sayfa",
+    "logout": "Oturumu kapat",
+    "qrReader": "QR tarayıcı",
+    "createQRRequest": "QR isteği oluşturun"
+  },
+  "GoogleReCaptcha": {
+    "cancel": "İptal"
+  },
+  "SelectPopupCurrency": {
+    "withdrawCurrency": "Çekme para birimi",
+    "selectCurrency": "Para birimini seçin"
+  },
+  "SelectPopupFund": {
+    "wallet": "Cüzdan",
+    "savings": "Birikim hesap",
+    "wallets": "Cüzdanlar",
+    "savingsAccounts": "Birikim hesapları",
+    "selectAccount": "Bir hesap seçin"
+  },
+  "VerificationPopup": {
+    "enterCode": "KODU GİRİN",
+    "cancel": "İptal",
+    "codeTooShort": "Kod çok kısa",
+    "codeTooLong": "Kod çok uzun",
+    "codeRequired": "Kodu girin"
+  },
+  "CreateBrightAccountForm": {
+    "confirmText": "İşlemi onaylamak için size bir kod gönderdik",
+    "title": "İsim",
+    "titlePlaceholder": "İsimi girin",
+    "depositAmount": "Depozitin tutarı",
+    "depositAmountPlaceholder": "Depozitin tutarını girin",
+    "term": "Yatırımlarımı geri alma süresi",
+    "capitalization": "Kapitalizasyon",
+    "confirmTitle": "İşlemi onaylayın",
+    "confirmSubmit": "Hesap açmak",
+    "amountRequired": "Mevduat tutarı girin",
+    "6month": "6 ay",
+    "12month": "12 ay",
+    "18month": "18 ay",
+    "24month": "24 ay",
+    "36month": "36 ay",
+    "60month": "60 ay",
+    "96month": "96 ay"
+  },
+  "ResultView": {
+    "createAccount": "Hesap açmak",
+    "weReturn": "İade edeceğiz",
+    "youEarn": "Kazanacaksınız",
+    "monthlyRate": "Aylık faiz oranı"
+  },
+  "ChangeEmailForm": {
+    "invalidEmail": "Geçerli bir E-posta girin",
+    "emailRequired": "Bir E-posta girmelisiniz",
+    "newEmail": "Yeni E-posta",
+    "save": "Kaydetmek"
+  },
+  "ChangePasswordForm": {
+    "passwordTooShort": "Şifre çok kısa",
+    "passwordsNotEqual": "Şifreler eşleşmiyor",
+    "requiredField": "Bu alan boş bırakılamaz",
+    "currentPassword": "Mevcut şifre",
+    "newPassword": "Yeni şifre",
+    "confirmNewPassword": "Tekrar yeni şifre",
+    "change": "Değiştirmek"
+  },
+  "ReinvestmentForm": {
+    "wallet": "Cüzdan",
+    "save": "Kaydetmek",
+    "fromSavingsBtc": "Birikim hesabımdan kazançlarım (BTC)",
+    "fromSavingsEth": "Birikim hesabımdan kazançlarım (ETH)",
+    "fromSavingsUsdt": "Birikim hesabımdan kazançlarım (USDT)",
+    "reinvestment": "Yeniden yatırım",
+    "fromStable": "Sabit hesabımdan kazançlarım",
+    "fromReferrals": "Ortaklık kazançlarım"
+  },
+  "ResetPhoneForm": {
+    "confirmText": "İşlemi onaylamak için size bir kod gönderdik",
+    "reset": "Sıfırla",
+    "confirmTitle": "Telefon numarası sıfırlansın mı?"
+  },
+  "EnableGoogle2faPopup": {
+    "somethingGoesWrong": "Bilinmeyen bir sorun oluştu",
+    "back": "Geri",
+    "send": "Göndermek",
+    "codeTooShort": "Kod çok kısa",
+    "codeTooLong": "Kod çok uzun",
+    "codeRequired": "Kodu girin",
+    "copyKey": "Anahtarı panoya kopyala",
+    "next": "İleri",
+    "keyCopied": "Anahtar kopyalandı"
+  },
+  "EnablePhone2faPhoneForm": {
+    "phonePlaceholder": "Telefon numarası",
+    "submit": "Göndermek",
+    "phoneRequired": "Telefon numarası gerekli",
+    "phoneRules": "Telefon numarası örneği: +905123456789",
+    "phoneForCodes": "Doğrulama kodlarının gönderileceği numarayı girin"
+  },
+  "EnablePhone2faPopup": {
+    "somethingGoesWrong": "Bilinmeyen bir sorun oluştu"
+  },
+  "EnablePhone2faVerifyForm": {
+    "submit": "Göndermek",
+    "codeTooShort": "Kod çok kısa",
+    "codeTooLong": "Kod çok uzun",
+    "codeRequired": "Kodu girin"
+  },
+  "withdrawTransferErrors": {
+    "overdraft": "Önceki istekleri iptal etmeyi deneyin"
+  },
+  "openStableAccountIterator": {
+    "failedToOpen": "Sabit hesap açılamadı"
+  },
+  "verifyOpenStableAccountIterator": {
+    "accountCreated": "Hesap başarıyla oluşturuldu!",
+    "codeExpired": "Onay kodu yanlış veya kodun süresi dolmuş. Tekrar deneyin."
+  },
+  "refundStableAccountIterator": {
+    "createFailed": "Sabit hesap kapatılamıyor"
+  },
+  "verifyRefundStableAccountIterator": {
+    "codeExpired": "Onay kodu yanlış veya kodun süresi dolmuş. Tekrar deneyin.",
+    "closeSuccess": "Hesap başarıyla kapatıldı!"
+  },
+  "fetchStableAccountsIterator": {
+    "codeExpired": "Onay kodu yanlış veya kodun süresi dolmuş. Tekrar deneyin."
+  },
+  "walletsIterator": {
+    "fetchFailed": "Cüzdanların bilgisi alınamadı. Lütfen daha sonra tekrar deneyiniz."
+  },
+  "fetchWithdrawListIterator": {
+    "fetchFailed": "Çekme listesi alınamadı. Daha sonra tekrar deneyin."
+  },
+  "cancelWithdrawIterator": {
+    "cancelFailed": "Çekme talebi iptal edilemiyor. Daha sonra tekrar deneyin."
+  },
+  "setupPinTask": {
+    "setPinFailed": "PIN kodu ayarlanamadı. Tekrar deneyin."
+  },
+  "signInIterator": {
+    "emailNotVerified": "E-postayı doğrulamanız gerekiyor",
+    "invalidCredentials": "Yanlış giriş veya şifre",
+    "cantLogIn": "Giriş yapılamadı"
+  },
+  "signUpIterator": {
+    "emailUsed": "Bu E-postaya sahip kullanıcı zaten kayıtlı",
+    "registerError": "Yeni bir kullanıcı kaydedilirken hata oluştu"
+  },
+  "userIterator": {
+    "fetchFailed": "Kullanıcı verileri alınamadı. Lütfen daha sonra tekrar deneyiniz"
+  },
+  "changeEmailTask": {
+    "requestSended": "E-posta değişiklik isteği gönderildi. İşleminizi doğrulamak için lütfen eski e-postaya gidin ve mektubumuzdaki linki tıklayın.",
+    "changeFailed": "E-posta değiştirilemedi. Daha sonra tekrar deneyin."
+  },
+  "changePasswordIterator": {
+    "changeSuccess": "Şifre başarıyla güncellendi!",
+    "changeFailed": "Bir hata oluştu! Şifre değiştirilmedi"
+  },
+  "updateReinvestmentIterator": {
+    "updateSuccess": "Ayarlar başarıyla güncellendi",
+    "updateFailed": "Bilinmeyen bir sorun oluştu. Ayarlar kaydedilemedi"
+  },
+  "resetPhoneTask": {
+    "resetFailed": ""
+  },
+  "verifyResetPhoneTask": {
+    "resetSuccess": "Telefon numarası başarıyla sıfırlandı",
+    "resetVerifyFailed": "Telefon numarasının sıfırlanması onaylanamadı"
+  },
+  "acquireDeviceTokenTask": {
+    "deviceRegistered": "Cihaz başarıyla kaydedildi. Artık hesabınıza giriş yapabilirsiniz",
+    "deviceRegisterFailed": "Cihaz kaydı başarısız oldu. Kod yanlış girilmiş."
+  },
+  "terminateDeviceTokenTask": {
+    "terminateFailed": "Bir hata oluştu!"
+  },
+  "createBrightTask": {
+    "createFailed": "Bir hata oluştu! Sabit+ hesap açılamıyor"
+  },
+  "verifyBrightCreationTask": {
+    "createSuccess": "Sabit+ hesap başarıyla açıldı",
+    "verifyFailed": "Bir hata oluştu! Geçersiz onay kodu"
+  },
+  "refundBrightTask": {
+    "refundError": "Bir hata oluştu! Sabit + hesap kapatılamadı"
+  },
+  "verifyBrightRefundTask": {
+    "closeError": "Bir hata oluştu! Geçersiz onay kodu",
+    "closeSuccess": "Sabit + hesap başarıyla kapatıldı"
+  },
+  "transferEffect": {
+    "transfersDisabled": "Transfer başarısız oldu. Transfer hizmeti geçici olarak kullanılamıyor. Daha sonra tekrar deneyin.",
+    "insufficientFunds": "Bir hata oluştu! Transfer başarısız oldu. Yetersiz bakiye.",
+    "somethingWrong": "Bir hata oluştu! Transfer başarısız oldu. Bilinmeyen bir sorun oluştu."
+  },
+  "verifyTransferEffect": {
+    "invalidCode": "Bir hata oluştu! Transfer başarısız oldu. Geçersiz doğrulama kodu.",
+    "somethingWrong": "Bir hata oluştu! Bilinmeyen bir sorun oluştu."
+  },
+  "p2pTransferEffect": {
+    "overdraft": "Bir hata oluştu! Transfer başarısız oldu. Yetersiz bakiye.",
+    "somethingWrong": "Bir hata oluştu! Bilinmeyen bir sorun oluştu.",
+    "userNotFound": "Bir hata oluştu!",
+    "usersEqual": "Bir hata oluştu! Gönderici ve alıcı aynı."
+  },
+  "verifyP2pTransferEffect": {
+    "transferFailed": "Bir hata oluştu! Transfer başarısız oldu. Geçersiz doğrulama kodu."
+  },
+  "txTypeToString": {
+    "input": "Yatırmak",
+    "income": "Kazançlarım",
+    "bonus": "Bonuslar",
+    "withdraw": "Çekmek",
+    "commision1": "Ortaklarım (1)",
+    "commision2": "Ortaklarım (2)",
+    "commision3": "Ortaklarım (3)",
+    "transferFrom": "Transfer - Çekmek",
+    "transfer": "Transfer - Çekmek",
+    "transferInput": "Transfer - Yatırmak",
+    "stableBase": "Sabit mevduat - oluşturmak",
+    "stableCreate": "Sabit mevduat",
+    "stableRefund": "Sabit mevduat - iade",
+    "stableIncome": "Sabit mevduat - kazanç",
+    "stableDecrease": "Sabit mevduat - açılış"
+  },
+  "renderCourseString": {
+    "for": ""
+  },
+  "enableGoogle2faTask": {
+    "somethingWrong": "Bilinmeyen bir sorun oluştu. Daha sonra tekrar deneyin."
+  },
+  "verifyEnableGoogle2faTask": {
+    "somethingWrong": "Bilinmeyen bir sorun oluştu. Daha sonra tekrar deneyin.",
+    "enabled": "2 Adımlı doğrulama açık"
+  },
+  "enablePhone2faTask": {
+    "somethingWrong": "Bilinmeyen bir sorun oluştu. Daha sonra tekrar deneyin."
+  },
+  "verifyEnablePhone2faTask": {
+    "somethingWrong": "Bilinmeyen bir sorun oluştu. Daha sonra tekrar deneyin.",
+    "2faEnabled": "2 Adımlı doğrulama açık"
+  },
+  "disable2faTask": {
+    "somethingWrong": "Bilinmeyen bir sorun oluştu. Daha sonra tekrar deneyin."
+  },
+  "verifyDisable2faTask": {
+    "somethingWrong": "Bilinmeyen bir sorun oluştu. Daha sonra tekrar deneyin.",
+    "2faDisabled": "2 Adımlı doğrulama kapalı"
+  },
+  "QRScanner": {
+    "requestPositive": "OK",
+    "closeButtonText": "Kapatmak",
+    "tip": "Kameranızı QR koduna doğrultun",
+    "requestTitle": "Kamera kullanımı",
+    "requestMessage": "QR kodlarını taramak için kamera kullanım izin verin",
+    "permissionDenied": "Kamera erişimi reddedildi"
+  },
+  "ShareWalletPopup": {
+    "closeButton": "Kapatmak"
+  },
+  "AddressInput": {
+    "invalidAddress": "Geçersiz QR kodu"
+  },
+  "QRPopup": {
+    "close": "Kapatmak"
+  },
+  "CreateRequestForm": {
+    "amountPlaceholder": "Fon para birimi tutarı",
+    "selectFund": "Bir fon seçin",
+    "destinationTitle": "Bir hesap seçin",
+    "destinationLabel": "Hedef hesap",
+    "amountTitle": "TUTAR",
+    "messageLabel": "Mesaj (isteğe bağlı)",
+    "messagePlaceholder": "Bir mesaj yazın",
+    "submit": "QR kodu oluşturmak"
+  },
+  "CreateQRRequest": {
+    "appTopbarTitle": "QR talebi oluşturmak",
+    "description": "Para transferi talebinde bulunmak ve başka bir kullanıcıya aktarmak için QR kodu oluşturabilirsiniz."
+  },
+  "QRReader": {
+    "invalidAddress": "QR kodunda geçersiz adres"
+  },
+  "QRTransfer": {
+    "title": "QR kodu ile transfer"
+  },
+  "notificationsPermissions": {
+    "cancel": "İptal",
+    "openSettings": "Kamera açılsın mı?",
+    "ok": "Ok",
+    "featureNotAvailable": "Bu cihaz bildirimleri desteklemiyor",
+    "allowNotifications": "Bildirimler için izin vermeniz gerekiyor"
+  },
+  "ProductItem": {
+    "newLabel": "Yeni"
+  },
+  "OrdersHistoryListHeaderItem": {
+    "new": "Yeni",
+    "processed": "Başardı",
+    "processing": "İşleniyor",
+    "approved": "Onaylandı",
+    "cancelled": "İptal edildi",
+    "denied": "Reddedildi",
+    "shipping": "Kargo",
+    "wait": "İnceleniyor",
+    "in_queue": "Sırada",
+    "done": "Tamamlandı"
+  },
+  "OrdersHistoryListItem": {
+    "items": "Adet"
+  },
+  "ShopProduct": {
+    "add": "Eklemek",
+    "gotoBasket": "Sepeti açmak"
+  },
+  "ProductsPageItem": {
+    "addToCart": "Sepete ekle",
+    "alreadyInCart": "Sepette"
+  },
+  "ShopBasket": {
+    "empty": "Sepetin şu an boş",
+    "yourBalance": "Bakiyem",
+    "createOrder": "Onayla",
+    "total": "Toplam",
+    "product": "Ürünler",
+    "successAdded": "Sepete eklendi",
+    "successRemoved": "Sepetten kaldırıldı"
+  },
+  "AWT": {
+    "description": "AWT is a token of the first profitable crypto wallet",
+    "buy": "AWT token satın alın"
+  },
+  "ShopOrder": {
+    "successCreateTitle": "Başarılı işlem",
+    "successCreateMessage": "Sipariş oluşturuldu"
+  },
+  "FiltersPage": {
+    "resetFilters": "Sıfırla",
+    "pendingText": "Veri yükleniyor…",
+    "screenTitle": "Sollar Gifts filtreler",
+    "sollarCostTitle": "Sollar cinsinden fiat",
+    "categories": "Kategoriler",
+    "brands": "Markalar",
+    "applyFilters": "Uygula"
+  },
+  "ShopFavourites": {
+    "pendingText": "Veri yükleniyor…",
+    "screenTitle": "Favorilerim",
+    "noFavourites": "Favori listesi boş"
+  },
+  "ShopHistory": {
+    "default": "Herşey",
+    "processing": "İşleniyor",
+    "pendingText": "Veri yükleniyor…",
+    "screenTitle": "Siparişlerim",
+    "new": "Yeniler",
+    "approved": "Onaylandı",
+    "shipping": "Teslim ediliyor",
+    "done": "Tamamlanmış",
+    "cancelled": "İptal edildi",
+    "year": "",
+    "empty": "Siparişler bulunamadı",
+    "orderDetailsBtn": "Sipariş detayları"
+  },
+  "ShopOrderDetails": {
+    "error": "Bir hata oluştu",
+    "screenTitle": "Sipariş bilgi",
+    "date": "Sipariş tarihi ve saati",
+    "transportCompany": "Kargo firma linki",
+    "trackingNumber": "Takip numarası",
+    "fullName": "Ad Soyad ( у турков нет отчества )",
+    "phone": "İletişim telefon numarası",
+    "address": "Teslimat adresi",
+    "comment": "Siparişe yorum yapın",
+    "noComment": "Şu anda mevcut değil (сейчас товар недоступен) , если просто отсутствует что - то другое, то Şu anda yok",
+    "errorNoLink": "Kargo firma linki sağlanmadı veya yanlış, lütfen teknik desteğe başvurun",
+    "linkToTransportCompany": "Teslimat hizmetinin web sitesine gidin"
+  },
+  "ShopIndex": {
+    "shop": "Sollar Gifts",
+    "createOrder": "Onayla",
+    "history": "Siparişlerim",
+    "filter": "Filtrelemek",
+    "cart": "Sepet"
+  },
+  "ShopCheckout": {
+    "name": "Adı",
+    "screenTitle": "Onayla",
+    "surname": "Soyadı",
+    "patronymic": "у турков нет отчества",
+    "phoneNumber": "İletişim telefon numarası",
+    "country": "Ülke",
+    "city": "",
+    "street": "",
+    "house": "",
+    "apartment": "",
+    "postalCode": "Posta kodu",
+    "address": "Alıcı adresi",
+    "comment": "Siparişe yorum yapın",
+    "submitOrder": "Siparişi onayla",
+    "recipientDetails": "Alıcı bilgileri",
+    "other": "Ek",
+    "warningTextTitle": "Dikkat edin!"
+  },
+  "ShopCheckoutStore": {
+    "requiredSurname": "",
+    "requiredName": "",
+    "requiredPhone": "",
+    "requiredCountry": "",
+    "requiredCity": "",
+    "requiredStreet": "",
+    "requiredPostCode": "",
+    "requiredHouse": "",
+    "successTitle": "Sipariş başarıyla tamamlandı",
+    "successMessage": "Sipariş detaylarını SİPARİŞLERİM bölümünde görebilirsiniz.",
+    "successOk": "Ok"
+  },
+  "Showcase": {
+    "pendingText": "Veri yükleniyor…",
+    "notFound": "Eşleşen ürünler bulunamadı",
+    "buttonFilter": "Filtre",
+    "buttonSort": "Sırala"
+  },
+  "submitOrderFx": {
+    "done": "Sipariş oluşturuldu",
+    "fail": "Sipariş oluşturulurken bir hata oluştu"
+  },
+  "Accounts": {
+    "allStablesPlusButton": "Bütün sabit+ hesaplar",
+    "walletsSectionTitle": "Cüzdanlar",
+    "savingsSectionTitle": "Birikim hesapları",
+    "stablesPlusSectionTitle": "Sabit+ hesaplar",
+    "createNewStablePlusButton": "Yeni Sabit+ hesap açmak",
+    "requestQueueSectionTitle": "Taleplerin sırası",
+    "allRequestQueueButton": "Bütün talepler",
+    "sunriseProgram": "Sunrise program",
+    "limit": "sınır {{limit}} USDT",
+    "transferSectionTitle": "Transferler",
+    "sollarGiftsSectionTitle": "Sollar Gifts",
+    "sollarGiftsSectionTitleButton": "Mağazaya",
+    "shortMonth": "Ay"
+  },
+  "RequestDetails": {
+    "amount": "TUTAR",
+    "title": "İşlem detayları",
+    "date": "Tarih",
+    "from": "Nereden",
+    "to": "Nereye",
+    "id": "Talebin numarası",
+    "approximateExecution": "Tahmini tamamlama tarihi",
+    "cancelButtonText": "İşlemi iptal etmek",
+    "btcWallet": "BTC cüzdanı",
+    "ethWallet": "ETH cüzdanı",
+    "usdtWallet": "USDT cüzdanı",
+    "btcSaving": "BTC birikim hesap",
+    "ethSaving": "ETH birikim hesap",
+    "usdtSaving": "USDT birikim hesap"
+  },
+  "AccountLayout": {
+    "txHistorySectionTitle": "İşlemlerim",
+    "noTxsMockText": "İşlemleriniz burada görünecek"
+  },
+  "CryptoWallet": {
+    "transferButton": "Transfer",
+    "withdrawButton": "Çekmek",
+    "txHistorySectionTitle": "İşlemlerim",
+    "replenishButton": "Yatırmak",
+    "moreButton": "Ekstra seçenekler",
+    "walletDetailAddress": "Cüzdan adresi",
+    "walletDetailUSDTEquivalent": "USDT eşdeğeri",
+    "annualProfit": "Kalan bakiyeye faiz",
+    "showAllHistoryButton": "Bütün hareketler",
+    "accountDetailsSectionTitle": "Bilgiler"
+  },
+  "SollarWallet": {
+    "txHistorySectionTitle": "İşlemlerim",
+    "showAllHistoryButton": "Bütün hareketler",
+    "buySollarButton": "Satın almak",
+    "transactionHistory": "İşlemlerim",
+    "exchangeSollar": "Değiştirmek",
+    "successTitle": "Değişim başarılı",
+    "goToSollarGifts": "Solar Gifts'e gidin",
+    "gettingSollar": "Alıyorsunuz",
+    "givingSollar": "Veriyorsunuz",
+    "balanceOfTether": "Tether bakiyesi",
+    "titleBuyTether": "Sollar Gift Coins satın almak",
+    "fullAmountTether": "Toplam tutar",
+    "amountIsRequiredError": "Sıfırdan daha büyük bir tutar girmelisiniz",
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "exchangeDone": "Sollar satın alma tamamlandı",
+    "default": "Sadakat Programının Koşulları"
+  },
+  "Saving": {
+    "txHistorySectionTitle": "İşlemlerim",
+    "transferButton": "Yatırmak",
+    "walletDetailUSDTEquivalent": "USDT eşdeğeri",
+    "annualProfit": "Kalan bakiyeye faiz",
+    "showAllHistoryButton": "Bütün hareketler",
+    "accountDetailsSectionTitle": "Bilgiler",
+    "withdrawButton": "Çekmek"
+  },
+  "CryptoWalletTxHistory": {
+    "backButton": "Geri"
+  },
+  "SollarWalletTxHistory": {
+    "backButton": "Geri"
+  },
+  "SavingTxHistory": {
+    "backButton": "Geri"
+  },
+  "RequestHistory": {
+    "backButton": "Geri"
+  },
+  "operationTypes": {
+    "sollar_gift": "Sollar Gifts",
+    "buy": "Satın almak",
+    "sell": "Satmak",
+    "input": "Yatırmak",
+    "income": "Kazançlarım",
+    "additional": "Kazançlarım",
+    "withdraw": "Çekmek",
+    "commision_1": "Ortaklarım (1)",
+    "commision_2": "Ortaklarım (2)",
+    "commision_3": "Ortaklarım (3)",
+    "interest_accrual_income": "Kalan bakiyenin kazançları (Sollar)",
+    "commision_4": "Ortaklarım (4)",
+    "commision_5": "Ortaklarım (4)",
+    "transfer_from": "Transfer (çekmek)",
+    "transfer": "Transfer (çekmek)",
+    "transfer_input": "Transfer (yatırmak)",
+    "bonus": "Bonus",
+    "stable_base": "Sabit hesap açmak",
+    "stable_create": "Sabit hesap açmak",
+    "stable_decrease": "Sabit hesap açmak",
+    "stable_refund": "Sabit hesaptan iade",
+    "stable_income": "Sabit hesabımdan kazançlarım",
+    "new_stable_base": "Sabit+ hesap açmak",
+    "new_stable_create": "Sabit+ hesap açmak",
+    "new_stable_decrease": "Sabit+ hesap açmak",
+    "new_stable_refund": "Sabit+ hesaptan iade",
+    "new_stable_income": "Sabit hesabımdan kazançlarım",
+    "new_stable_withdraw": "Sabit hesabımdan kazançlarım",
+    "withdraw_fee": "Para çekme komisyon bedeli",
+    "withdraw_in_process": "Çekmek (işlemde)",
+    "transfer_in_process": "Transfer (işlemde)",
+    "p2p_transfer_output": "Kullanıcıya transfer (göndermek)",
+    "p2p_transfer_input": "Kullanıcıya transfer (almak)",
+    "amir_cell_create_decrease": "СНЯТИЕ        AmirCell satın almak / çekmek",
+    "amir_cell_cancel": "AmirCell iptali",
+    "Confirmed": "Yatırmak (işlendi)",
+    "Pending": "Yatırmak (işlemde)",
+    "Confirming": "Yatırmak (işlemde)",
+    "Failed": "Yatırmak (işlenmedi)",
+    "order_decrease": "SollarGifts satın alma",
+    "solar_buy": "Sollar satın alma",
+    "reward_activity": "Kişiselin faaliyeti için gelir",
+    "reward_partners": "Ortaklarının faaliyeti için gelir",
+    "income_deposit": "Kendi depozitinde kazançlarım",
+    "income_structure": "Genel yapının depozitinde kazançlarım",
+    "admin_transfer": "Kazançlar (yönetici)",
+    "admin_decrease": "Çekmek (yönetici)",
+    "order_refund": "SollarGifts iadesi",
+    "commision": "Sunrise Program kazançlar",
+    "debit": "Kesmek",
+    "buy_token": "Token satın almak",
+    "reward_structure_usdt": "Faaliyeti için kazançlar ( USDT genel yapının hacminde artış)",
+    "interest_accrual_solar_income": "Kalan bakiyenin kazançları (Sollar)",
+    "create": "Oluşturmak"
+  },
+  "LabelTypes": {
+    "new": "Yeni",
+    "certificate": "Sertifika",
+    "giftery": "Elektronik sertifika",
+    "digital": "Elektronik sertifika"
+  },
+  "SettingsMenu": {
+    "screenTitle": "Ayarlar",
+    "partnerLink": "Ortağımın linki",
+    "logoutButtonText": "Oturumu kapat",
+    "languageButtonText": "Dil değiştir",
+    "kycButtonText": "Kimlik doğrulama KYC",
+    "2faButtonText": "2 Adımlı doğrulama (2FA)",
+    "reinvestmentButtonText": "Yeniden yatırım ayarları",
+    "changePasswordButtonText": "Şifre değişikliği",
+    "changeEmailButtonText": "E-posta değişikliği",
+    "faq": "Sıkça Sorulan Sorular",
+    "aboutApp": "Uygulama hakkında",
+    "officialAccounts": "Resmi sosyal medya hesapları",
+    "publicAgreement": "Halka Açık Teklif",
+    "privacyPolicy": "Gizlilik Politikası",
+    "cookiePolicy": "Çerez Kullanım Politikası",
+    "companyBenefits": "Amir Capital'in avantajları",
+    "regulations": "Amir Capital'in kuralları ve düzenlemeleri",
+    "kycAmlPolicy": "KYC/AML düzenlemeleri",
+    "stablePolicy": "Stabil+ hesabını kullanarak varlık tahsisi şartları",
+    "riskProcedure": "Riskin azaltılmasına yönelik prosedürler ve iç düzenlemeler",
+    "verification": "Doğrulama",
+    "riskNotification": "Risk bildirimleri",
+    "personalDataConsent": "Kişisel verilerin işlenmesine rıza",
+    "unsupportedURL": "Bu bağlantı artık desteklenmiyor:"
+  },
+  "LanguageSettings": {
+    "backButtonText": "Dil ayarları"
+  },
+  "ReinvestmentSettings": {
+    "backButtonText": "Yeniden yatırım ayarları"
+  },
+  "ChangePassword": {
+    "backButtonText": "Şifre değişikliği",
+    "submitButtonText": "Değiştirmek",
+    "oldPasswordPlaceholder": "Eski şifre",
+    "newPasswordPlaceholder": "Yeni şifre",
+    "newPasswordConfirmPlaceholder": "Tekrar yeni şifre"
+  },
+  "ChangePasswordStore": {
+    "oldPasswordTooShortError": "Şifre çok kısa",
+    "newPasswordTooShortError": "Şifre çok kısa",
+    "newPasswordConfirmTooShortError": "Şifre çok kısa",
+    "success": "Şifre başarıyla güncellendi!",
+    "invalidPasswordError": "Yeni şifre geçersiz. Şifre değiştirilemedi",
+    "defaultError": "Bilinmeyen bir sorun oluştu. Şifre değiştirilemedi",
+    "oldPasswordRequiredError": "Eski şifreyi girmelisiniz",
+    "oldPasswordInvalidError": "Şifre geçersiz",
+    "newPasswordInvalidError": "Şifre geçersiz",
+    "newPasswordConfirmInvalidError": "Şifre geçersiz",
+    "newPasswordRequiredError": "Yeni şifreyi girmelisiniz",
+    "newPasswordConfirmRequiredError": "Yeni şifre onayı gerekli",
+    "newPasswordConfirmNotEqualError": "Şifreler eşleşmiyor"
+  },
+  "ChangeEmail": {
+    "submitButtonText": "Kaydetmek",
+    "backButtonText": "E-posta değişikliği",
+    "newEmailPlaceholder": "Yeni E-posta"
+  },
+  "ChangeEmailStore": {
+    "newEmailTooShortError": "Şifre çok kısa",
+    "success": "E-posta değişiklik isteği gönderildi. İşleminizi doğrulamak için lütfen eski e-postaya gidin ve mektubumuzdaki linki tıklayın.",
+    "defaultError": "E-posta değiştirilemedi. Daha sonra tekrar deneyin."
+  },
+  "CloseStable": {
+    "successTitle": "Başarılı işlem",
+    "successText": "Sabit + hesap başarıyla kapatıldı",
+    "successOK": "OK"
+  },
+  "KYCScreen": {
+    "backButtonText": "Kimlik doğrulama KYC",
+    "startButtonText": "Doğrulama prosedürünü başlatın",
+    "alreadyPassedText": "Kimlik doğrulama işlemini tamamladınız. KYC aktif.",
+    "lockedFeatureOne": "- Çekmek, yatırmak, cüzdanlara para transferleri",
+    "lockedFeatureTwo": "Gelirli ürünleri açmak",
+    "lockedFeatureThree": "Sadakat programı ve bonus puanları",
+    "inProcess": "Kullanıcı doğrulama işlemini tamamladınız. Başvurunuz şu anda inceleniyor."
+  },
+  "TwoFactorAuthSettings": {
+    "backButtonText": "2FA kurulumu"
+  },
+  "TFASettingsInitEnableStep": {
+    "disabledText": "Hesabınızı korumak ve tüm cüzdan işlevlerinin kilidini açmak için kimlik doğrulamasını geçmeniz ve 2 adımlı doğrulamayı ayarlamanız gerekir.",
+    "tfaAppButtonText": "Doğrulayıcı",
+    "tfaPhoneButtonText": "SMS",
+    "tfaDisableButtonText": "2 Adımlı doğrulamayı (2FA) kapat",
+    "requiresKycText": "2 adımlı doğrulamayı etkinleştirmek için kimlik doğrulama prosedürünü tamamlamanız gerekir. (KYC)",
+    "openKycSettings": "KYC kurulumunu başlat"
+  },
+  "TFASettingsGoogleQRStep": {
+    "qrButtonText": "QR kodu oluşturmak",
+    "tip": "“Google Authenticator” AppStore veya Play Market'den indirin, uygulamayı açın. Aşağıdaki QR kodunu tarayabilirsiniz (uygulamada “kodu tıklayın” tıklayarak) veya aşağıdaki Gizli Anahtarı kopyalayıp uygulamaya manuel olarak girebilirsiniz.",
+    "secretLabel": "Gizli anahtar",
+    "nextButtonText": "Devam"
+  },
+  "TFASettingsGoogleCodeStep": {
+    "codeInputPlaceholder": "Uygulama dan 6 haneli kodu girin",
+    "submit": "2 Adımlı doğrulamayı (2FA) açmak"
+  },
+  "TFASettingsSmsPhoneStep": {
+    "phoneInputPlaceholder": "Telefon numarasını girin",
+    "submitButtonText": "Doğrulama kodu gönder"
+  },
+  "TFASettingsSmsCodeStep": {
+    "submitButtonText": "2 Adımlı doğrulamayı (2FA) açmak",
+    "codeInputPlaceholder": "SMS'den 6 haneli kodu girin"
+  },
+  "TFAStatus": {
+    "error": "Bir hata oluştu",
+    "disabled": "Kapalı",
+    "enabledPhone": "SMS ile açıldı",
+    "enabledApp": "Authenticator ile açıldı",
+    "pending": "İstek işleniyor…"
+  },
+  "SecurityAlert": {
+    "kycAlertTitle": "Kimlik doğrulama prosedürünü tamamlamanız gerekir.",
+    "kycAlertText": "Hesabınızın güvenliği için, paranızla bir dizi işlem gerçekleştirme olanağını sınırladık. Hesabın tüm işlevlerine erişmek için kimlik doğrulama prosedüründen geçmelisiniz.",
+    "kycAlertButtonText": "KYC'yi geçmek",
+    "tfaAlertTitle": "2 Adımlı doğrulamayı ayarlayın",
+    "tfaAlertText": "Hesabınızın güvenliği için, paranızla bir dizi işlem gerçekleştirme olanağını sınırladık. Hesabın tüm işlevlerine erişmek için 2 Adımlı doğrulamayı ayarlamanız gerekir.",
+    "tfaAlertButtonText": "2 Adımlı doğrulamayı ayarlamak"
+  },
+  "twoFaDomain": {
+    "successfullyDisabled2faOKButtonText": "OK",
+    "successfullyEnabled2faOKButtonText": "OK",
+    "yes": "Evet",
+    "confirmDisable2faYesButtonText": "Evet",
+    "cancel": "İptal",
+    "confirmDisable2faNoButtonText": "İptal",
+    "confirmDisable2faTitle": "2 Adımlı doğrulamayı (2FA) kapatmak",
+    "confirmDisable2faMessage": "2 Adımlı doğrulamayı (2FA) kapatmak istediğinizden emin misiniz?",
+    "successfullyDisabled2faTitle": "2 Adımlı doğrulama kapatıldı",
+    "successfullyEnabled2faTitle": "2 Adımlı doğrulama açıldı"
+  },
+  "twoFaDomainErrors": {
+    "twofa_sms_phone_in_use": "Bir hata oluştu",
+    "must_have_code": "Bir hata oluştu",
+    "account_not_found": "Bir hata oluştu",
+    "google_is_enabled": "Bir hata oluştu",
+    "phone_is_verified": "Bir hata oluştu",
+    "phone_is_not_set": "Bir hata oluştu",
+    "phone_is_in_use": "Bir hata oluştu",
+    "application_id_is_already_used": "Bir hata oluştu",
+    "no_action_id": "Bir hata oluştu",
+    "kyc_not_passed": "Bir hata oluştu",
+    "google_code_verification_failed": "Bir hata oluştu",
+    "2fa_must_be_enabled": "Bir hata oluştu",
+    "twofa_sms_phone_in_use_message": "Telefon sistemde zaten kullanılıyor"
+  },
+  "requestTypes": {
+    "transfer": "Transfer",
+    "withdraw": "Çekmek",
+    "p2ptransfer": "P2P transfer"
+  },
+  "withdrawStore": {
+    "withdrawDefaultErrorTitle": "Bir hata oluştu",
+    "overdraftErrorMessage": "Yetersiz bakiye",
+    "addressIsInvalid": "Yanlış adres",
+    "invalidAddressErrorTitle": "Yanlış adres",
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "overdraftErrorOk": "OK",
+    "suspendedErrorOk": "OK",
+    "requiresEmailVerificationErrorOk": "OK",
+    "invalid2faCodeErrorOk": "OK",
+    "limitErrorOk": "OK",
+    "faceMismatchErrorOk": "OK",
+    "successWithdrawOk": "OK",
+    "withdrawDefaultErrorOk": "OK",
+    "checkSuccessOk": "OK",
+    "feeMismatchErrorOk": "OK",
+    "invalidAddressErrorOk": "OK",
+    "overdraftErrorTitle": "Çekme hatası",
+    "suspendedErrorTitle": "Çekme hatası",
+    "requiresEmailVerificationErrorTitle": "Çekme hatası",
+    "invalid2faCodeErrorTitle": "Çekme hatası",
+    "limitErrorTitle": "Çekme hatası",
+    "faceMismatchErrorTitle": "Çekme hatası",
+    "suspendedErrorMessage": "Para çekme hizmeti askıya alındı",
+    "requiresEmailVerificationErrorMessage": "E-posta adresinizi doğrulamanız gerekiyor",
+    "invalid2faCodeErrorMessage": "Onay kodu yanlış",
+    "limitErrorMessage": "Günlük limit aşıldı",
+    "faceMismatchErrorMessage": "Yüz verileriniz bulunamadı.",
+    "successWithdrawTitle": "Para çekme başarılı",
+    "amountIsRequiredError": "Tutarı girmelisiniz",
+    "addressIsRequired": "Adresi girmelisiniz",
+    "verifyCodeIsRequired": "Doğrulama kodu girmelisiniz",
+    "withdrawDefaultErrorMessage": "Bir hata oluştu!",
+    "checkSuccessTitle": "Başarılı",
+    "checkSuccessMessage": "Para çekme talebi başarıyla oluşturuldu",
+    "feeMismatchErrorTitle": "Komisyonlar güncellendi",
+    "feeMismatchErrorMessage": "Taleb oluşturulmadı. Tekrar deneyin",
+    "invalidAddressErrorMessage": "Hedef adresi, çekme para birimini ve ağı kontrol edin",
+    "dailyLimit": "Maksimum para çekme {{limit}}{{fund}}'dir",
+    "dailyLimitExceed": "Tutar günlük limiti aşıyor"
+  },
+  "Withdraw": {
+    "titlePendingFaceauthWithdraw": "Bekleniyor. Başvurunuz işlenmek üzere gönderildi",
+    "token": "Tokenler",
+    "chooseToken": "Tokenler",
+    "network": "Blok zinciri ağı",
+    "chooseBlockchain": "Blok zinciri ağı",
+    "screenTitle": "Çekmek",
+    "submitWithdrawButtonText": "Çekmek",
+    "entireAmountBtn": "Toplam tutar",
+    "amountPlaceholder": "Tutarı girin",
+    "addressPlaceholder": "Adresi girin",
+    "feePickerPlaceholder": "İşlem hızı seçmeniz gerekiyor",
+    "feePickerFast": "Ortalama hız",
+    "feePickerFastest": "Hızlı hız",
+    "feeDescriptionBtc": "Sevgili kullanıcılar! Bir komisyonun varlığı, komisyonun değişkenliği ve ağ yükü nedeniyle bir işlemin anında gönderilmesini garanti etmez.",
+    "feeDescriptionEth": "Sevgili kullanıcılar!",
+    "btcSpeed": "Ortalama işlem hızı 1 ila 60 dakika arasındadır.",
+    "feeTipHead": "Önemli bilgi",
+    "feeTipText": "Para çekme emrinde bir değişiklik yapıldı: artık hesaptan sadece ilgili para birimini çekebilirsiniz. Başka bir para birimini çekmek için uygun hesaba havale yapın. Para çekme tutarı 5000 USDT'yi veya 0.1 BTC'yi veya 3 ETH'yi aşarsa komisyon alınmaz.",
+    "txFeeLabel": "Komisyon",
+    "feeRadioLabel": "Hızınızı ve işlem komisyonunu  seçin",
+    "feeSlow": "Yavaşça",
+    "feeFast": "Ortalama hız (60+ dakika)",
+    "feeFastest": "Hızlı (1-60 dakika)",
+    "monthly_limit": "Doğrulanmış kullanıcılar için aylık para çekme limiti",
+    "order_withdrawal": "Para çekme emrinde bir değişiklik yapıldı: artık hesaptan sadece ilgili para birimini çekebilirsiniz. Başka bir para birimini çekmek için uygun hesaba havale yapın.",
+    "trcWarning": "Dikkat edin! USDT TRC-20, akıllı bir sözleşme kapsamında gönderilir. Tüm çevrimiçi eşanjörler bu işlemlerle çalışmaz. Para çekmeden önce, lütfen başvurunuzu işleme alma olasılığını eşanjör ile kontrol edin.",
+    "limit": "sınır {{limit}} {{currency}}"
+  },
+  "WithdrawDomainErrors": {
+    "title": "Taleb oluşturulmadı!",
+    "withdraw_throttling_error": "Bir sonraki para çekme işlemi mümkün olacak",
+    "withdraw_throttling_error_days": "gün sonra",
+    "withdraw_too_big_amount": "Maksimum para çekme tutarı"
+  },
+  "requestsStore": {
+    "cancelTransferSuccessOk": "OK",
+    "cancelTransferSuccessTitle": "Başarılı",
+    "cancelTransferSuccessMessage": "Taleb başarıyla iptal edildi"
+  },
+  "AccountSelector": {
+    "btcWallet": "BTC cüzdanı",
+    "ethWallet": "ETH cüzdanı",
+    "usdtWallet": "Tether cüzdanı",
+    "btcSaving": "BTC birikim hesap",
+    "ethSaving": "ETH birikim hesap",
+    "usdtSaving": "USDT birikim hesap"
+  },
+  "TransferMenu": {
+    "screenTitle": "Transferler",
+    "conversion": "Dönüştürmek",
+    "toSaving": "Birikim hesabına",
+    "toWallet": "Birikim hesabımdan çekmek",
+    "email": "E-posta ile",
+    "phone": "Telefon numarasıyla"
+  },
+  "TransferConversion": {
+    "screenTitle": "Dönüştürmek",
+    "confirmTransferSubmit": "Onaylamak",
+    "confirmTransferTitle": "Dönüşüm onayı",
+    "courseTwo": "",
+    "amountPlaceholder": "TUTAR",
+    "submitButtonText": "Dönüştürmek",
+    "destinationAmountPlaceholder": "Hedef para birimi cinsinden tutar",
+    "courseOne": "Döviz kurları:",
+    "confirmTransferBody": "SMS veya uygulama dan 6 haneli kodu girin"
+  },
+  "transferConversionStore": {
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "usdtWallet": "Tether bakiyesi",
+    "successOk": "OK",
+    "amountIsRequiredError": "Dönüştürülecek tutarı girin",
+    "destinationAmountIsRequiredError": "Hedef para birimi cinsinden tutarı girin",
+    "uselessTransfer": "Aynı hesaba transfer yapılamıyor",
+    "successTitle": "Transfer başarılı oldu",
+    "btcWallet": "BTC cüzdandan",
+    "ethWallet": "ETH cüzdandan",
+    "btcSaving": "BTC Birikim hesabımdan",
+    "ethSaving": "ETH Birikim hesabımdan",
+    "usdtSaving": "USDT Birikim hesabımdan"
+  },
+  "Stable": {
+    "incomeCapitalization": "Gelirin kapitalizasyonu ( Mevduat hesabı üzerinden elde edilen gelirin yüzdesi mevduat hesabına eklenir ve bir sonraki ayda artırılan hesap üzerinden yüzde tahakkuk edilir. )",
+    "monthlyIncome": "Aylık gelir",
+    "netIncome": "Net geliriniz",
+    "cancel": "İptal",
+    "depositAmount": "Depozitin tutarı",
+    "save": "Kaydetmek",
+    "successTitle": "Başarılı işlem",
+    "enterAmount": "Sıfırdan daha büyük bir tutar girmelisiniz",
+    "amountIsRequiredError": "Sıfırdan daha büyük bir tutar girmelisiniz",
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "verifyCodeIsRequired": "Doğrulama kodu girmelisiniz",
+    "shortMonthes": "Ay",
+    "cryptocurrency": "Kripto para",
+    "enterTitle": "Hesap adını girin",
+    "screenTitle": "Yeni Sabit+ hesap açmak",
+    "nameOfAccount": "Hesap adı",
+    "termOfInvestment": "Yatırımlarımı geri alma süresi",
+    "selectTerm": "Yatırımlarımı geri alma süresi seçin",
+    "available": "Mevcut",
+    "rate": "Faiz oranı",
+    "buttonOpenStable": "Yeni Sabit+ açmak",
+    "maxLengthNameError": "Başlık 30 karakteri geçmemelidir",
+    "capitalizationRequired": "Gelirin kapitalizasyonunu girmek gerekir",
+    "minAmountError": "Minimum para yatırma tutarı 1 USDT",
+    "conditionsNotMetError": "Koşullar karşılanmadı",
+    "successText": "Sabit+ hesap başarıyla oluşturuldu!",
+    "capitalInfo": "Mevduatın kapitalizasyonu - önceki dönem için tahakkuk eden faizin anapara tasarruf tutarı ile toplamıdır.",
+    "renameTitle": "Sabit+ hesabını yeniden adlandır",
+    "enterNewName": "Yeni hesap adı",
+    "successTitleRename": "Yeniden adlandırma başarılı",
+    "successTextRename": "Hesap yeniden adlandırma başarıyla tamamlandı",
+    "selectGiftTitle": "Hediye al",
+    "sunnyBookGift": "Sunny Book",
+    "withoutGift": "Hediye ye ihtiyacım yok",
+    "sunnyBookTitle": "",
+    "sunnyBookOption1": "",
+    "sunnyBookOption2": "",
+    "sunnyBookOption3": "",
+    "selectDeliveryOptionTitle": "Gönderme seçenekleri",
+    "deliveryPartner": "Bir ortak aracılığıyla hediye almak istiyorum",
+    "deliveryShop": "Posta ile hediye almak istiyorum",
+    "deliveryPartnerDescription": "E-posta adresini aşağıya girdiğiniz ortak size hediye verecek",
+    "deliveryShopDescription": "Hediye, Solar Gifts sepetinize eklenecektir. Hesap açıldıktan sonra mağazaya gir teslimat siparişi yap.",
+    "deliveryPartnerEmailPlaceholder": "Ortağının e-posta adresini girin",
+    "enterEmail": "E-posta adresini girin",
+    "emailIsInvalidError": "Geçersiz posta biçimi",
+    "totalIncome": "Dönem sonundaki miktar"
+  },
+  "StableDomainErrors": {
+    "unknown": "Bir hata oluştu",
+    "unknown_message": "Bilinmeyen bir sorun oluştu",
+    "invalid_score_id": "Bilinmeyen bir sorun oluştu",
+    "score_not_found": "Bilinmeyen bir sorun oluştu",
+    "insufficient_funds": "Bir hata oluştu",
+    "invalid_term": "Bir hata oluştu",
+    "invalid_amount": "Bir hata oluştu",
+    "insufficient_funds_message": "Yetersiz bakiye",
+    "invalid_amount_message": "Geçersiz tutar",
+    "invalid_term_message": "Depozitonun süresi yanlış",
+    "invalid_score_id:_message": "Daha sonra tekrar deneyin. Hata kodu [invalid_score_id]",
+    "score_not_found_message": "Daha sonra tekrar deneyin. Hata kodu [score_not_found]",
+    "cannot_use_promo": "SunnyBook promosyon hatası",
+    "cannot_use_promo_message": "Form da bir hata var veya zaten maksimum sayıda promosyon hesabı oluşturdunuz",
+    "partner_email_not_found": "Ortağının e-posta adresi yanlış",
+    "partner_email_not_found_message": "Bu postanın bağlı olduğu hesabı bulamadık.",
+    "cannot_open_additional_promo": "Başka bir promosyon hesabı açılamıyor",
+    "cannot_open_additional_promo_message": "Sınıra ulaştınız. Promosyonsuz bir hesap açmak için formda “Hediyeye ihtiyacım yok” seçeneğini tıklayın."
+  },
+  "CloseStableDomainErrors": {
+    "unknown": "Bir hata oluştu",
+    "unknown_message": "Bilinmeyen bir sorun oluştu"
+  },
+  "SecurityServiceTwoFaBottomSheet": {
+    "cancelButtonText": "İptal",
+    "submitButtonText": "Göndermek",
+    "successTitle": "Başarılı işlem",
+    "title": "Onay kodu",
+    "tip": "İşlemi onaylamak için SMS veya kod oluşturma uygulamasından bir kerelik kodu girin",
+    "codeInputPlaceholder": "Kodu girin",
+    "verifyCodeIsRequired": "Kod gerekli",
+    "successText": "İşlem tamamlandı"
+  },
+  "TransferFromSaving": {
+    "transfer": "Göndermek",
+    "successTitle": "Başarılı işlem",
+    "fullAmount": "Toplam tutar",
+    "amountIsRequiredError": "Sıfırdan daha büyük bir tutar girmelisiniz",
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "backTitle": "Birikim hesabımdan çekmek",
+    "fromSaving": "Birikim hesabımdan",
+    "toWallet": "Сüzdana",
+    "sumForTransfer": "Transfer miktarı",
+    "transferInfoRequest": "",
+    "transferInfoDuration": "",
+    "successText": "Transfer başarıyla oluşturuldu",
+    "to": "Nereye",
+    "from": "Nereden"
+  },
+  "TransferToSaving": {
+    "default_error": "Bir hata oluştu",
+    "default_error_message": "Bilinmeyen bir sorun oluştu",
+    "toWallet": "Birikim hesabına",
+    "transfer": "Göndermek",
+    "fullAmount": "Toplam tutar",
+    "amountIsRequiredError": "Sıfırdan daha büyük bir tutar girmelisiniz",
+    "amountIsInvalidError": "Geçersiz tutar biçimi",
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "successTitle": "Transfer başarılı oldu",
+    "sumForTransfer": "Transfer miktarı",
+    "successText": "Transfer başarıyla oluşturuldu",
+    "to": "Nereye",
+    "from": "Nereden",
+    "backTitle": "Birikim hesabıma çekmek",
+    "toSavings": "Cüzdandan",
+    "invalidInputError": "Doğrulama kodu yanlış veya süresi dolmuş. Lütfen tekrar deneyin"
+  },
+  "TransferErrors": {
+    "below_minimum_limit": "Bir hata oluştu",
+    "below_minimum_limit_message": "Tutar minimum sınırın altında",
+    "default_error": "Bir hata oluştu",
+    "p2p_user_not_verified": "Bir hata oluştu",
+    "p2p_email_not_found": "Bir hata oluştu",
+    "p2p_phone_not_found": "Bir hata oluştu",
+    "p2p_phone_not_unique": "Bir hata oluştu",
+    "not_exists_code": "Bir hata oluştu",
+    "default_error_message": "Bilinmeyen bir sorun oluştu",
+    "transfer_request_verdraft": "Başvuru yapma hatası",
+    "transfer_amount_less_than_zero": "Başvuru yapma hatası",
+    "transfer_request_verdraft_message": "Yeni başvuru yapmak ve mevcut başvuruları işlemek için cüzdandaki para yetersiz",
+    "transfer_disabled": "Bir hata oluştu",
+    "transfer_not_found": "Bir hata oluştu",
+    "overdraft": "Bir hata oluştu",
+    "transfer_disabled_message": "Transfer talebi oluşturulamıyor",
+    "transfer_not_found_message": "Talep iptal edilemiyor",
+    "not_exists_code_message": "Yanlış kod",
+    "successTitle": "Başarılı işlem",
+    "successText": "Transfer başarıyla oluşturuldu",
+    "transfer_amount_less_than_zero_message": "Girilen tutar yanlış",
+    "p2p_user_not_verified_message": "KYC doğrulamasını geçmemiş bir kullanıcıya transfer yapılamaz",
+    "overdraft_message": "Önceki transfer isteklerini iptal etmeyi deneyin",
+    "p2p_email_not_found_message": "Alıcı e-postası bulunamadı",
+    "p2p_phone_not_found_message": "Telefon numarası bulunamadı",
+    "p2p_phone_not_unique_message": "Birden fazla hesaba bağlı telefon numarası"
+  },
+  "TransferByEmail": {
+    "backButton": "Geri",
+    "emailPlaceholder": "E-posta",
+    "transfer": "Göndermek",
+    "invalidEmail": "Geçerli bir E-posta girin",
+    "emailRequired": "Bir E-posta girmelisiniz",
+    "successTitle": "Başarılı işlem",
+    "fullAmount": "Toplam tutar",
+    "amountIsRequiredError": "Sıfırdan daha büyük bir tutar girmelisiniz",
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "sumForTransfer": "Transfer miktarı",
+    "successText": "Transfer başarıyla oluşturuldu",
+    "to": "Nereye",
+    "from": "Nereden",
+    "messagePlaceholder": "Mesaj",
+    "backTitle": "E-posta ile transfer",
+    "limit": "sınır {{limit}} {{currency}}"
+  },
+  "TransferByPhone": {
+    "backButton": "Geri",
+    "invalidFormat": "Geçersiz telefon numarası. Örnek: +905123456789",
+    "transfer": "Göndermek",
+    "successTitle": "Başarılı işlem",
+    "fullAmount": "Toplam tutar",
+    "amountIsRequiredError": "Sıfırdan daha büyük bir tutar girmelisiniz",
+    "notEnoughFundsError": "Yetersiz bakiye",
+    "sumForTransfer": "Transfer miktarı",
+    "successText": "Transfer başarıyla oluşturuldu",
+    "to": "Nereye",
+    "from": "Nereden",
+    "messagePlaceholder": "Mesaj",
+    "phonePlaceholder": "Telefon",
+    "backTitle": "Telefon numarasıyla transfer",
+    "limit": "sınır {{limit}} {{currency}}"
+  },
+  "BottomSheetForm": {
+    "cancel": "İptal",
+    "ok": "OK",
+    "title": "Başlık"
+  },
+  "ShopErrors": {
+    "invalid_field": "Bir hata oluştu",
+    "bookmark_not_found": "Bir hata oluştu",
+    "product_not_found": "Bir hata oluştu",
+    "product_option_not_found": "Bir hata oluştu",
+    "basket_item_not_found": "Bir hata oluştu",
+    "category_not_found": "Bir hata oluştu",
+    "brand_not_found": "Bir hata oluştu",
+    "product_color_not_foun": "Bir hata oluştu",
+    "invalid_field_message": "Veri hatası",
+    "bookmark_not_found_message": "Bu yer imi bulunamadı.",
+    "product_not_found_message": "Geçersiz ürün İD",
+    "product_option_not_found_message": "Bu ürün bulunamadı",
+    "basket_item_not_found_message": "Verilen İD koduyle ürün bulunamadı",
+    "category_not_found_message": "Bu kategori bulunamadı",
+    "brand_not_found_message": "Böyle bir marka yok",
+    "product_color_not_foun_message": "Yanlış renk"
+  },
+  "ShopFeaturedProducts": {
+    "product_color_not_foun_message": "Yanlış renk",
+    "recommendedProducts": "Benzer ürünler",
+    "Unavailable quantity": "Bir türden mevcut ürün sayısı aşıldı"
+  },
+  "ShopSort": {
+    "submitButton": "Uygula",
+    "screenTitle": "Sırala",
+    "byPopularity": "En popüler",
+    "byPriceAsc": "Artan fiyat",
+    "byPriceDesc": "Azalan fiyat",
+    "byNovelty": "En yeniler"
+  },
+  "ShopSearchInput": {
+    "search": "Ara"
+  },
+  "SunriseProgram": {
+    "pendingText": "Veri yükleniyor…",
+    "title": "Sunrise programı"
+  },
+  "SunriseLevelIcon": {
+    "level": "Seviyem"
+  },
+  "SunriseProfileInfo": {
+    "userStatus": "Seviyem",
+    "profileInfo": "Profil bilgisi",
+    "assignmentDate": "Atama tarihi",
+    "userPriveleges": "Ayrıcalıklar",
+    "userGifts": "Hediyeler",
+    "cumulativeDiscount": "Birikim indirimleri",
+    "accruedPointsHistory": "Puan geçmişi"
+  },
+  "SunriseProgramsFullMap": {
+    "none": "Hayır",
+    "privelegeAccess": "Özel etkinliklere erişim",
+    "loyaltyLight": "Özel etkinliklere erişim ve düşük riskli iş projelerine doğrudan yatırım",
+    "loyaltyShine": "Özel etkinliklere erişim ve orta riskli iş projelerine doğrudan yatırım",
+    "loyaltySun": "Özel etkinliklere erişim ve yüksek riskli iş projelerine doğrudan yatırım",
+    "privelegeCoursesSimple": "Marka elçinin önerisi üzerine ek ücretli kurslar. Şirketin pahasına ve takdirine bağlı olarak.",
+    "privelegeCoursesExtended": "Marka elçinin önerisi üzerine ek ücretli kurslar. Şirketin pahasına ve takdirine bağlı olarak. %50 ödül alırsınız alt sıradaki doğrudan marka elçiler için.",
+    "privelegeAmbassador": "Birikim indirimi Amir Guard (80), Amir Smart Club (100), Amir Travel Club (100)",
+    "privelegeRegAmbassador": "Birikim indirimi Amir Guard (130), Amir Smart Club (100), Amir Travel Club (200)",
+    "privelegeIntAmbassador": "Birikim indirimi Amir Guard (210), Amir Smart Club (100), Amir Travel Club (300)",
+    "privelegeTopAmbassador": "Birikim indirimi Amir Guard (340), Amir Smart Club (100), Amir Travel Club (500)",
+    "privelegeBoardMember": "Birikim indirimi Amir Guard (550), Amir Smart Club (100), Amir Travel Club (800)",
+    "giftSunriseRay": "RAY seti",
+    "giftSunriseLight": "Light seti",
+    "giftSunriseShine": "",
+    "giftSunriseSun": "",
+    "giftDefaultLight": "Amir Travel Club (50) birikim indirim",
+    "giftDefaultShine": "Amir Travel Club, Amir Guard birikim indirimleri",
+    "giftDefaultSun": "",
+    "conditionsSimple": "Faaliyet koşulları sağlandığında dördüncü seviyenin açılması",
+    "conditionsExtended": "Faaliyet koşulları sağlandığında dördüncü ve beşinci seviyenin açılması",
+    "conditionsRegAmbassador": "2 A. farklı seviyelerde",
+    "conditionsIntAmbassador": "2 R.A. farklı seviyelerde",
+    "conditionsTopAmbassador": "2 I.A. farklı seviyelerde",
+    "conditionsBoardMember": "2 T.A. farklı seviyelerde",
+    "regAmbassadorReward": "",
+    "intAmbassadorReward": "",
+    "topAmbassadorReward": "",
+    "boardMemberReward": "",
+    "conditionLight": "Birinci seviye de depozit 10000$+ ve 2 RAY birinci seviye de YADA kendi depozitinden 10000$+",
+    "conditionShine": "Birinci seviye de depozit 40000$+, 3 Light birinci seviye de ve toplam yapı için de 100 000$ yada kendi depozitinden 100 000$+",
+    "conditionSun": "Birinci seviye de depozit 200 000$+, 5 Light birinci seviye de ve toplam yapı için de 500 000$ yada kendi depozitinden 500 000$+",
+    "incomeLineSpark": "Birinci seviye - 5%",
+    "incomeLineRay": "Birinci seviye - 10%,  İkinci seviye - 4%",
+    "incomeLineLight": "Birinci seviye - 15%,  İkinci seviye - 6%,  Üçüncü seviye - 3%",
+    "incomeLineShine": "Birinci seviye - 20%,  İkinci seviye - 8%,  Üçüncü seviye - 4%",
+    "incomeLineSun": "Birinci seviye - 25%,  İkinci seviye - 10%,  Üçüncü seviye - 5%",
+    "hiddenGifts1": "“Amir Travel Club” birikim indirimi",
+    "hiddenGifts2": "Amir Travel Club, Amir Guard birikim indirimi",
+    "hiddenGifts3": "Amir Travel Club, Amir Guard,  Amir Smart  birikim indirimi"
+  },
+  "SunriseMoreInfoBlock": {
+    "moreAboutProgram": "Program hakkında daha fazla bilgi",
+    "partnerLink": "Ortağımın linki",
+    "careerProgram": "Kariyer programı",
+    "alertLink": "",
+    "partnerName": "Ortak adı",
+    "invite": "Posta ile davet et",
+    "unsupportedURL": "Bu link artık desteklenmiyor:",
+    "shareTitle": "Uygulama linki referans koduyla paylaşın (beta)",
+    "shareButton": "Paylaşmak",
+    "copy": "Kopyala",
+    "send": "Gönder"
+  },
+  "SunriseUserInfoRow": {
+    "noPartner": "Şu anda mevcut değil (сейчас товар недоступен) , если просто отсутствует что - то другое, то Şu anda yok",
+    "noAmbassador": "Şu anda mevcut değil (сейчас товар недоступен) , если просто отсутствует что - то другое, то Şu anda yok",
+    "infoTitle": "Bilgiler",
+    "level": "Seviyem",
+    "account": "Hesabınız",
+    "accountStructure": "Genel yapı hesabı",
+    "previousMonthIncome": "Bir önceki aya ait gelir",
+    "numberOfPartners": "Genel yapıdaki ortak sayısı",
+    "ambassadorPartner": "Marka elçisi",
+    "partner": "Ortağım",
+    "activity": "Faaliyet"
+  },
+  "LoyaltyLandingScreen": {
+    "shortTitle": "Sadakat programı",
+    "title": "Amir Capital Sadakat Programına hoş geldiniz!",
+    "howItWorksTitle": "Sadakat Programı nasıl çalışır?",
+    "programLevelsTitle": "Sadakat Programı seviyeleri ve özellikleri",
+    "getUSDTTitle": "Yalnızca Solar'ı değil, USDT'yi de nasıl alabilirim?",
+    "moreAboutSunrise": "Sunrise Programı hakkında daha fazla bilgi edinin"
+  },
+  "SunriseLandingScreen": {
+    "close": "Kapatmak",
+    "shortTitle": "Sunrise programı",
+    "unsupportedURL": "Bu link artık desteklenmiyor:",
+    "shortInfo": "",
+    "title": "Amir Capital Sunrise Programına hoş geldiniz!",
+    "alreadyJoinedButton": "Sunrise Programına Zaten Katıldım",
+    "joinSunriseButton": "“Sunrise” programına katılmak",
+    "joinSunriseTitle": "“Sunrise” programına katılmak",
+    "howItWorksTitle": "Sunrise Programı nasıl çalışır?",
+    "howItWorksText": "Programa katıldıktan sonra, ortakları programa davet edebilir ve onların gelirlerinden ve davet ettikleri kişilerin gelirlerinden yönlendirme geliri alabilirsiniz. Para yatırma işleminiz ve sisteminizdeki ortak sayısı ne kadar fazlaysa, durumunuz o kadar yüksek olur ve sizin için o kadar fazla fırsat açılır.",
+    "programLevelsTitle": "Sunrise Programı seviyeleri ve özellikleri",
+    "becomeAmbassadorTitle": "Daha fazla ister misin? Amir Capital marka elçisi ol",
+    "becomeAmbassadorText": "",
+    "figureOutMore": "Daha fazlasını öğren",
+    "joinSunriseText": "\"Katıl\" butonuna tıklayarak “Sunrise” program şartlarını kabul etmiş olursunuz",
+    "joinSunriseConditions": "Sunrise Program",
+    "joinSunriseConductCode": "Ortaklık Etik Kuralları",
+    "joinSunriseAgreement": "Halka arz sözleşmesi",
+    "join": "Katıl"
+  },
+  "AmbassadorLandingScreen": {
+    "close": "Kapatmak",
+    "unsupportedURL": "Bu link artık desteklenmiyor:",
+    "title": "Daha fazla ister misin? Amir Capital marka elçisi ol",
+    "shortInfo": "",
+    "joinSunriseAgreement": "Halka arz sözleşmesi",
+    "join": "Katıl",
+    "shortTitle": "Marka elçileri için program",
+    "howToBecomeAmbassadorTitle": "Marka elçisi nasıl olmalıdır?",
+    "programLevelsTitle": "Marka elçisi durumları ve özellikleri",
+    "programLevelsHint": "Birikim indirimleri, koşula ulaşıldığında bir sonraki ayın 1'inde etkinleştirilir ve koşula ulaşmadığında ayın 1'inde devre dışı kalır.",
+    "applyRequestButton": "Başvurun",
+    "joinAmbassadorTitle": "Marka elçisinin programına katılmak",
+    "joinAmbassadorText": "",
+    "joinAmbassadorConditions": "\"Katıl\" butonuna tıklayarak Marka elçisi program şartlarını kabul etmiş olursunuz",
+    "joinAmbassadorConductCode": "Marka elçisi Etik Kuralları"
+  },
+  "SunriseProgramsCardSlider": {
+    "hint": "Bir sonraki kartı görmek için sağa kaydırın"
+  },
+  "SunriseProgramsInfoCard": {
+    "priveleges": "Ayrıcalıklar",
+    "gifts": "Hediyeler",
+    "deposit": "Depozit",
+    "monthlyReward": "Aylık kazançlarım",
+    "conditionsToLevelUp": "Durum elde etme koşulları",
+    "conditionsForStructure": "Genel yapı koşulları",
+    "level": "Seviye",
+    "income": "Gelir"
+  },
+  "SunriseStore": {
+    "addReferralTitleSuccess": "İşlem tamamlandı",
+    "nameRequired": "Referans ortağının adını girin",
+    "addReferralMessageSuccess": "Kullanıcıya bir davet mesajı gönderildi",
+    "joinedSunriseTitle": "İşlem tamamlandı",
+    "joinedAmbassadorTitle": "İşlem tamamlandı",
+    "joinedSunriseMessage": "Sunrise Programına başarıyla girdiniz",
+    "joinedAmbassadorMessage": "Marka elçisinin programına başarıyla katıldınız"
+  },
+  "Sunrise": {
+    "debit": "Kesmek",
+    "structure": "Genel yapı",
+    "lineName": "seviye",
+    "lineScreenTitle": "seviye",
+    "showContacts": "Kişilerimi göster",
+    "comment": "Yorum",
+    "balance": "Bakiye",
+    "detalization": "İşlemler",
+    "discountHistoryTitle": "Kazançlar geçmişi",
+    "cumulative_discount_monthly_payment": "Aylık kazançlar dönemi",
+    "year": "yıl",
+    "linePartnerTitle": "Seviyenin ortakları",
+    "equivalent": "Eşleştirme",
+    "account": "Hesap",
+    "lowerThe": "the",
+    "thOfLine": "(Birinci) seviyenin",
+    "noData": "Seçilen tarih için veri yok"
+  },
+  "SunriseErrors": {
+    "account_not_found": "Bir hata oluştu",
+    "already_joined": "Bir hata oluştu",
+    "deposit_must_be_greater": "Bir hata oluştu",
+    "must_be_partner": "Bir hata oluştu",
+    "changeShowContacts": "“Kişilerimi göster” değeri değiştirmeye çalışırken bir hata oluştu",
+    "referral_email_already_exists": "Davet gönderilirken hata oluştu",
+    "referral_email_already_exists_message": "Bu kullanıcı tekrar davet edilemez",
+    "account_not_found_message": "Kullanıcı bulunamadı",
+    "already_joined_message": "Bu programa zaten katıldınız. Lütfen uygulamayı yeniden başlatın.",
+    "deposit_must_be_greater_message": "Bağlı kuruluş programına tam erişim için Birikim/Sabit hesaplarınızı doldurmanız gerekiyor veya toplam değeri en az 100$ olan bir abonelik satın alınız.",
+    "must_be_partner_message": "Programa katılmak için bir üst sıra ortağınız yok. Lütfen desteğe başvurun."
+  },
+  "SunriseAmbassadorActivity": {
+    "backButtonText": "Faaliyet",
+    "helpButtonText": "Sollar nasıl kazanabilirim ?",
+    "sollarCondition": "Gerekli faaliyet",
+    "totalReceived": "Toplam olası kazançlar",
+    "partnersDetailsTitle": "Ortak sayısındaki artış",
+    "cashDetailsTitle": "Genel yapıdaki para miktarındaki artış",
+    "max": "Önceki maksimum",
+    "helpTitle": "Faaliyete göre Solarlar kazanma kuralları",
+    "rule1Title": "Kural 1",
+    "rule1Text": "Genel yapıdaki ortak sayısındaki artış ve yapıdaki para miktarındaki artış sadece 3 seviyeler için düşünülmüştür.",
+    "rule2Title": "Kural 2",
+    "rule2Text": "Raporlama ayı için KYC geçen, ancak durumu ALMAYAN  marka elçisinin 1 seviyedeki her yeni kullanıcı için 1 Solar kazanıyorsunuz. Yeni bir kullanıcı КУС geçtiyse ve durumu aldıysa,  onun KYS için Sollarlar kazanamıyorsunuz. Marka elçisi, Kural 3 uyarınca bu kullanıcı için Sollarlar alacaktır.",
+    "rule3Title": "Kural 3",
+    "rule4Title": "Kural 4",
+    "rule4Text": "Bir ay için her para birimi için bir önceki maksimum değerden hacimdeki her %1'lik artış için 1 Sollar tahsil edilir, ancak her para birimi için 34 Sollar'dan fazla olamaz.",
+    "rule5Title": "Kural 5",
+    "rule5Text": "",
+    "rule6Title": "Kural 6",
+    "rule6Text": "4-5 seviye için Sollarlar ödemesi yapılmamaktadır. (4-5 seviye için para ödemeler kalıyor)"
+  },
+  "MonthPicker": {
+    "cancelButton": "İptal",
+    "okButton": "OK"
+  },
+  "SunrisePartnerScreen": {
+    "email": "E-posta",
+    "phoneNumber": "Telefon",
+    "title": "Ortağım",
+    "partnerInfo": "Ortağımın bilgisi",
+    "registrationDate": "Kayıt tarihi",
+    "statusDate": "Durum atama tarihi",
+    "referrer": "Referans ortak",
+    "statusAbsent": "Durum ayarlanmadı"
+  },
+  "referralSystem": {
+    "shareMessage": ""
+  },
+  "MaintenanceView": {
+    "sorry": "Üzgünüz, teknik bir hata oluştu. Yakında düzelteceğiz. Sabrınız için teşekkürler."
+  },
+  "TokenSale": {
+    "title": "Tokenler",
+    "buttonEdit": "Düzenlemek",
+    "successTitle": "Başarılı işlem",
+    "buttonBuy": "Satın almak",
+    "available": "Mevcut",
+    "welcome": "",
+    "price": "Satış fiyatı",
+    "tokensAvailable": "Mevcut tokenler",
+    "salesStart": "Satışların başlangıcı",
+    "salesEnd": "Satış sonu",
+    "participants": "Üyeler",
+    "notFound": "Bir hata oluştu, lütfen daha sonra tekrar deneyin",
+    "description": "Projenin tam açıklaması",
+    "successText": "Satın alma başarıyla tamamlandı",
+    "details": "Detaylar"
+  },
+  "TokenSaleBuy": {
+    "buy": "Satın almak",
+    "amountPlaceholder": "Tutarı girin",
+    "currency": "Bir kripto para seçin",
+    "give": "Veriyorum",
+    "get": "Alıyorum"
+  },
+  "TokenSaleStore": {
+    "enterInteger": "Alınan tutar, fiyatın katı olmalıdır",
+    "invalidDecimal": "Fiyat geçersiz",
+    "minPriceUSDT": "Lütfen tokenın minimum değerinden az olmayan USDT miktarını girin",
+    "minPriceSOL": "Lütfen tokenın minimum değerinden az olmayan SGC miktarını girin",
+    "minPrice": "Lütfen tokenın minimum değerinden az olmayan {{currency}} miktarını girin",
+    "maxUSDTPrice": "USDT miktarı, kalan tokenın değerini aşıyor",
+    "maxSOLPrice": "SGC miktarı, kalan tokenın değerini aşıyor",
+    "maxPrice": ""
+  },
+  "TokenSaleWallet": {
+    "editToken": "Düzenlemek",
+    "equivalentInUSDT": "USDT eşdeğeri",
+    "info": "Bilgiler",
+    "buyToken": "Satın almak",
+    "transactionHistory": "İşlemlerim"
+  },
+  "TokenSaleEdit": {
+    "yes": "Evet",
+    "no": "Hayır",
+    "all": "Herşey",
+    "allUsers": "Herşey",
+    "save": "Kaydetmek",
+    "amountPlaceholder": "Tutarı girin",
+    "price": "Satış fiyatı",
+    "priceTitle": "Satış fiyatı",
+    "participants": "Üyeler",
+    "participantsTitle": "Üyeler",
+    "editTokenSale": "TOKESALE düzenle",
+    "availablePaySol": "SGC için satış",
+    "sollarTitle": "Sollar için satış",
+    "availablePayments": "için satış",
+    "isPublished": "Yayınlanan",
+    "specific": "Sadece seçili",
+    "newPrice": "Yeni fiyat",
+    "selectUserCategory": "Kategori seç",
+    "whoCanBuyTokens": "Kimler tokenler satın alabilir:",
+    "successTitle": "Başarılı operasyon",
+    "successText": "Tokenler satın başarıyla düzenlendi"
+  },
+  "WithdrawErrors": {
+    "undefined": "Bir hata oluştu",
+    "undefined_message": "Hata meydana geldi. Lütfen daha sonra tekrar deneyin",
+    "must_have_fee_speed": "Bir hata oluştu",
+    "must_have_fee_speed_message": "Lütfen işlem hızını seçin"
+  },
+  "PermissionDomain": {
+    "cancel": "İptal",
+    "featureNotAvailable": "Kamera cihazda mevcut değil",
+    "allowCamera": "Kameraya erişim gerekiyor",
+    "openSettings": "Kamera açılsın mı?",
+    "ok": "Ok"
+  },
+  "SecurityServiceDomainErrors": {
+    "title": "Taleb oluşturulmadı!",
+    "withdraw_throttling_error": "Bir sonraki para çekme işlemi mümkün olacak",
+    "withdraw_throttling_error_days": "gün sonra",
+    "withdraw_too_big_amount": "Maksimum para çekme tutarı"
+  },
+  "UIErrors": {
+    "amountIsInvalidError": "Geçersiz tutar biçimi"
+  },
+  "TwoFAWarning": {
+    "twofa_title": "2FA kurulu değil.",
+    "twofa_text": "Herhangi bir harcama işleminden önce 2FA kurulmalıdır.",
+    "kyc_title": "KYC doğrulaması gerekli",
+    "kyc_text1": "Doğrulamayı geçene kadar, kişisel hesabınıza erişiminiz sınırlıdır. işlemlerde toplam günlük limit belirlenir:",
+    "kyc_text2": "- Harici bir cüzdana para çekme - tüm para birimlerinde 1000 USDT eşdeğerine kadar",
+    "kyc_text3": "- Amir Capital fonu müşterilerine transfer - tüm para birimlerinde 1000 USDT eşdeğerine kadar",
+    "kyc_text4": "- Şirket belirteci satın alma - sınırlama olmaksızın"
+  },
+  "TransactionLimitExceeded": {
+    "text": "İşlem sınırı aşıldı. İşlem miktarı sınırını kaldırmak için doğrulama işlemini gerçekleştirin"
+  }
+}

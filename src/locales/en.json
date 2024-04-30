@@ -1,0 +1,2214 @@
+{
+  "AppDomainErrors": {
+    "default_error": "Error!",
+    "default_error_message": "Something went wrong!",
+    "invalid_code": "Invalid code",
+    "invalid_code_message": "Invalid code",
+    "registration_incorrect_email": "Registration error",
+    "registration_incorrect_email_message": "The Email address you entered is not valid",
+
+    "registration_incorrect_referral": "Registration error",
+    "registration_incorrect_referral_message": "The referral link is not valid",
+
+    "registration_incorrect_phone": "Registration error",
+    "registration_incorrect_phone_message": "The phone number you entered is not valid",
+
+    "registration_phone_in_use": "the phone number is already in use",
+    "registration_phone_in_use_message": "the phone number is already associated with another account",
+
+    "registration_incorrect_password_policy": "Registration error",
+    "registration_incorrect_password_policy_message": "This password is not secure",
+
+    "registration_user_exists": "Registration error",
+    "registration_user_exists_message": "The user is already registered",
+
+    "login_no_device_token": "Session interrupted",
+    "login_no_device_token_message": "Please refresh the page and try again",
+
+    "login_invalid_sign": "Session interrupted",
+    "login_invalid_sign_message": "Please refresh the page and try again",
+
+    "invalid_sign_message": "Error has occured. Please contact support",
+    "wrong_pin_code_title": "Error",
+    "wrong_pin_code_message": "Wrong pin code on setup. Please try again",
+
+    "login_user_not_found": "Login error",
+    "login_user_not_found_message": "The account does not exist",
+
+    "login_user_not_verified": "Email address is not verified",
+    "login_user_not_verified_message": "A verification link has been sent to your email account. Please click on the link to verify your account",
+
+    "validation_error": "Website error",
+    "validation_error_message": "Please contact the support service",
+
+    "internal_error": "Website error",
+    "internal_error_message": "Please contact the support service",
+
+    "login_captcha_required": "Login Error",
+    "login_captcha_required_message": "Captcha Not Passed",
+
+    "withdraw_need_kyc": "Request creation failed",
+    "withdraw_need_kyc_message": "You need to undergo the KYC verification process",
+    "withdraw_google_or_phone_verification_required": "Request creation failed",
+    "withdraw_google_or_phone_verification_required_message": "Please set up the 2-step verification",
+    "withdraw_google_or_phone_required": "Request creation failed",
+    "withdraw_google_or_phone_required_message": "The 2-step verification code you have entered is invalid",
+    "withdraw_email_verification_required": "Please set up the 2-step verification",
+    "withdraw_email_verification_required_message": "You have not undergone 2-step verification process",
+    "withdraw_target_account_not_found": "Request creation failed",
+    "withdraw_target_account_not_found_message": "The wallet address you have entered is invalid",
+    "withdraw_target_incorrect_amount": "Request creation failed",
+    "withdraw_target_incorrect_amount_message": "You have entered an invalid amount",
+    "withdraw_target_overdraft": "Request creation failed",
+    "withdraw_target_overdraft_message": "Not sufficient funds to create a new request or to process the current requests",
+    "withdraw_target_too_big_amount": "Request creation failed",
+    "withdraw_target_too_big_amount_message": "Not sufficient funds",
+    "withdraw_target_min_amount_required": "Request creation failed",
+    "withdraw_target_min_amount_required_message": "The sum you have entered is too small",
+    "withdraw_usdt_min_amount_required": "Request creation failed",
+    "withdraw_usdt_min_amount_required_message": "The sum you have entered is too small",
+    "withdraw_incorrect_fund_type": "Request creation failed",
+    "withdraw_incorrect_fund_type_message": "The fund transfer type you have entered is invalid",
+    "withdraw_should_be_in_date_range": "Request creation failed",
+    "withdraw_should_be_in_date_range_message": "The 2-factor verification code has expired",
+    "withdraw_invalid_addr": "Request creation failed",
+    "withdraw_invalid_addr_message": "The address you have entered is invalid",
+    "widthdraw_invalid_amount": "Request creation failed",
+    "widthdraw_invalid_amount_message": "The sum you have entered is invalid",
+    "withdraw_no_account": "Request creation failed",
+    "withdraw_no_account_message": "The recipient’s address you have entered is invalid",
+    "receiver_self_reference": "Request creation failed",
+    "receiver_self_reference_message": "The recipient’s address coincides with the sender’s address",
+    "withdraw_overdraft": "Request creation failed",
+    "withdraw_overdraft_message": "Not sufficient funds in your wallet to create a new request or to process the current requests",
+    "withdraw_limit_per_day": "Request creation failed",
+    "withdraw_limit_per_day_message": "You have exceeded you daily withdrawal limit",
+    "no_receiver_data": "Request creation failed",
+    "no_receiver_data_message": "The recipient’s address you entered is invalid or cannot be found",
+    "no_amount": "Request creation failed",
+    "no_amount_message": "You have not entered the sum",
+    "receiver_not_found": "Request creation failed",
+    "receiver_not_found_message": "The recipient’s address you entered is invalid or cannot be found",
+    "withdraw_verification_failed": "Request creation failed",
+    "withdraw_verification_failed_message": "The 2-factor authentication code you have entered is invalid",
+    "withdraw_incorrect_verify_topic": "Request creation failed",
+    "withdraw_incorrect_verify_topic_message": "The 2-factor authentication code you have entered is invalid",
+    "withdraw_face_verify_timeout": "Request creation failed",
+    "withdraw_face_verify_timeout_message": "User authentication failed. Try again.",
+    "incorrect_fund": "Request creation failed",
+    "incorrect_fund_message": "The fund transfer type you have entered is invalid",
+    "withdraw_cancel_request_not_found": "Error",
+    "withdraw_cancel_request_not_found_message": "You cannot cancel the withdrawal request",
+    "withdraw_request_invalid_id": "Error",
+    "withdraw_request_invalid_id_message": "Request cannot be created. Try again.",
+    "withdraw_request_invalid_status": "Error",
+    "withdraw_request_invalid_status_message": "Request cannot be created. Try again.",
+    "withdraw_tx_type_not_supported": "Error",
+    "withdraw_tx_type_not_supported_message": "You cannot cancel the withdrawal request",
+    "withdraw_tx_hash_required": "Error",
+    "withdraw_tx_hash_required_message": "Invalid transaction hash",
+    "withdraw_denied": "Error",
+    "withdraw_denied_message": "The request has been declined. Contact the support service.",
+    "transfer_request_verdraft": "Request creation failed",
+    "transfer_request_verdraft_message": "Not sufficient funds in your wallet to create a new request or to process the current requests",
+    "transfer_disabled": "Error",
+    "transfer_disabled_message": "Transfer request cannot be created.",
+    "transfer_not_found": "Error",
+    "transfer_not_found_message": "The request cannot be cancelled",
+    "verification_code_not_found": "Request creation failed",
+    "verification_code_not_found_message": "The 2-factor authentication code you have entered is invalid",
+    "verification_code_attemp_limit": "Request creation failed",
+    "verification_code_attemp_limit_message": "The 2-factor verification code has expired",
+    "invalid_leading_field": "Request creation failed",
+    "invalid_leading_field_message": "The sum you have entered is invalid",
+    "incorrect_to_fund": "Request creation failed",
+    "incorrect_to_fund_message": "The transaction currency you have entered is invalid",
+    "incorrect_from_fund": "Request creation failed",
+    "incorrect_from_fund_message": "The transaction currency you have entered is invalid",
+    "incorrect_withdraw_date_range": "Request creation failed",
+    "incorrect_withdraw_date_range_message": "Withdrawal request cannot be created",
+    "transfer_amount_less_than_zero": "Request creation failed",
+    "transfer_amount_less_than_zero_message": "The sum you have entered is invalid",
+
+    "insufficient_funds": "Error",
+    "insufficient_funds_message": "Insufficient funds",
+    "invalid_amount": "Error",
+    "invalid_amount_message": "Incorrect amount",
+    "failed_to_verify": "Error",
+    "failed_to_verify_message": "Wrong verification code",
+
+    "error": "Error",
+    "usdt value should be greater than 50$": "usdt value should be greater than 50$",
+
+    "not_found": "Error",
+    "not_found_message": "Error pin-code",
+
+    "invalid hash": "Error",
+    "invalid hash_message": "Pin-code don't match",
+
+    "sms_minimal_delay": "Error",
+    "sms_minimal_delay_message": "You are maxed out number of messages. Try later",
+
+    "pre_device_token_invalid": "Error",
+    "pre_device_token_invalid_message": "Invalid code",
+
+    "incorrect amount": "Error",
+    "incorrect amount_message": "Incorrect amount",
+
+    "not_exists_code": "Error",
+    "not_exists_code_message": "Invalid verification code",
+
+    "withdraw_fee mismatch": "Error",
+    "withdraw_fee mismatch_message": "Fee mismatch. Try again",
+    "withdraw_suspended": "Withdraw failed",
+    "withdraw_suspended_message": "Withdraw service suspended",
+    "withdraw_account_suspended": "Withdraw failed",
+    "withdraw_account_suspended_message": "Withdraw service suspended",
+    "withdraw_Invalid address": "Error",
+    "withdraw_Invalid address_message": "Invalid address",
+
+    "invalid_address": "Request creation failed",
+    "invalid_address_message": "The address you have entered is invalid",
+
+    "must_have_fee": "Error",
+    "must_have_fee_message": "Fee is required",
+
+    "verify_code_invalid": "Error",
+    "verify_code_invalid_message": "Invalid verification code",
+
+    "cannot_use_withdraw_yet_message": "Sorry, the operation is temporarily suspended. We are already working on this problem",
+    "cannot_buy": "Token purchase error",
+    "cannot_buy_message": "You cannot buy this token",
+    "overdraft_message": "You have exceeded the purchase limit",
+    "overdraft": "Purchase error",
+
+    "login_user_was_deleted": "Error",
+    "login_user_was_deleted_message": "The account has been deleted, write to support@amirwallet.com",
+
+    "2fa_must_be_enabled": "Error",
+    "2fa_must_be_enabled_message": "2FA must be enabled",
+
+    "use_p2p_instead": "Error",
+    "use_p2p_instead_message": "Use P2P instead",
+
+    "login_user_not_found_by_pass": "Login error",
+    "login_user_not_found_by_pass_message": "The account does not exist. Wrong password?",
+
+    "incorrect_password_policy": "Incorrect password",
+    "incorrect_password_policy_message": "Old and new passwords must contain at least 8 Latin letters and numbers, at least one of the letters must be a capital",
+    "fee_mismatch": "Error",
+    "fee_mismatch_message": "The fee is wrong",
+
+    "buy_amount_lt_min_buy_amount": "Error",
+    "buy_amount_lt_min_buy_amount_message": "Minimum amount of tokens to buy is more than you want to buy",
+    "amount_must_be_multiple": "Error",
+    "amount_must_be_multiple_message": "You can buy only a whole token",
+    "error_overdraft": "Error",
+    "error_overdraft_message": "There are insufficient funds in your wallet",
+
+    "payment_failed": "Error",
+    "payment_failed_message": "Payment failed"
+  },
+  "ServerDomainErrors": {
+    "AppDomain": "",
+    "TokenSale": "Please contact support",
+    "TokenSale_message": "Working with tokens isn't available",
+    "twoFaDomain": "Please contact support",
+    "twoFaDomain_message": "Twofa service doesn't work",
+    "Shop": "Please contact support",
+    "Shop_message": "Shop service doesn't work",
+    "Withdraw": "Please contact support",
+    "Withdraw_message": "Withdrawal service doesn't work",
+    "securityServiceDomain": "Please contact support",
+    "securityServiceDomain_message": "One of the servcie doesn't work",
+    "StableDomain": "Please contact support",
+    "StableDomain_message": "Stable service doesn't work",
+    "Sunrise": "Please contact support",
+    "Sunrise_message": "Sunrise service doesn't work",
+    "KycDomain": "Please contact support",
+    "KycDomain_message": "Kyc service doesn't work",
+    "EmptyDomain": "Please contact support",
+    "EmptyDomain_message": "One of the services doesn't work",
+    "AccountDomain": "Please contact support",
+    "AccountDomain_message": "One of the services doesn't work",
+    "Transfer": "Please contact support",
+    "Transfer_message": "One of the services doesn't work"
+  },
+  "TabNavigator": {
+    "amirWallet": "Amir Wallet",
+    "amirFinance": "Amir Finance",
+    "amirInvest": "Amir Invest",
+    "transfer": "Transfer",
+    "shop": "SollarGifts",
+    "profile": "Profile",
+    "sunrise": "Sunrise",
+    "tokenSale": "Tokens"
+  },
+  "Initial": {
+    "signIn": "Sign In",
+    "signUp": "Create account",
+    "exchange": "Exchange",
+    "storage": "Storage",
+    "increase": "Multiplication"
+  },
+  "SignIn": {
+    "title": "Sign In",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Password",
+    "submit": "Sign In"
+  },
+  "SignUp": {
+    "title": "Create account",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Password",
+    "namePlaceholder": "Name",
+    "phonePlaceholder": "Phone",
+    "referralPlaceholder": "Referral",
+    "submit": "Create"
+  },
+  "signUpFormStore": {
+    "emailRequiredError": "Email required",
+    "emailInvalidError": "Invalid email",
+    "passwordRequiredError": "Password required",
+    "passwordInvalidError": "Invalid password. It must include at least one uppercase letter, one lowercase letter and one number",
+    "passwordTooShortError": "Password is too short. Must be at least 8 characters",
+    "passwordIdenticalCharsError": "Password must not contain 3 and more identical chars in a row",
+    "nameRequiredError": "Name required",
+    "phoneRequiredError": "Phone required",
+    "phoneInvalidError": "Invalid phone. Valid example: +71234567890",
+    "emailConfirmationAlertTitle": "Email verification",
+    "emailConfirmationAlertMessage": "Open the email we sent and press the verification link. Then you can login",
+    "emailConfirmationAlertButton": "OK"
+  },
+  "signInFormStore": {
+    "emailRequiredError": "Email required",
+    "emailInvalidError": "Invalid email",
+    "passwordRequiredError": "Password required"
+  },
+  "RegisterDevice": {
+    "title": "Device authorization",
+    "tip": "You are trying to log in from an unknown device. To register a device - enter the code from the letter we sent. This is one-time operation",
+    "codePlaceholder": "Code from E-mail",
+    "submit": "Authorize"
+  },
+  "Deposit": {
+    "screenTitle": "Replenishment",
+    "token": "Token",
+    "network": "Network",
+    "address": "Address",
+    "copyButtonText": "Copy address",
+    "usdtTip": "To replenish USDT wallet you can use BUSD and USDC. Rate 1/1"
+  },
+  "Transfer": {
+    "appTopbarTitle": "Transfer",
+    "tabRenderError": "Something went wrong",
+    "convertationTab": "Convertation",
+    "toSavingTab": "To saving account",
+    "byEmailTab": "By E-mail"
+  },
+  "StablesAllAccounts": {
+    "appTopbarTitle": "All Stable+ accounts",
+    "createBrightButton": "Create new Stable+ account",
+    "allClosedAccounts": "Closed Stable+ accounts",
+    "legacyHint": "To view or close a Stable account opened before February 2020, please use the web version of the app"
+  },
+  "SetupPIN": {
+    "step1Title": "Setup PIN (1/2)",
+    "step2Title": "Confirm PIN (2/2)",
+    "errPINsVary": "PIN codes don’t match"
+  },
+  "PIN": {
+    "PINFormTip": "Enter PIN"
+  },
+  "CreateBrightAccount": {
+    "appTopbarTitle": "New Stable+ account",
+    "sunnyBookPromoWarning": "At the moment, opening Stable+ with SunnyBook promo is only available via web version",
+    "sunnyBookPromoLink": "Open web app"
+  },
+  "Kyc": {
+    "appTopbarTitle": "KYC",
+    "cameraPermissionTitle": "Allow the app to access the camera",
+    "cameraPermissionMessage": "Access to the camera is required to capture documents",
+    "cameraPermissionButtonOK": "Allow",
+    "cameraPermissionButtonCancel": "Deny",
+    "successTitle": "KYC",
+    "successMessage": "Your request has been passed",
+    "inProcess": "Ваши документы проверяются"
+  },
+  "MainSettings": {
+    "lang": "LANGUAGE",
+    "logoutButton": "Logout",
+    "appTopbarTitle": "Settings",
+    "twoFactorSectionTitle": "TWO FACTOR AUTHENTICATION",
+    "reinvestmentSectionTitle": "REINVESTMENT",
+    "changePasswordSectionTitle": "CHANGE PASSWORD",
+    "changeEmailSectionTitle": "CURRENT EMAIL",
+    "changePhoneSectionTitle": "CURRENT PHONE"
+  },
+  "StableScreen": {
+    "appTopbarTitle": "Stable+",
+    "controlClose": "Close Account",
+    "deposit": "Deposit",
+    "hasCapitalization": "Capitalization",
+    "capTrue": "Yes",
+    "capFalse": "No",
+    "monthIncome": "Monthly Income",
+    "term": "Investment period",
+    "termMonthUnit": "mnth",
+    "totalPayout": "Total payout",
+    "netIncome": "Net income",
+    "optYes": "Yes",
+    "verifyTitle": "Verify refund",
+    "verifyText": "To continue, enter verification code",
+    "verifySubmit": "Confirm",
+    "controlEdit": "Edit",
+    "controlInfo": "Account details",
+    "paymentSchedule": "Payment schedule",
+    "payRest": "Remains of payments",
+    "interestRate": "Interest rate",
+    "closedAccount": "Account closed",
+    "dateClose": "Closing date",
+    "legacyOpenWeb": "To close Legacy Stable account, use the web version of the app",
+    "confirmCloseStableTitle": "Confirm account closure",
+    "confirmCloseStableBody": "To confirm this operation, enter code",
+    "confirmCloseStableSubmit": "Confirm account closure",
+    "Promo1": "Promo 1",
+    "NoPromo": "No promo",
+    "Promo": "Promo"
+  },
+  "StableTermsBottomSheet": {
+    "replenishment": "Replenishment",
+    "partialWithdrawal": "Partial withdrawal",
+    "prolongation": "Prolongation",
+    "optYes": "Yes",
+    "optNo": "Not provided",
+    "earlyClosure": "Early closure",
+    "smallText": "At a rate of 13% per annum. In case of early termination, all referral payments are not returned and remain with higher recipients",
+    "accountTerms": "Account terms"
+  },
+  "StableClose": {
+    "earlyCLosureNotice": "Please note that in case of early closing of the account, all previously accrued and paid interest on the deposit will be recalculated at the rate of 13% per annum for the months of the deposit, regardless of how long the account was opened.",
+    "closeStableTitle": "Close Stable+ Account",
+    "noCapitalization": "No capitalization",
+    "cancelCloseStable": "Cancel",
+    "closeStable": "Close Account",
+    "cantClose": "You can't close account without promo"
+  },
+  "TwoFactorVerifyPopup": {
+    "inputLabel": "ENTER CODE",
+    "cancelButton": "Cancel",
+    "validation": {
+      "tooShort": "Code is too short",
+      "tooLong": "Code is too long",
+      "required": "Code is required"
+    }
+  },
+  "TwoFactorRequiresPopup": {
+    "title": "2FA is disabled",
+    "text": "To ensure the security of your account, you need to configure 2FA. This option is temporarily available only in the web version",
+    "open": "Open website",
+    "close": "Close"
+  },
+  "TransferFromSavingForm": {
+    "selectSourceText": "WALLET",
+    "selectSourceTitle": "Wallet",
+    "sumToTransfer": "TRANSFER AMOUNT",
+    "sumToTransferPlaceholder": "Amount in fund currency",
+    "transferButton": "TRANSFER",
+    "confirmTransfer": "Confirm transfer",
+    "confirmTransferDetails": "To confirm this operation, enter code",
+    "confirmTransferButton": "Transfer",
+    "transferSuccess": "Success transfer",
+    "transferAmount": "Enter the sum of a transfer",
+    "amountMustBePositive": "Sum must be a positive number",
+    "selectFund": "Select a fund",
+    "insufficientFunds": "Insufficient funds",
+    "invalidNumber": "Sum must be a number"
+  },
+  "StableAccountWidget": {
+    "closed": "Closed",
+    "stable": "Stable account",
+    "expectedPayout": "Expected payout",
+    "until": "until"
+  },
+  "WithdrawForm": {
+    "transferFromWallet": "SOURCE WALLET",
+    "selectWallet": "Wallet",
+    "amount": "AMOUNT",
+    "amountFund": "Amount in fund currency",
+    "targetWallet": "WALLET ADDRESS",
+    "targetWalletPlaceholder": "Enter or scan address",
+    "address": "Address",
+    "dailyWithdrawalLimit": "Daily withdrawal limit",
+    "withdrawal": "WITHDRAWAL",
+    "withdrawQuestion": "Withdraw?",
+    "confirmWithdrawal": "To confirm this operation, enter code from SMS",
+    "send": "Send",
+    "transferSuccess": "Success transfer",
+    "selectFund": "Select a fund",
+    "enterTransferAmount": "Enter the sum of a transfer",
+    "enterTargetAddress": "Enter target address",
+    "invalidAddress": "Invalid address",
+    "dailyLimitExceed": "Amount exceeds the daily limit",
+    "invalidNumber": "Amount must be a number",
+    "amountMustBePositive": "Amount must be a positive number",
+    "insufficientFunds": "Insufficient funds"
+  },
+  "AccountAddress": {
+    "copied": "Copied",
+    "accountAddress": "ACCOUNT ADDRESS",
+    "generateQrCode": "Generate QR-code"
+  },
+  "Courses": {
+    "pair": "Pair",
+    "buying": "Buying",
+    "selling": "Selling"
+  },
+  "Filter": {
+    "filter": "FILTER",
+    "income": "INCOME",
+    "withdraw": "WITHDRAW",
+    "transfer": "TRANSFER",
+    "operations": "OPERATIONS"
+  },
+  "mapIncomeType": {
+    "input": "Input",
+    "income": "Income",
+    "commision_1": "Referrals(1)",
+    "commision_2": "Referrals(2)",
+    "commision_3": "Referrals(3)",
+    "commision_4": "Referrals(4)",
+    "commision_5": "Referrals(5)",
+    "transferFrom": "Transfer",
+    "transferInput": "Input",
+    "transfer": "Transfer",
+    "p2pTransferOutput": "Transfer (E-mail)",
+    "bonus": "Bonuses",
+    "stableBase": "Stable account create",
+    "stableCreate": "Stable account create",
+    "stable_refund": "Stable account refund",
+    "stable_income": "Stable account charging",
+    "stable_decrease": "Stable account open",
+    "withdraw": "Withdrawal"
+  },
+  "Period": {
+    "week": "Week",
+    "month": "Month",
+    "year": "Year",
+    "all": "All"
+  },
+  "SuccessTransferPopup": {
+    "ok": "OK"
+  },
+  "TransferByEmailForm": {
+    "sourceFund": "SOURCE FUND",
+    "sourceFundPopup": "Select source",
+    "targetEmail": "TARGET E-MAIL",
+    "enterTargetEmail": "Enter user E-mail",
+    "transferAmount": "TRANSFER AMOUNT",
+    "amountFund": "Amount in fund currency",
+    "message": "MESSAGE",
+    "messagePlaceholder": "Enter message (not required)",
+    "transfer": "TRANSFER",
+    "verifyTitle": "Verify by E-mail",
+    "verifyBody": "To confirm this operation, we send code to E-mail",
+    "verifySubmit": "Transfer",
+    "transferSuccess": "Success transfer",
+    "invalidNumber": "Must be a number",
+    "amountMustBePositive": "Amount must be a positive number",
+    "insufficientFunds": "Insufficient funds",
+    "selectFund": "Select a fund",
+    "enterAmount": "Enter transfer amount",
+    "invalidEmail": "Invalid E-mail"
+  },
+  "TransferConvertationForm": {
+    "sourceFund": "SOURCE FUND",
+    "sourceFundTitle": "Source fund",
+    "destinationFund": "DESTINATION FUND",
+    "destinationFundTitle": "Destination fund",
+    "transferAmount": "SOURCE AMOUNT",
+    "amountFund": "Amount in source fund",
+    "destinationFundAmount": "TARGET AMOUNT",
+    "destinationFundAmountPlaceholder": "Amount in target fund",
+    "transfer": "TRANSFER",
+    "confirmTransferTitle": "Confirm transfer",
+    "confirmTransferBody": "To confirm this operation, we send code to E-mail",
+    "confirmTransferSubmit": "Transfer",
+    "transferSuccess": "Success transfer",
+    "fundSourceMustNotBeEqualToDestination": "Source fund must not be equal to destination fund",
+    "fundDestinationMustNotBeEqualToSource": "Destination fund must not be equal to source fund",
+    "invalidNumber": "Amount must be a number",
+    "amountMustBePositive": "Amount must be a positive number",
+    "insufficientFunds": "Insufficient funds",
+    "selectFund": "Select a fund",
+    "enterTargetAddress": "Enter target address",
+    "enterTransferAmount": "Enter the sum of a transfer"
+  },
+  "START_DAY_TRANSACTION": {
+    "monday": "from Monday",
+    "tuesday": "from Tuesday",
+    "wednesday": "from Wednesday",
+    "thursday": "from Thursday",
+    "fridays": "from Fridays",
+    "saturday": "from Saturday",
+    "sunday": "from Sunday"
+  },
+  "END_DAY_TRANSACTION": {
+    "monday": "on Monday",
+    "tuesday": "on Tuesday",
+    "wednesday": "on Wednesday",
+    "thursday": "on Thursday",
+    "fridays": "on Fridays",
+    "saturday": "on Saturday",
+    "sunday": "on Sunday"
+  },
+  "SAME_DATE_TRANSACTION": {
+    "monday": "on Mondays",
+    "tuesday": "on Tuesdays",
+    "wednesday": "on Wednesdays",
+    "thursday": "on Thursdays",
+    "fridays": "on Fridays",
+    "saturday": "on Saturdays",
+    "sunday": "on Sundays"
+  },
+  "TransferToSavingForm": {
+    "sourceFund": "SOURCE FUND",
+    "sourceFundTitle": "Source fund",
+    "transferAmount": "TRANSFER AMOUNT",
+    "amountFund": "Amount in fund currency",
+    "transfer": "TRANSFER",
+    "confirmTransfer": "Confirm transfer",
+    "confirmTransferBody": "To confirm this operation, enter code",
+    "confirmTransferSubmit": "Transfer",
+    "transferSuccess": "Success transfer",
+    "invalidNumber": "Amount must be a number",
+    "amountMustBePositive": "Amount must be a positive number",
+    "insufficientFunds": "Insufficient funds",
+    "selectFund": "Select a fund",
+    "enterAmount": "Enter transfer amount"
+  },
+  "WalletItem": {
+    "wallet": "WALLET",
+    "details": "Open details",
+    "myAddress": "My address",
+    "shareAddress": "Share address...",
+    "qrWithAddress": "Open QR with address"
+  },
+  "PINForm": {
+    "logout": "LOGOUT"
+  },
+  "BrightAccountWidget": {
+    "until": "Until"
+  },
+  "CustomDrawer": {
+    "main": "Main",
+    "accounts": "Accounts",
+    "transfers": "Transfers",
+    "settings": "Settings",
+    "logout": "Sign out",
+    "qrReader": "QR reader",
+    "createQRRequest": "Create QR request"
+  },
+  "GoogleReCaptcha": {
+    "cancel": "Cancel"
+  },
+  "SelectPopupCurrency": {
+    "withdrawCurrency": "Withdraw currency",
+    "selectCurrency": "Select currency"
+  },
+  "SelectPopupFund": {
+    "wallet": "Wallet",
+    "savings": "Savings account",
+    "wallets": "Wallets",
+    "savingsAccounts": "Savings accounts",
+    "selectAccount": "Select account"
+  },
+  "VerificationPopup": {
+    "codeTooShort": "Code is too short",
+    "codeTooLong": "Code is too long",
+    "codeRequired": "Code is required",
+    "enterCode": "ENTER CODE",
+    "cancel": "Cancel"
+  },
+  "CreateBrightAccountForm": {
+    "title": "Title",
+    "titlePlaceholder": "Account title",
+    "depositAmount": "Deposit amount",
+    "depositAmountPlaceholder": "Deposit amount",
+    "term": "Investment period",
+    "capitalization": "Capitalization",
+    "confirmTitle": "Confirm operation",
+    "confirmText": "To confirm the operation, we sent you a code",
+    "confirmSubmit": "Create account",
+    "amountRequired": "Enter deposit amount",
+    "6month": "6 months",
+    "12month": "12 months",
+    "18month": "18 months",
+    "24month": "24 months",
+    "36month": "36 months",
+    "60month": "60 months",
+    "96month": "96 months"
+  },
+  "ResultView": {
+    "weReturn": "We return",
+    "youEarn": "You will earn",
+    "monthlyRate": "Monthly rate",
+    "createAccount": "Create account"
+  },
+  "ChangeEmailForm": {
+    "invalidEmail": "Enter a valid E-mail",
+    "emailRequired": "E-mail is required",
+    "newEmail": "New E-mail",
+    "save": "Save"
+  },
+  "ChangePasswordForm": {
+    "passwordTooShort": "Password too short",
+    "passwordRules": "The password must contain uppercase\nand lowercase letters and at least one number",
+    "passwordsNotEqual": "Passwords not match",
+    "requiredField": "Required field",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "change": "Change"
+  },
+  "ReinvestmentForm": {
+    "fromSavingsBtc": "Accruals from saving account (BTC)",
+    "fromSavingsEth": "Accruals from saving account (ETH)",
+    "fromSavingsUsdt": "Accruals from saving account (USDT)",
+    "wallet": "Wallet",
+    "reinvestment": "Reinvestment",
+    "fromStable": "Accruals from stable account",
+    "fromReferrals": "Accruals from referrals",
+    "save": "Save"
+  },
+  "ResetPhoneForm": {
+    "resetWarning": "Important! A confirmation code will be sent to the old phone number. If you do not have access to the old number, contact our Helpdesk.",
+    "reset": "Reset",
+    "confirmTitle": "Reset phone number?",
+    "confirmText": "To confirm the operation, we sent you a code"
+  },
+  "EnableGoogle2faPopup": {
+    "somethingGoesWrong": "Something went wrong",
+    "secretKey": "Enter the secret key in the Google Authenticator app\nor scan the QR code",
+    "copyKey": "Copy key to clipboard",
+    "next": "Next",
+    "codeTooShort": "Code is too short",
+    "codeTooLong": "Code is too long",
+    "codeRequired": "Code is required",
+    "enterSecretKey": "Enter the code generated by the application to confirm the enable\nof two-factor authentication",
+    "send": "Send",
+    "back": "Back",
+    "keyCopied": "Key is copied"
+  },
+  "EnablePhone2faPhoneForm": {
+    "phoneRequired": "Phone number required",
+    "phoneRules": "Enter the phone number in the format +79991112233",
+    "phoneForCodes": "Enter the number to which verification codes will be sent",
+    "phonePlaceholder": "Phone number",
+    "submit": "Submit"
+  },
+  "EnablePhone2faPopup": {
+    "somethingGoesWrong": "Something went wrong"
+  },
+  "EnablePhone2faVerifyForm": {
+    "codeTooShort": "Code is too short",
+    "codeTooLong": "Code is too long",
+    "codeRequired": "Code is required",
+    "enterSecretKey": "Enter the code generated by the application to confirm the enable\nof two-factor authentication",
+    "submit": "Submit"
+  },
+  "withdrawTransferErrors": {
+    "overdraft": "Try canceling previous requests for "
+  },
+  "openStableAccountIterator": {
+    "failedToOpen": "Failed to open stable account."
+  },
+  "verifyOpenStableAccountIterator": {
+    "accountCreated": "Account is successfully created!",
+    "codeExpired": "The verification code is incorrect or the code has expired. Please try again"
+  },
+  "refundStableAccountIterator": {
+    "createFailed": "Failed to close Stable account"
+  },
+  "verifyRefundStableAccountIterator": {
+    "closeSuccess": "Account is successfully closed!",
+    "codeExpired": "The verification code is incorrect or the code has expired. Please try again"
+  },
+  "fetchStableAccountsIterator": {
+    "codeExpired": "The verification code is incorrect or the code has expired. Please try again"
+  },
+  "walletsIterator": {
+    "fetchFailed": "Failed to get wallet information. Please try again later."
+  },
+  "fetchWithdrawListIterator": {
+    "fetchFailed": "Failed to get list of withdrawal requests. Please try again later."
+  },
+  "cancelWithdrawIterator": {
+    "cancelFailed": "Failed to cancel withdrawal request. Please try again later."
+  },
+  "setupPinTask": {
+    "setPinFailed": "Failed to set PIN. Please try again"
+  },
+  "signInIterator": {
+    "emailNotVerified": "You need to verify your E-mail address",
+    "invalidCredentials": "Invalid login or password",
+    "cantLogIn": "Login failed"
+  },
+  "signUpIterator": {
+    "emailUsed": "A user with this E-mail is already registered",
+    "registerError": "Error registering new user"
+  },
+  "userIterator": {
+    "fetchFailed": "Failed to get user data. Try again later."
+  },
+  "changeEmailTask": {
+    "requestSended": "Application for changing E-mail has been sent. To confirm the operation, follow the link in the letter that we sent to the old address",
+    "changeFailed": "Failed to change E-mail. Please try again later."
+  },
+  "changePasswordIterator": {
+    "changeSuccess": "Password is successfully changed!",
+    "changeFailed": "Error! Password is not changed"
+  },
+  "updateReinvestmentIterator": {
+    "updateSuccess": "Settings are successfully changed",
+    "updateFailed": "Something went wrong. Settings are not changed"
+  },
+  "resetPhoneTask": {
+    "resetFailed": "Failed to reset phone number. Please try again later."
+  },
+  "verifyResetPhoneTask": {
+    "resetSuccess": "Phone number is successfully reset",
+    "resetVerifyFailed": "Failed to confirm phone number reset"
+  },
+  "acquireDeviceTokenTask": {
+    "deviceRegistered": "The device is successfully registered. You can now log in to your account.",
+    "deviceRegisterFailed": "Error registering device. The code may be entered incorrectly"
+  },
+  "terminateDeviceTokenTask": {
+    "terminateFailed": "Error: failed to log in. Try logging in again."
+  },
+  "createBrightTask": {
+    "createFailed": "Error: Failed to open Stable+ account."
+  },
+  "verifyBrightCreationTask": {
+    "createSuccess": "Stable+ account is successfully created",
+    "verifyFailed": "Error: Invalid verification code."
+  },
+  "refundBrightTask": {
+    "refundError": "Error: Failed to close Stable+ account."
+  },
+  "verifyBrightRefundTask": {
+    "closeSuccess": "Stable+ account is successfully closed",
+    "closeError": "Error: invalid verification code."
+  },
+  "transferEffect": {
+    "transfersDisabled": "Transfer failed. Transfer service is temporarily unavailable. Please try again later.",
+    "insufficientFunds": "Error: transfer failed. Insufficient funds on the account",
+    "somethingWrong": "Unknown error. Transfer failed. Something went wrong"
+  },
+  "verifyTransferEffect": {
+    "invalidCode": "Error:  transfer failed. Invalid verification code",
+    "somethingWrong": "Unknown error. Something went wrong"
+  },
+  "p2pTransferEffect": {
+    "userNotFound": "Error: user is not registered.",
+    "overdraft": "Error: transfer failed. Insufficient funds on the account",
+    "usersEqual": "Error: sender and recipient match",
+    "somethingWrong": "Unknown error. Something went wrong"
+  },
+  "verifyP2pTransferEffect": {
+    "transferFailed": "Error: transfer failed. Invalid verification code"
+  },
+  "txTypeToString": {
+    "input": "Input",
+    "income": "Income",
+    "commision1": "Partners (1)",
+    "commision2": "Partners (2)",
+    "commision3": "Partners (3)",
+    "transferFrom": "Transfer - from",
+    "transferInput": "Transfer - input",
+    "transfer": "Transfer - withdraw",
+    "bonus": "Bonuses",
+    "stableBase": "Stable account - create",
+    "stableCreate": "Stable account",
+    "stableRefund": "Stable account - refund",
+    "stableIncome": "Stable account - accrual",
+    "stableDecrease": "Stable account - open",
+    "withdraw": "Withdrawal"
+  },
+  "renderCourseString": {
+    "for": "for"
+  },
+  "enableGoogle2faTask": {
+    "somethingWrong": "Something went wrong. Please try again later."
+  },
+  "verifyEnableGoogle2faTask": {
+    "enabled": "Two-factor authentication is enabled",
+    "somethingWrong": "Something went wrong. Please try again later."
+  },
+  "enablePhone2faTask": {
+    "somethingWrong": "Something went wrong. Please try again later."
+  },
+  "verifyEnablePhone2faTask": {
+    "2faEnabled": "Two-factor authentication is enabled",
+    "somethingWrong": "Something went wrong. Please try again later."
+  },
+  "disable2faTask": {
+    "somethingWrong": "Something went wrong. Please try again later."
+  },
+  "verifyDisable2faTask": {
+    "2faDisabled": "Two-factor authentication is disabled",
+    "somethingWrong": "Something went wrong. Please try again later."
+  },
+  "QRScanner": {
+    "tip": "Focus your camera to QR code",
+    "closeButtonText": "Close",
+    "requestTitle": "Camera usage request",
+    "requestMessage": "Allow to use the camera to scan QR codes",
+    "requestPositive": "OK",
+    "permissionDenied": "Access to the camera is denied"
+  },
+  "ShareWalletPopup": {
+    "closeButton": "Close"
+  },
+  "AddressInput": {
+    "invalidAddress": "Invalid QR code"
+  },
+  "QRPopup": {
+    "close": "Close"
+  },
+  "CreateRequestForm": {
+    "destinationLabel": "Destination fund",
+    "destinationTitle": "Select fund",
+    "amountTitle": "Amount",
+    "amountPlaceholder": "Amount in fund currency",
+    "messageLabel": "Message (optional)",
+    "messagePlaceholder": "Enter message",
+    "submit": "Create QR code",
+    "selectFund": "Fund is required"
+  },
+  "CreateQRRequest": {
+    "appTopbarTitle": "Create QR code request",
+    "description": "You can create QR code with transfer request and send it to another user"
+  },
+  "QRReader": {
+    "invalidAddress": "Invalid QR code"
+  },
+  "QRTransfer": {
+    "title": "Transfer via QR code"
+  },
+  "notificationsPermissions": {
+    "featureNotAvailable": "This feature isn't available on your phone",
+    "allowNotifications": "Allow app send notifications",
+    "openSettings": "Open settings?",
+    "cancel": "Cancel",
+    "ok": "OK"
+  },
+  "ProductItem": {
+    "newLabel": "New"
+  },
+  "OrdersHistoryListHeaderItem": {
+    "new": "New",
+    "processed": "Processed",
+    "processing": "Processing",
+    "approved": "Approved",
+    "cancelled": "Cancelled",
+    "denied": "Denied",
+    "shipping": "Shipping",
+    "wait": "Waiting",
+    "in_queue": "In queue",
+    "done": "Done"
+  },
+  "OrdersHistoryListItem": {
+    "items": "pcs."
+  },
+  "ShopProduct": {
+    "add": "Add",
+    "gotoBasket": "Open shopping cart"
+  },
+  "ProductsPageItem": {
+    "addToCart": "Add to Cart",
+    "alreadyInCart": "In Cart"
+  },
+  "ShopBasket": {
+    "empty": "Cart is emtpy.",
+    "yourBalance": "Your balance",
+    "createOrder": "Checkout",
+    "total": "Total",
+    "product": "products",
+    "successAdded": "has been successfully added to the basket",
+    "successRemoved": "has been successfully removed from the basket"
+  },
+  "ShopOrder": {
+    "successCreateTitle": "Success",
+    "successCreateMessage": "The order has been successfully created"
+  },
+  "FiltersPage": {
+    "pendingText": "Uploading data...",
+    "screenTitle": "Sollar Gifts filters",
+    "sollarCostTitle": "Cost in Sollars",
+    "resetFilters": "Reset",
+    "categories": "Categories",
+    "brands": "Brands",
+    "applyFilters": "Apply"
+  },
+  "ShopFavourites": {
+    "pendingText": "Uploading data...",
+    "screenTitle": "Favorites",
+    "noFavourites": "List of favorite products is empty"
+  },
+  "ShopHistory": {
+    "screenTitle": "Order History",
+    "default": "All",
+    "new": "New",
+    "processing": "Processing",
+    "approved": "Approved",
+    "shipping": "Shipping",
+    "done": "Done",
+    "cancelled": "Cancelled",
+    "year": "year",
+    "empty": "Orders not found",
+    "orderDetailsBtn": "Order details",
+    "pendingText": "Uploading data..."
+  },
+  "ShopOrderDetails": {
+    "screenTitle": "Order information",
+    "date": "Order date",
+    "transportCompany": "Transport company link",
+    "trackingNumber": "Tracking number",
+    "fullName": "Full name",
+    "phone": "Phone number",
+    "address": "Delivery address",
+    "comment": "Order comment",
+    "noComment": "No comments",
+    "error": "Error",
+    "errorNoLink": "The link to the transport company was not provided or invalid, please contact technical support",
+    "linkToTransportCompany": "Open shipping company website"
+  },
+  "ShopIndex": {
+    "shop": "SollarGifts",
+    "filter": "Filter",
+    "cart": "Cart",
+    "history": "Orders history",
+    "createOrder": "Checkout"
+  },
+  "ShopCheckout": {
+    "screenTitle": "Place order",
+    "surname": "Surname",
+    "name": "Name",
+    "patronymic": "Patronymic",
+    "phoneNumber": "Phone number",
+    "country": "Country",
+    "city": "City",
+    "street": "Street",
+    "house": "House",
+    "apartment": "Apartment",
+    "postalCode": "Postal code",
+    "address": "Address details",
+    "comment": "Comments",
+    "submitOrder": "Submit order",
+    "recipientDetails": "Recipient details",
+    "other": "Additional information",
+    "warningTextTitle": "Important!",
+    "warningText": "\nWhen placing an order as a gift, specify the full name and contact details of the final recipient in the input field.\n\nTo send an electronic gift (certificate, tickets for events or training) - please specify the recipient's email address in comments to the order."
+  },
+  "ShopCheckoutStore": {
+    "requiredSurname": "Please indicate full recepient details. Enter surname.",
+    "requiredName": "Please indicate full recepient details. Enter name.",
+    "requiredPhone": "Please indicate full recepient details. Enter vaild phone number.",
+    "requiredCountry": "Please indicate full address details. Enter country.",
+    "requiredCity": "Please, indicate full address details. Enter city.",
+    "requiredStreet": "Please, indicate full address details. Enter street.",
+    "requiredPostCode": "Please, indicate full address details. Enter postal code.",
+    "requiredHouse": "Please, indicate full address details. Enter house number.",
+    "successTitle": "Order was successfully placed",
+    "successMessage": "You can see the order details in Order History section",
+    "successOk": "Ok"
+  },
+  "Showcase": {
+    "notFound": "No matching products found",
+    "pendingText": "Uploading data...",
+    "buttonFilter": "Filter",
+    "buttonSort": "Sort"
+  },
+  "submitOrderFx": {
+    "done": "Order created",
+    "fail": "Can't create order, something went wrong"
+  },
+  "Accounts": {
+    "walletsSectionTitle": "Wallets",
+    "sollarGiftsSectionTitle": "Sollar Gifts",
+    "sollarGiftsSectionTitleButton": "To the store",
+    "shortMonth": "mo.",
+    "shortDay": "day",
+    "savingsSectionTitle": "Savings",
+    "stablesPlusSectionTitle": "Stables+",
+    "createNewStablePlusButton": "Create new Stable+",
+    "sunriseProgram": "Sunrise program",
+    "allStablesPlusButton": "All",
+    "requestQueueSectionTitle": "Request queue",
+    "allRequestQueueButton": "All Requests",
+    "limit": "Limit {{limit}} USDT",
+    "blockedSavingsAccountsInfo": "Withdrawals from the savings account are possible only after the end of the anti-crisis program or as part of the promotion: \"Opening a stable account + withdrawing from the savings\""
+  },
+  "RequestDetails": {
+    "title": "Details of transaction",
+    "date": "Date",
+    "amount": "Amount of transaction",
+    "from": "From",
+    "to": "To",
+    "id": "Request number",
+    "approximateExecution": "Estimated execution date",
+    "cancelButtonText": "Cancel transaction",
+    "btcWallet": "BTC wallet",
+    "ethWallet": "ETH wallet",
+    "usdtWallet": "USDT wallet",
+    "btcSaving": "BTC saving",
+    "ethSaving": "ETH saving",
+    "usdtSaving": "USDT saving"
+  },
+  "AccountLayout": {
+    "txHistorySectionTitle": "Transactions",
+    "noTxsMockText": "Your transactions will be here"
+  },
+  "CryptoWallet": {
+    "replenishButton": "Replenish",
+    "transferButton": "Transfer",
+    "withdrawButton": "Withdraw",
+    "moreButton": "More options",
+    "walletDetailAddress": "Wallet address",
+    "walletDetailUSDTEquivalent": "USDT equivalent",
+    "annualProfit": "Interest accrual income",
+    "txHistorySectionTitle": "Transactions",
+    "accountDetailsSectionTitle": "Details",
+    "showAllHistoryButton": "Show all transactions"
+  },
+  "SollarWallet": {
+    "showAllHistoryButton": "Show all transactions",
+    "buySollarButton": "Buy",
+    "transactionHistory": "Operations history",
+    "goToSollarGifts": "Go to Sollar Gifts",
+    "exchangeSollar": "Exchange currency",
+    "successTitle": "Exchange successful",
+    "successText": "",
+    "gettingSollar": "Getting",
+    "givingSollar": "Giving",
+    "balanceOfTether": "Tether balance",
+    "titleBuyTether": "Buy Sollar Gift Coins",
+    "fullAmountTether": "Entire amount",
+    "amountIsRequiredError": "Amount is required greater than 0",
+    "amountIsInvalidError": "Invalid amount",
+    "notEnoughFundsError": "Not enough funds",
+    "exchangeDone": "Exchange Sollar completed successfully",
+    "txHistorySectionTitle": "Transactions",
+    "default": "Loyalty Program terms"
+  },
+  "Saving": {
+    "walletDetailUSDTEquivalent": "USDT equivalent",
+    "transferButton": "Transfer",
+    "withdrawButton": "Withdraw",
+    "annualProfit": "Interest accrual income",
+    "showAllHistoryButton": "Show all transactions",
+    "accountDetailsSectionTitle": "Details",
+    "txHistorySectionTitle": "Transactions"
+  },
+  "CryptoWalletTxHistory": {
+    "backButton": "Back"
+  },
+  "SollarWalletTxHistory": {
+    "backButton": "Back"
+  },
+  "SavingTxHistory": {
+    "backButton": "Back"
+  },
+  "RequestHistory": {
+    "backButton": "Back"
+  },
+  "operationTypes": {
+    "input": "Input",
+    "income": "Income",
+    "interest_accrual_income": "Interest accrual income",
+    "interest_accrual_income_amir_cell": "Monthly accrual on AmirCell deposit",
+    "interest_accrual_income_cell": "Monthly accrual on AmirCell deposit",
+    "commision_1": "Partners (1)",
+    "commision_2": "Partners (2)",
+    "commision_3": "Partners (3)",
+    "commision_4": "Partners (4)",
+    "commision_5": "Partners (5)",
+    "transfer_from": "transfer (output)",
+    "transfer_input": "transfer (input)",
+    "transfer": "transfer (output)",
+    "bonus": "Bonus",
+    "stable_base": "Opening a stable",
+    "stable_create": "Opening a stable",
+    "stable_refund": "A stable refund",
+    "stable_income": "Accruals stable",
+    "stable_decrease": "Opening a stable",
+    "new_stable_base": "Opening a stable+",
+    "new_stable_create": "Opening a stable+",
+    "new_stable_refund": "A stable+ refund",
+    "new_stable_income": "Accruals stable+",
+    "new_stable_withdraw": "Accruals stable+",
+    "new_stable_decrease": "Opening a stable+",
+    "withdraw": "Withdraw",
+    "withdraw_fee": "Withdraw fee",
+    "withdraw_in_process": "Withdraw (in progress)",
+    "transfer_in_process": "Transfer (in progress)",
+    "p2p_transfer_output": "Transfer to the user (output)",
+    "p2p_transfer_input": "Transfer to the user (input)",
+    "amir_cell_create_decrease": "AmirCell purchase",
+    "amir_cell_cancel": "AmirCell cancellation",
+    "Confirmed": "Replenish",
+    "Pending": "Replenish (in process)",
+    "Confirming": "Replenish (in process)",
+    "Failed": "Replenish (failed)",
+    "order_decrease": "SollarGifts purchase",
+    "sollar_gift": "SollarGifts",
+    "solar_buy": "Sollar purchase",
+    "reward_activity": "Profit for personal activity",
+    "reward_partners": "Profit for partners activity",
+    "income_deposit": "Interest accrual income",
+    "income_structure": "Structure profit",
+    "admin_transfer": "Income (admin)",
+    "admin_decrease": "Decrease (admin)",
+    "order_refund": "SollarGift refund",
+    "commision": "Sunrise Program income",
+    "buy": "Buy",
+    "sell": "Sell",
+    "debit": "Debit",
+    "additional": "Additional",
+    "buy_token": "Token buy",
+    "reward_structure_usdt": "Accrual for activity (increase in the volume of the USDT structure)",
+    "interest_accrual_solar_income": "Interest accrual income (Sollar)",
+    "create": "Create",
+    "sell_of_product": "Payment by order",
+    "new_stable_promo_bonus_refund": "Gift purchase",
+    "p2ptransfer": "P2p transfer",
+    "p2p_exchange_buy": "P2P-Purchase",
+    "p2p_exchange_refund": "P2P-Deposit refund",
+    "p2p_exchange_debit": "P2P-Freezing funds for order creating",
+    "p2p_exchange_fee": "P2P-Fee",
+    "p2p_exchange_refund_fee": "P2P-Fee refund",
+    "fee": "Fee",
+    "stable": "Stable",
+    "min_deposit": "Min. deposit",
+    "savings": "Savings",
+    "amiracademy_purchase_share": "AmirAcademy referral charges",
+    "reward": "Accrual on downstream ambassadors",
+    "amircell_purchase": "AmirCell purchase",
+    "amircell_rollback": "AmirCell rollback",
+    "amircell_replenishment_processed": "AmirCell replenishment (processed)",
+    "amircell_replenishment_in_process": "AmirCell replenishment (in process)",
+    "amircell_replenishment_not_processed": "AmirCell (not processed)",
+    "sollargifts_purchase": "SollarGifts purchase",
+    "sollar_purchase": "Sollar purchase",
+    "personal_income": "Income from personal activities",
+    "accruals_partner": "Accruals for being active (increase in the partner body)",
+    "accruals_deposit": "Accruals for the structure deposit",
+    "accruals_admin": "Accrual (Admin user)",
+    "withdrawal_admin": "Withdrawal (Admin user)",
+    "sollar_return": "SollarGifts return",
+    "amiracademy_distribution": "Charge for",
+    "role": "role",
+    "amir_cell_change": "Change of the subscription",
+    "token_purchased": "Token purchase",
+    "token_sell": "Token sell",
+    "token_create": "Token create",
+    "emission": "Emission",
+    "deflation": "Buyback",
+    "sell_token": "Token sell"
+  },
+  "LabelTypes": {
+    "new": "New",
+    "certificate": "Certificate",
+    "giftery": "Electronic certificate",
+    "digital": "Electronic certificate"
+  },
+  "SettingsMenu": {
+    "backButtonText": "About App",
+    "settings": "Settings",
+    "deleteAccount": "Delete Account",
+    "info": "Info",
+    "screenTitle": " My Profile",
+    "languageButtonText": "Change language",
+    "kycButtonText": "Proof of identity (KYC)",
+    "2faButtonText": "Two-factor authentication (2FA)",
+    "reinvestmentButtonText": "Reinvestment settings",
+    "changePasswordButtonText": "Change password",
+    "changeEmailButtonText": "Change E-mail",
+    "logoutButtonText": "Logout",
+    "faq": "Frequently asked questions",
+    "aboutApp": "About app",
+    "officialAccounts": "Official social media accounts",
+    "publicAgreement": "Public Offer",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Usage Policy",
+    "companyBenefits": "The advantages of Amir Capital",
+    "regulations": "The rules and regulations of Amir Capital",
+    "kycAmlPolicy": "KYC/AML regulations",
+    "stablePolicy": "Terms for asset allocation using the Stable+ account",
+    "riskProcedure": "Procedures and internal regulations aimed at risk reduction",
+    "verification": "Verification",
+    "riskNotification": "Risk notifications",
+    "personalDataConsent": "Consent to personal data processing",
+    "unsupportedURL": "This link is no longer supported:",
+    "partnerLink": "Partner link"
+  },
+  "LanguageSettings": {
+    "backButtonText": "Language settings"
+  },
+  "ReinvestmentSettings": {
+    "backButtonText": "Reinvestment settings"
+  },
+  "ChangePassword": {
+    "backButtonText": "Change password",
+    "submitButtonText": "Change",
+    "oldPasswordPlaceholder": "Enter old password",
+    "newPasswordPlaceholder": "Enter new password",
+    "newPasswordConfirmPlaceholder": "Enter new password again"
+  },
+  "ChangePasswordStore": {
+    "success": "Password was changed successfully",
+    "invalidPasswordError": "Invalid new password. Password wasn't changed",
+    "defaultError": "Something went wrong. Password wasn't changed",
+    "oldPasswordRequiredError": "Old password is required",
+    "oldPasswordInvalidError": "Old password is invalid",
+    "oldPasswordTooShortError": "Old password too short",
+    "newPasswordRequiredError": "New password is required",
+    "newPasswordInvalidError": "Password must be longer than 8 characters and contain at least one capital letter and one digit",
+    "newPasswordTooShortError": "New password too short",
+    "newPasswordConfirmRequiredError": "Confirmation is required",
+    "newPasswordConfirmInvalidError": "Confirmation is invalid",
+    "newPasswordConfirmTooShortError": "Confirmation is too short",
+    "newPasswordConfirmNotEqualError": "Passwords should be equal"
+  },
+  "ChangeEmail": {
+    "backButtonText": "Change E-mail",
+    "submitButtonText": "Save",
+    "newEmailPlaceholder": "Enter new E-mail"
+  },
+  "ChangeEmailStore": {
+    "success": "Application for changing E-mail has been sent. To confirm the operation, follow the link in the letter that we sent to the old address",
+    "defaultError": "Failed to change E-mail. Please try again later.",
+    "newEmailTooShortError": "New password too short"
+  },
+  "CloseStable": {
+    "successTitle": "Success operation",
+    "successText": "The Stable+ account is successfully closed",
+    "successOK": "OK"
+  },
+  "KYCScreen": {
+    "backButtonText": "Proof of identity (KYC)",
+    "startButtonText": "Start KYC",
+    "alreadyPassedText": "You have already passed proof of identity. KYC is active",
+    "descriptionText": "Setting up KYC and 2FA are required for safety of accessing your account. As well as for unlock all Amir Wallet features. Without this procedures you can’t use:",
+    "lockedFeatureOne": "- Withdrawal and transferring funds between wallets",
+    "lockedFeatureTwo": "- Opening accounts",
+    "lockedFeatureThree": "- Accessing to loyalty programs and earning sollars",
+    "inProcess": "You have completed the user verififcation process. Your application is currently under review."
+  },
+  "TwoFactorAuthSettings": {
+    "backButtonText": "2FA settings"
+  },
+  "TFASettingsInitEnableStep": {
+    "disabledText": "To protect your account and unlock all wallet features you have to pass KYC and setup two factor authentication",
+    "tfaAppButtonText": "Authenticator",
+    "tfaPhoneButtonText": "SMS",
+    "tfaDisableButtonText": "Disable 2FA",
+    "requiresKycText": "To enable two-factor authentication, you need to verify your identity (KYC)",
+    "openKycSettings": "Open KYC screen"
+  },
+  "TFASettingsGoogleQRStep": {
+    "tip": "Download Google Authenticator app from AppStore or Play Market and open it. You may scan QR below or copy secret key and enter it into the app manually. Then press 'Next step'",
+    "secretLabel": "Secret key",
+    "qrButtonText": "Generate QR code",
+    "nextButtonText": "Next step"
+  },
+  "TFASettingsGoogleCodeStep": {
+    "codeInputPlaceholder": "Enter 6-digit code from app",
+    "submit": "Verify code"
+  },
+  "TFASettingsSmsPhoneStep": {
+    "phoneInputPlaceholder": "Enter phone number",
+    "submitButtonText": "Send verification code"
+  },
+  "TFASettingsSmsCodeStep": {
+    "codeInputPlaceholder": "Enter 6-digit code from SMS",
+    "submitButtonText": "Verify code"
+  },
+  "TFAStatus": {
+    "disabled": "Disabled",
+    "enabledPhone": "Enabled with SMS",
+    "enabledApp": "Enabled with Authenticator",
+    "pending": "Pending request...",
+    "error": "Error"
+  },
+  "SecurityAlert": {
+    "kycAlertTitle": "Proof of identity required",
+    "kycAlertText": "For account safety, we have restricted few operations with your funds. To unlock all features you have to pass proof of identity",
+    "kycAlertButtonText": "Pass KYC",
+    "tfaAlertTitle": "Two factor authentication required",
+    "tfaAlertText": "For account safety, we have restricted few operations with your funds. To unlock all features you have to set up two factor authentication",
+    "tfaAlertButtonText": "Setup 2FA"
+  },
+  "twoFaDomain": {
+    "confirmDisable2faTitle": "Disable 2FA",
+    "confirmDisable2faMessage": "Are you sure you want to disable two-factor authentication?",
+    "yes": "Yes",
+    "cancel": "Cancel",
+    "successfullyDisabled2faTitle": "2FA successfully disabled",
+    "successfullyDisabled2faOKButtonText": "OK",
+    "successfullyEnabled2faTitle": "2FA successfully enabled",
+    "successfullyEnabled2faOKButtonText": "OK"
+  },
+  "twoFaDomainErrors": {
+    "twofa_sms_phone_in_use": "Error",
+    "twofa_sms_phone_in_use_message": "The phone is already in use",
+    "must_have_code": "Error",
+    "must_have_code_message": "Enter code",
+    "account_not_found": "Error",
+    "account_not_found_message": "The account wasn't found",
+    "google_is_enabled": "Error",
+    "google_is_enabled_message": "The google 2fa had already been enabled",
+    "phone_is_verified": "Error",
+    "phone_is_verified_message": "The verification had already been completed",
+    "phone_is_not_set": "Error",
+    "phone_is_not_set_message": "The phone wasn't set",
+    "phone_is_in_use": "Error",
+    "phone_is_in_use_message": "The phone is already in use",
+    "application_id_is_already_used": "Error",
+    "application_id_is_already_used_message": "The applicationId is already in use",
+    "no_action_id": "Error",
+    "no_action_id_message": "The actionId wasn't sent",
+    "kyc_not_passed": "Error",
+    "kyc_not_passed_message": "The kyc wasn't passed",
+    "google_code_verification_failed": "Error",
+    "google_code_verification_failed_message": "The google authentication code is invalid",
+    "2fa_must_be_enabled": "Error",
+    "2fa_must_be_enabled_message": "2fa must be enabled"
+  },
+  "requestTypes": {
+    "withdraw": "Withdraw",
+    "transfer": "Transfer",
+    "p2ptransfer": "P2P transfer"
+  },
+  "withdrawStore": {
+    "overdraftErrorTitle": "Withdraw failed",
+    "overdraftErrorMessage": "Not enough funds",
+    "overdraftErrorOk": "OK",
+    "suspendedErrorTitle": "Withdraw failed",
+    "suspendedErrorMessage": "Withdrawal service is suspended",
+    "suspendedErrorOk": "OK",
+    "requiresEmailVerificationErrorTitle": "Withdraw failed",
+    "requiresEmailVerificationErrorMessage": "You need to verify your email address",
+    "requiresEmailVerificationErrorOk": "OK",
+    "invalid2faCodeErrorTitle": "Withdraw failed",
+    "invalid2faCodeErrorMessage": "Verification code is incorrect",
+    "invalid2faCodeErrorOk": "OK",
+    "limitErrorTitle": "Withdraw failed",
+    "limitErrorMessage": "Exceeded daily limit",
+    "limitErrorOk": "OK",
+    "faceMismatchErrorTitle": "Face authentication failed",
+    "faceMismatchErrorMessage": "Face mismatch",
+    "faceMismatchErrorOk": "OK",
+    "successWithdrawTitle": "Withdraw succeed",
+    "successWithdrawMessage": "",
+    "successWithdrawOk": "OK",
+    "amountIsRequiredError": "Amount is required",
+    "amountIsInvalidError": "Invalid amount",
+    "notEnoughFundsError": "Not enough funds",
+    "addressIsRequired": "Address is required",
+    "addressIsInvalid": "Invalid address",
+    "verifyCodeIsRequired": "Verify code is required",
+    "withdrawDefaultErrorTitle": "Error",
+    "withdrawDefaultErrorMessage": "Unknown error",
+    "withdrawDefaultErrorOk": "OK",
+    "checkSuccessTitle": "Success",
+    "checkSuccessMessage": "Request successfully created",
+    "checkSuccessOk": "OK",
+    "feeMismatchErrorTitle": "Fee has been expired",
+    "feeMismatchErrorMessage": "The submission parameters you entered are invalid. Please try to submit another request",
+    "feeMismatchErrorOk": "OK",
+    "invalidAddressErrorTitle": "Invalid address",
+    "invalidAddressErrorMessage": "Check destination address, currency and network",
+    "invalidAddressErrorOk": "OK",
+    "dailyLimit": "Max withdrawal is {{limit}}{{fund}}",
+    "dailyLimitExceed": "Amount exceeds the daily limit"
+  },
+  "Withdraw": {
+    "titlePendingFaceauthWithdraw": " Pending. Your request is being processed",
+    "screenTitle": "Withdraw",
+    "submitWithdrawButtonText": "Withdraw",
+    "amountPlaceholder": "Enter amount",
+    "addressPlaceholder": "Enter address",
+    "feePickerPlaceholder": "Choose transaction speed",
+    "feePickerFast": "Medium speed",
+    "feePickerFastest": "Fastest speed",
+    "feeDescriptionBtc": "Dear users, commission fee does not guarantee instantaneous sending of the transaction due to the volatile nature of the fee and network load",
+    "feeDescriptionEth": "Dear users, your raising of the commission fee makes your transaction of a higher priority in the process of its fulfilment. However, it does not guarantee its instantaneous sending due to the volatile nature of the fee and network load",
+    "btcSpeed": "Average transaction speed ranging from 1 to 60 minutes.",
+    "feeTipHead": "Important information",
+    "feeTipText": "The withdrawal expedite has been changed: now you can withdraw finances using only the currency of the account. To withdraw other finances in other currencies, you need to forward the finances to the respective account. Commission fee is not charged if the withdrawal sum does not exceed 5000 USDT or 0.1 BTC or 3 ETH",
+    "txFeeLabel": "Transaction fee",
+    "entireAmountBtn": "Entire amount",
+    "token": "Token",
+    "network": "Network",
+    "feeRadioLabel": "Choose tx fee and speed",
+    "feeSlow": "Slow",
+    "feeFast": "Medium (60+ minutes)",
+    "feeFastest": "Fast (1-60 minutes)",
+    "chooseBlockchain": "Choose blockchain",
+    "chooseToken": "Choose token",
+    "monthly_limit": "The monthly limit for users, who have passed the verification procedure is",
+    "order_withdrawal": "Changed the order of withdrawal: now you can withdraw only the corresponding currency from the account. To withdraw another currency, make a transfer to the appropriate account.",
+    "trcWarning": "Important! USDT TRC-20 transfer implemented via smart-contract. Not all online exchanges work with these transactions. Before transferring, make sure that your exchanger can process your request.",
+    "limit": "Limit {{limit}} {{currency}}"
+  },
+  "WithdrawDomainErrors": {
+    "twofa_check_failed": "Error",
+    "title": "Order was not created!",
+    "withdraw_throttling_error": "Next withdraw action available in",
+    "withdraw_throttling_error_days": "days",
+    "withdraw_too_big_amount": "The maximum withdrawal amount is ",
+    "fee_mismatch": "The fee is wrong"
+  },
+  "requestsStore": {
+    "cancelTransferSuccessTitle": "Success",
+    "cancelTransferSuccessMessage": "Request successfully cancelled",
+    "cancelTransferSuccessOk": "OK"
+  },
+  "AccountSelector": {
+    "btcWallet": "BTC wallet",
+    "ethWallet": "ETH wallet",
+    "usdtWallet": "USDT wallet",
+    "btcSaving": "BTC saving",
+    "ethSaving": "ETH saving",
+    "usdtSaving": "USDT saving"
+  },
+  "TransferMenu": {
+    "transferSectionTitle": "Transfer",
+    "screenTitle": "Transfer",
+    "conversion": "Conversion",
+    "toSaving": "To Savings",
+    "toWallet": "From Savings",
+    "email": "By E-mail",
+    "phone": "By Phone"
+  },
+  "TransferConversion": {
+    "screenTitle": "Transfer conversion",
+    "submitButtonText": "Convert",
+    "amountPlaceholder": "Amount",
+    "destinationAmountPlaceholder": "Amount in destination currency",
+    "courseOne": "Exchange course:",
+    "courseTwo": "for",
+    "confirmTransferTitle": "Verify conversion",
+    "confirmTransferBody": "Enter 6-digit code from SMS or app",
+    "confirmTransferSubmit": "Verify"
+  },
+  "transferConversionStore": {
+    "amountIsRequiredError": "Amount is required",
+    "notEnoughFundsError": "Not enough funds",
+    "destinationAmountIsRequiredError": "Destination amount is required",
+    "uselessTransfer": "Unable to transfer to the same account",
+    "successTitle": "Successfully transfer",
+    "successText": "",
+    "successOk": "OK",
+    "btcWallet": "From BTC wallet",
+    "ethWallet": "From ETH wallet",
+    "usdtWallet": "Tether balance",
+    "btcSaving": "From BTC saving",
+    "ethSaving": "From ETH saving",
+    "usdtSaving": "From USDT saving"
+  },
+  "Stable": {
+    "shortMonthes": "mo.",
+    "cryptocurrency": "Cryptocurrency",
+    "enterTitle": "Enter a name",
+    "enterAmount": "Enter a amount of deposit",
+    "screenTitle": "Create Stable+ account",
+    "nameOfAccount": "Name of account",
+    "termOfInvestment": "Investment period",
+    "selectTerm": "Select term of investment",
+    "depositAmount": "Amount of deposit",
+    "incomeCapitalization": "Income capitalization",
+    "available": "Available",
+    "monthlyIncome": "Monthly income",
+    "netIncome": "Your net income",
+    "rate": "Rate",
+    "finalAmount": "Amount at end of term",
+    "buttonOpenStable": "Submit",
+    "maxLengthNameError": "Maximum length is 30 characters",
+    "capitalizationRequired": "Capitalization is required",
+    "amountIsRequiredError": "Amount is required greater than 0",
+    "minAmountError": "Minimum amount is {{amount}} {{currency}}",
+    "amountIsInvalidError": "Invalid amount",
+    "notEnoughFundsError": "Not enough funds",
+    "conditionsNotMetError": "Conditions not met",
+    "capitalInfo": "Capitalization of the deposit is the sum of interest accrued for the previous period with the principal amount of savings.",
+    "verifyCodeIsRequired": "Verify code is required",
+    "successTitle": "Success operation",
+    "successText": "The Stable+ account is successfully created",
+    "renameTitle": "Rename Stable+ account",
+    "enterNewName": "New account name",
+    "successTitleRename": "Renaming successfully",
+    "successTextRename": "The renaming of the account has been successfully completed",
+    "save": "Save",
+    "cancel": "Cancel",
+    "selectGiftTitle": "Choose a gift",
+    "sunnyBookGift": "Sunny Book",
+    "withoutGift": "I don't need a gift",
+    "sunnyBookTitle": "Sunny Book as gift under one of the following conditions:",
+    "sunnyBookOption1": "From {{amount}} {{token}} for 12 months with capitalization",
+    "sunnyBookOption2": "From {{amount}} {{token}} for 24 months with capitalization",
+    "sunnyBookOption3": "From {{amount}} {{token}} for 36, 60 or 96 months with capitalization",
+    "selectDeliveryOptionTitle": "Choose delivery method",
+    "deliveryPartner": "I want to receive gift from partner",
+    "deliveryShop": "I want to receive gift via mail",
+    "deliveryPartnerDescription": "The gift will be delivered by a partner whose email address you enter below",
+    "deliveryShopDescription": "The gift will be added to your Sollar Gifts cart. After opening an account, go to the store and order delivery",
+    "deliveryPartnerEmailPlaceholder": "Enter your partner's email address",
+    "enterEmail": "Enter email",
+    "emailIsInvalidError": "Invalid email",
+    "totalIncome": "Total Income",
+    "rateInvalidValue": "Wrong interest rate"
+  },
+  "StableDomainErrors": {
+    "unknown": "Error!",
+    "unknown_message": "Something went wrong",
+    "insufficient_funds": "Error",
+    "insufficient_funds_message": "Not enough funds",
+    "invalid_term": "Error",
+    "invalid_term_message": "Wrong the deposit term",
+    "invalid_amount": "Error",
+    "invalid_amount_message": "Wrong amount",
+    "invalid_score_id": "Something went wrong",
+    "invalid_score_id_message": "Please try again later. The error code is [invalid_score_id]",
+    "score_not_found": "Something went wrong",
+    "score_not_found_message": "Please try again later. The error code is [score_not_found]",
+    "cannot_use_promo": "The error of SunnyBook promo action",
+    "cannot_use_promo_message": "Either you have a error in the form or you have created the max amount of scores.",
+    "partner_email_not_found": "Invalid partner email",
+    "partner_email_not_found_message": "We did not find the account to which this email address is linked",
+    "cannot_open_additional_promo": "Cannot open additional promo account",
+    "cannot_open_additional_promo_message": "You have reached limit"
+  },
+  "CloseStableDomainErrors": {
+    "unknown": "Error!",
+    "unknown_message": "Something went wrong"
+  },
+  "SecurityServiceTwoFaBottomSheet": {
+    "title": "Verification code",
+    "tip": "To confirm the operation, you need to enter a one-time code from an SMS or Google Authenticator application",
+    "submitButtonText": "Send",
+    "cancelButtonText": "Cancel",
+    "codeInputPlaceholder": "Enter code",
+    "verifyCodeIsRequired": "Verify code is required",
+    "successTitle": "Success operation",
+    "successText": "Done"
+  },
+  "TransferFromSaving": {
+    "backTitle": "Transfer from savings account",
+    "fromSaving": "From the savings account",
+    "toWallet": "To the wallet",
+    "sumForTransfer": "Transfer amount",
+    "fullAmount": "Entire amount",
+    "transfer": "Transfer",
+    "transferInfoRequest": "Transfer requests from the savings account are accepted every day.",
+    "transferInfoDuration": "Fixing of applications is carried out - at 23:59 on Sunday. Transfer time is counted from Monday 00:01. Investor has the right to withdraw from three accounts accumulative usdt, btc and eth assets, which are in total equivalent to the following values:",
+    "duration_48h": "- Up to $500 in 48 hours.",
+    "duration_96h": "- Up to $5,000 in 96 hours.",
+    "duration_6days": "- Up to $50,000 in 6 calendar days.",
+    "duration_14days": "- Over $50,000 in 14 days.",
+    "amountIsRequiredError": "Amount is required greater than 0",
+    "amountIsInvalidError": "Invalid amount",
+    "notEnoughFundsError": "Not enough funds",
+    "successTitle": "Success operation",
+    "successText": "The translation was successfully created",
+    "to": "To:",
+    "from": "From:",
+    "blockedSavingsAccountsInfo": "Withdrawals from the savings account are possible only after the end of the anti-crisis program or as part of the promotion: \"Opening a stable account + withdrawing from the savings\""
+  },
+  "TransferToSaving": {
+    "backTitle": "Transfer to savings account",
+    "toSavings": "From the Savings account",
+    "toWallet": "To the wallet",
+    "sumForTransfer": "Transfer amount",
+    "fullAmount": "Entire amount",
+    "transfer": "Transfer",
+    "amountIsRequiredError": "Amount is required greater than 0",
+    "amountIsInvalidError": "Invalid amount",
+    "notEnoughFundsError": "Not enough funds",
+    "successTitle": "Success operation",
+    "successText": "The transfer was successfully created",
+    "default_error": "Error!",
+    "default_error_message": "Something went wrong. Funds were not transferred",
+    "invalidInputError": "The verification code is incorrect or the code has expired. Please try again",
+    "to": "To:",
+    "from": "From:",
+    "blockedSavingsAccountsAlert": "Be careful! Withdrawal from the savings account is possible only after the end of anti-crisis measures."
+  },
+  "TransferErrors": {
+    "below_minimum_limit": "Error",
+    "below_minimum_limit_message": "The amount is below the minimum limit",
+    "transfer_request_verdraft": "Request creation failed",
+    "transfer_request_verdraft_message": "Not sufficient funds in your wallet to create a new request or to process the current requests",
+    "transfer_disabled": "Error",
+    "transfer_disabled_message": "Transfer request cannot be created.",
+    "transfer_not_found": "Error",
+    "transfer_not_found_message": "The request cannot be cancelled",
+    "transfer_amount_less_than_zero": "Request creation failed",
+    "transfer_amount_less_than_zero_message": "The sum you have entered is invalid",
+    "successTitle": "Success operation",
+    "successText": "The transfer was successfully created",
+    "default_error": "Error!",
+    "default_error_message": "Something went wrong. Funds were not transferred",
+    "p2p_user_not_verified": "Error!",
+    "p2p_user_not_verified_message": "You cannot make a transfer to a user who has not passed KYC",
+    "overdraft": "Error!",
+    "overdraft_message": "Try canceling previous transfer requests",
+    "p2p_email_not_found": "Error!",
+    "p2p_email_not_found_message": "Recepient's E-mail not found",
+    "p2p_phone_not_found": "Error!",
+    "p2p_phone_not_found_message": "Phone number not found",
+    "p2p_phone_not_unique": "Error!",
+    "p2p_phone_not_unique_message": "Phone number is linked to several accounts",
+    "not_exists_code": "Error!",
+    "not_exists_code_message": "Invalid verification code",
+    "p2p_user_email_not_verified": "Transfer error",
+    "p2p_user_email_not_verified_message": "You cannot make a transfer to a user who has not verified e-mail",
+    "validate_errors_newPassword_footnote": "New password error",
+    "validate_errors_newPassword_footnote_message": "Password must be longer than 8 characters and contain at least one capital letter and one digit"
+  },
+  "TransferByEmail": {
+    "emailRequired": "Email required",
+    "invalidEmail": "Invalid E-mail",
+    "amountIsRequiredError": "Amount is required greater than 0",
+    "notEnoughFundsError": "Not enough funds",
+    "successTitle": "Success operation",
+    "successText": "The transfer was successfully created",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Message",
+    "sumForTransfer": "Transfer amount",
+    "backTitle": "Transfer by E-mail",
+    "fullAmount": "Entire amount",
+    "transfer": "Transfer",
+    "backButton": "Back",
+    "limit": "Limit {{limit}} {{currency}}",
+    "confirmTitle": "Confirmation",
+    "confirmMessage": "Confirm the transfer {{amount}} {{coin}} {{account}} to email {{email}}",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "TransferByPhone": {
+    "invalidFormat": "Invalid phone number. Valid example: +71234567890",
+    "amountIsRequiredError": "Amount is required greater than 0",
+    "notEnoughFundsError": "Not enough funds",
+    "successTitle": "Success operation",
+    "successText": "The transfer was successfully created",
+    "phonePlaceholder": "Phone number",
+    "messagePlaceholder": "Message",
+    "sumForTransfer": "Transfer amount",
+    "backTitle": "Transfer by phone number",
+    "fullAmount": "Entire amount",
+    "transfer": "Transfer",
+    "backButton": "Back",
+    "limit": "Limit {{limit}} {{currency}}",
+    "confirmTitle": "Confirmation",
+    "confirmMessage": "Confirm the transfer {{amount}} {{coin}} {{account}} to phone {{phone}}",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "BottomSheetForm": {
+    "title": "Title",
+    "cancel": "Cancel",
+    "ok": "OK"
+  },
+  "ShopErrors": {
+    "invalid_field": "Error",
+    "invalid_field_message": "The field is invalid",
+    "bookmark_not_found": "Error",
+    "bookmark_not_found_message": "The bookmark is not found",
+    "product_not_found": "Error",
+    "product_not_found_message": "The id of product is wrong",
+    "product_option_not_found": "Error",
+    "product_option_not_found_message": "The product option is not found",
+    "basket_item_not_found": "Error",
+    "basket_item_not_found_message": "The product with the id didn't found in the basket",
+    "category_not_found": "Error",
+    "category_not_found_message": "The category is not found",
+    "brand_not_found": "Error",
+    "brand_not_found_message": "The brand is not found",
+    "product_color_not_foun": "Error",
+    "product_color_not_foun_message": "The product color is not found"
+  },
+  "ShopFeaturedProducts": {
+    "recommendedProducts": "Recommendation",
+    "product_color_not_foun_message": "The product color is not found",
+    "Unavailable quantity": "The maximum available number of products of the same type has been exceeded"
+  },
+  "ShopSort": {
+    "screenTitle": "Sort",
+    "byPopularity": "By popularity",
+    "byPriceAsc": "Ascending price",
+    "byPriceDesc": "Descending price",
+    "byNovelty": "By novelty",
+    "submitButton": "Accept"
+  },
+  "ShopSearchInput": {
+    "search": "Search"
+  },
+  "SunriseProgram": {
+    "title": "Sunrise Program",
+    "pendingText": "Uploading data..."
+  },
+  "SunriseLevelIcon": {
+    "level": "Your level is"
+  },
+  "SunriseProfileInfo": {
+    "pointsInfo": "- 1 discount point is equal to 1 USDT.\n- Bonus points accrued from different products are not counted together. Points accrued from one product cannot be spent on another product.\n- Bonus points do not expire.\n- You can use the accrued bonus points while ordering the corresponding product(s), by informing our assistant about the amount of points you would like to use.",
+    "profileInfo": "Profile information",
+    "userStatus": "Your level",
+    "assignmentDate": "Date of assignment",
+    "userPriveleges": "Priveleges",
+    "userGifts": "Gifts",
+    "cumulativeDiscount": "Accumulation discounts",
+    "accruedPointsHistory": "Previously accrued points"
+  },
+  "SunriseProgramsFullMap": {
+    "privelegeAccess": "Access to private events",
+    "loyaltyLight": "Access to private events and direct investment in low-risk business projects",
+    "loyaltyShine": "Access to private events and direct investment in medium-risk business projects",
+    "loyaltySun": "Access to private events and direct investment in high-risk business projects",
+    "privelegeCoursesSimple": "Additional paid courses at the expense and at the discretion of the company, if the Ambassador offers them.",
+    "privelegeCoursesExtended": "Additional paid courses at the expense and at the discretion of the company, if the Ambassador offers them. And 50% of rewards for lower-level direct Ambassadors",
+    "privelegeAmbassador": "Accumulation discount Amir Guard (80), Amir Smart Club (100), Amir Travel Club (100)",
+    "privelegeRegAmbassador": "Accumulation discount Amir Guard(130), Amir Smart Club (100), Amir Travel Club (200)",
+    "privelegeIntAmbassador": "Accumulation discount Amir Guard(210), Amir Smart Club (100), Amir Travel Club (300)",
+    "privelegeTopAmbassador": "Accumulation discount Amir Guard (340), Amir Smart Club (100), Amir Travel Club (500)",
+    "privelegeBoardMember": "Accumulation discount Amir Guard(550), Amir Smart Club(100), Amir Travel Club (800)",
+    "giftSunriseRay": "Ray package",
+    "giftSunriseLight": "Light package",
+    "giftSunriseShine": "Shine package, cumulative discount Amir Travel Club (50)",
+    "giftSunriseSun": "Sun package, discounts Amir Travel Club (100), Amir Guard (150), Amir Smart (50)",
+    "giftDefaultLight": "Accumulation discount Amir Travel Club (50)",
+    "giftDefaultShine": "Accumulation discounts Amir Travel Club, Amir Guard",
+    "giftDefaultSun": "Accumulation discounts Amir Travel Club (100), Amir Guard (150), Amir Smart (50)",
+    "conditionsSimple": "Opening of line 4 when the activity conditions are met",
+    "conditionsExtended": "Opening of lines 4 and 5 when the activity conditions are met",
+    "conditionsRegAmbassador": "2 A. in different branches",
+    "conditionsIntAmbassador": "2 R.A. in different branches",
+    "conditionsTopAmbassador": "2 I.A. in different branches",
+    "conditionsBoardMember": "2 T.A. in different branches",
+    "none": "-",
+    "regAmbassadorReward": "100% from the income of every direct Ambassador of every level",
+    "intAmbassadorReward": "100% from the income every direct R.A. and direct A.",
+    "topAmbassadorReward": "100% from the income every direct I.A., R.A. and A.",
+    "boardMemberReward": "100% from the income every direct T.A., I.A., R.A. and A.",
+    "conditionRay": "Deposit in the 1st line from 1 000$ or 1000$ on your own deposit",
+    "conditionLight": "Deposit in the 1st line 10 000$ and 2 Ray in the 1st line or 10 000$ on your own deposit",
+    "conditionShine": "Deposit in the 1st line 40 000$ and 3 Light in the 1st line and 100 000$ in total in the structure or 100 000$+ on your own deposit",
+    "conditionSun": "Deposit in the 1st line 200 000$ and 5 Light in the 1st line and 500 000$ in total in the structure or 500 000$+ on your own deposit",
+    "incomeLineSpark": "1 line - 5%",
+    "incomeLineRay": "1 line - 10%, 2 line - 4%",
+    "incomeLineLight": "1 line - 15%, 2 line - 6%, 3 line - 3%",
+    "incomeLineShine": "1 line - 20%, 2 line - 8%, 3 line - 4%",
+    "incomeLineSun": "1 line - 25%, 2 line - 10%, 3 line - 5%",
+    "hiddenGifts1": "Accumulation discount on Amir Travel Club",
+    "hiddenGifts2": "Accumulation discount on Amir Travel Club, Amir Guard",
+    "hiddenGifts3": "Accumulation discount on Amir Travel Club, Amir Guard, Amir Smart"
+  },
+  "SunriseMoreInfoBlock": {
+    "moreAboutProgram": "More about program",
+    "partnerLink": "Partner link",
+    "careerProgram": "Career program",
+    "alertLink": "The link cannot be opened. Please contact customer support.",
+    "partnerName": "Partner's name",
+    "invite": "Invite by E-mail",
+    "unsupportedURL": "This link is no longer supported:",
+    "shareTitle": "Share app with referral code (beta)",
+    "shareButton": "Share",
+    "copy": "Copy",
+    "send": "Send"
+  },
+  "SunriseUserInfoRow": {
+    "infoTitle": "Information",
+    "level": "Level",
+    "account": "Account",
+    "accountStructure": "Account of structure",
+    "previousMonthIncome": "Prevoius month income",
+    "numberOfPartners": "Number of partners",
+    "ambassadorPartner": "Ambassador",
+    "partner": "Partner",
+    "activity": "Activity",
+    "noPartner": "Partner not found",
+    "noAmbassador": "Ambassador not found"
+  },
+  "LoyaltyLandingScreen": {
+    "shortTitle": "Loyalty Program",
+    "title": "Welcome to Amir Capital Loyalty Program!",
+    "shortInfo": "We award you with Sollar points, privileges, and gifts based on your own deposit amount (the total amount from all accounts).",
+    "howItWorksTitle": "How does Loyalty Program work?",
+    "howItWorksText": "Loyalty Program status depends on the deposit amount, which also defines what privileges and gifts will be available for you. Sollar points are accrued every month, with 2 Sollar points being given for every 10 000 USDT.",
+    "programLevelsTitle": "Loyalty Program levels and their privileges",
+    "getUSDTTitle": "How can I get not only Sollar points, but also USDT?",
+    "getUSDTText": "Join the Sunrise Program to gain additional income in USDT and Sollar points not only from your activities, but also from your partners’ activities.",
+    "moreAboutSunrise": "Learn more about Sunrise Program"
+  },
+  "SunriseLandingScreen": {
+    "shortTitle": "Sunrise Program",
+    "title": "Welcome to Amir Capital Sunrise Program!",
+    "alreadyJoinedButton": "Already Joined Sunrise Program",
+    "joinSunriseButton": "Join Sunrise Program",
+    "shortInfo": "Join Sunrise Program to get additional income in USDT and Sollar points not only from your activity, but also from your partners’ activity.",
+    "howItWorksTitle": "How does Sunrise Program work?",
+    "howItWorksText": "Having joined the program, you can invite your partners to join it too, which will result in you profiting from their income and income of their referrals. The larger the deposit amount and the bigger the number of referrals in your system, the higher your status and the more opportunities you have.",
+    "programLevelsTitle": "Sunrise Program levels and their privileges",
+    "becomeAmbassadorTitle": "Want more? Become an Amir Capital Ambassador",
+    "becomeAmbassadorText": "Be a part of the Amir Partners financial intelligence group – the community that is engaged in educating others in the sphere of financial well-being, maintaining the values and carrying out the missions of Amir Capital Group.",
+    "figureOutMore": "Learn more",
+    "joinSunriseTitle": "Join Sunrise Program",
+    "joinSunriseText": "By clicking this join button you agree with Sunrise Program conditions",
+    "joinSunriseConditions": "Sunrise Program;",
+    "joinSunriseConductCode": "Partner's Code of Ethics;",
+    "joinSunriseAgreement": "Public offer Agreement;",
+    "join": "Join",
+    "close": "Close",
+    "unsupportedURL": "This link is no longer supported:"
+  },
+  "AmbassadorLandingScreen": {
+    "shortTitle": "Program for Ambassadors",
+    "title": "Want more? Become an Amir Capital Ambassador!",
+    "shortInfo": "Be a part of the Amir Partners financial intelligence group – the community that is engaged in educating others in the sphere of financial well-being, maintaining the values and carrying out the missions of Amir Capital Group.",
+    "howToBecomeAmbassadorTitle": "How to become an Ambassador?",
+    "howToBecomeAmbassadorText": "- 5 Light + in the 1st line and 21 Light + in the first 3 lines;\n- Complete basic modules in Amir Academy;\n- Pass a committee interview;\n- Sign The Ambassador Code.",
+    "programLevelsTitle": "Status of Ambassadors and their privileges ",
+    "programLevelsHint": "The discounts are activated on the first day of the month if all the requirements are met, otherwise they get deactivated.",
+    "applyRequestButton": "Submit Application",
+    "close": "Close",
+    "join": "Join",
+    "joinAmbassadorTitle": "Join Ambassador Program",
+    "joinAmbassadorText": "By clicking this join button, you accept the terms of Ambassador Program",
+    "joinAmbassadorConditions": "Ambassador Program;",
+    "joinAmbassadorConductCode": "Ambassador's Code of Ethics;",
+    "joinSunriseAgreement": "Public offer Agreement;",
+    "unsupportedURL": "This link is no longer supported:"
+  },
+  "SunriseProgramsCardSlider": {
+    "hint": "*swipe right to see the next card"
+  },
+  "SunriseProgramsInfoCard": {
+    "deposit": "Deposit",
+    "priveleges": "Priveleges",
+    "gifts": "Gifts",
+    "monthlyReward": "Monthly reward",
+    "conditionsToLevelUp": "Conditions for raising the status",
+    "conditionsForStructure": "Conditions for structure",
+    "level": "Level",
+    "income": "Income"
+  },
+  "SunriseStore": {
+    "nameRequired": "Specify name of referral",
+    "addReferralTitleSuccess": "Operation was completed successfully",
+    "addReferralMessageSuccess": "Invitation message was sent to the user",
+    "joinedSunriseTitle": "Joining was completed",
+    "joinedSunriseMessage": "Congratulations, you have joined Sunrise Program",
+    "joinedAmbassadorTitle": "Joining was completed",
+    "joinedAmbassadorMessage": "Congratulations, you have joined Ambassador Program"
+  },
+  "Sunrise": {
+    "structure": "Structure",
+    "lineName": " line",
+    "showContacts": "Share my contact information",
+    "detalization": "Detalization",
+    "comment": "Comment",
+    "balance": "Balance",
+    "discountHistoryTitle": "History of additional",
+    "debit": "debit",
+    "cumulative_discount_monthly_payment": "Monthly charge for",
+    "year": "year",
+    "the": "The",
+    "lineScreenTitle": "-th line",
+    "linePartnerTitle": "Parnters of the line",
+    "equivalent": "Equivalent",
+    "account": "Account",
+    "lowerThe": "the",
+    "thOfLine": "th of line",
+    "noData": "No data for the selected date"
+  },
+  "SunriseErrors": {
+    "changeShowContacts": "Error change the 'Share my contact information'",
+    "referral_email_already_exists": "Invitation email error",
+    "referral_email_already_exists_message": "This user cannot be invited again",
+    "account_not_found": "Error",
+    "account_not_found_message": "User not found",
+    "already_joined": "Error",
+    "already_joined_message": "You have already joined this program. Please restart the application",
+    "deposit_must_be_greater": "Error",
+    "deposit_must_be_greater_message": "For full access to the affiliate program it is necessary to replenish the Saving/Stable+ accounts or buy a subscription with a total cost of at least $100.",
+    "must_be_partner": "Error",
+    "must_be_partner_message": "You do not have a higher partner to join the program. Please contact customer support"
+  },
+  "SunriseAmbassadorActivity": {
+    "backButtonText": "Activity",
+    "helpButtonText": "Accruing Sollar-points",
+    "sollarCondition": "Required activity status",
+    "totalReceived": "Final potential reward",
+    "partnersDetailsTitle": "Increasing the number of partners in the structure",
+    "cashDetailsTitle": "Increasing the amount of money in the structure",
+    "max": "Previous maximum",
+    "helpTitle": "Rules for accruing Sollar-points based on the activity status",
+    "rule1Title": "Rule 1",
+    "rule1Text": "Only the 3rd line is taken into account, while calculating growth in the partner body and in the amount of money in the structure",
+    "rule2Title": "Rule 2",
+    "rule2Text": "An Ambassador gets 1 Sollar-point for each new partner in the accounting period, if the clients have gone through KYC procedure, but HAVE NOT achieved any status. If a partner has undergone KYC procedure and have RECEIVED a status, the Ambassador gets Sollar-points according to rule 3",
+    "rule3Title": "Rule 3",
+    "rule3Text": "The Ambassador gets Sollar-points for the new partners with status, depending on the previous maximum rate of growth in the partner body:\nSpark - 2 Sollars;\nRay - 3 Sollars;\nLight - 5 Sollars;\nShine - 8 Sollars;\nSun - 13 Sollars.",
+    "rule4Title": "Rule 4",
+    "rule4Text": "1 Sollar is accrued for every 1% increase compared to the previous maximum monthly income within each currency. The maximum number of Sollars that can be accrued within each currency is 34.",
+    "rule5Title": "Rule 5",
+    "rule5Text": "Regional ambassadors get a 100% from the Sollar amount for each direct ambassador in the structure (of any status). Note that the 2 ambassadors of the lower status, as well as the ambassador himself/herself, are to keep up the activity status.",
+    "rule6Title": "Rule 6",
+    "rule6Text": "Sollars are not accrued for the 4-5 lines (however, payments for the representatives of the 4-5 lines are preserved)."
+  },
+  "MonthPicker": {
+    "cancelButton": "Cancel",
+    "okButton": "Done"
+  },
+  "SunrisePartnerScreen": {
+    "title": "Partner",
+    "partnerInfo": "Partner information",
+    "phoneNumber": "Phone",
+    "email": "E-mail",
+    "registrationDate": "Registration date",
+    "statusDate": "Status assignment date",
+    "referrer": "Referrer",
+    "statusAbsent": "Status not assigned"
+  },
+  "referralSystem": {
+    "shareMessage": "Amir Wallet is a new stage in your relationship with cryptocurrencies!"
+  },
+  "MaintenanceView": {
+    "sorry": "Sorry, technical error has occurred. We should be back shortly. Thank you for your patience."
+  },
+  "GlobalPassBio": {
+    "backButtonText": "Back",
+    "titlePendingFaceauthWithdraw": " Pending. Your request is being processed"
+  },
+  "TokenSale": {
+    "title": "Tokens",
+    "welcome": "Amir Capital platform for launching tokens",
+    "price": "Price",
+    "tokensAvailable": "Available tokens",
+    "buttonBuy": "Buy",
+    "buttonEdit": "Edit",
+    "salesStart": "Start of sales",
+    "salesEnd": "End of sales",
+    "participants": "Participants",
+    "available": "Available",
+    "notFound": "Error has occurred. Please try later",
+    "description": "Full description of the project",
+    "successTitle": "Success operation",
+    "successText": "Purchase was successfully completed",
+    "details": "Details"
+  },
+  "TokenSaleBuy": {
+    "buy": "Buy",
+    "currency": "Choose currency:",
+    "give": "Give",
+    "get": "Get",
+    "amountPlaceholder": "Enter amount"
+  },
+  "TokenSaleStore": {
+    "enterInteger": "The amount received must be a multiple of the price",
+    "invalidDecimal": "Price is invalid",
+    "minPriceUSDT": "Please specify the amount of USDT at least the minimum token value",
+    "minPriceSOL": "Please specify the amount of SGC at least the minimum token value",
+    "minPrice": "Please specify the amount of {{currency}} at least the minimum token value",
+    "maxUSDTPrice": "Amount of USDT exceeds the value of the remaining tokens",
+    "maxSOLPrice": "Amount of SGC exceeds the value of the remaining tokens",
+    "maxPrice": "Amount of {{currency}} exceeds the value of the remaining tokens"
+  },
+  "TokenSaleWallet": {
+    "buyToken": "Buy",
+    "editToken": "Edit",
+    "info": "Information",
+    "equivalentInUSDT": "Equivalent in USDT",
+    "transactionHistory": "Operations history",
+    "to": "to: ",
+    "from": "from: ",
+    "message": "message: "
+  },
+  "TokenSaleEdit": {
+    "editTokenSale": "Edit token sale",
+    "price": "Price",
+    "participants": "Participants",
+    "availablePaySol": "Selling for SGC",
+    "availablePayments": "Sale for",
+    "atLeastSelectOne": "Please select at least one currency",
+    "isPublished": "Published",
+    "all": "All",
+    "specific": "Only chosen",
+    "yes": "Yes",
+    "no": "No",
+    "priceTitle": "Price",
+    "newPrice": "New price",
+    "allUsers": "All",
+    "selectUserCategory": "Choose category",
+    "participantsTitle": "Participants",
+    "whoCanBuyTokens": "Who can buy tokens:",
+    "sollarTitle": "Selling for Sollar",
+    "amountPlaceholder": "Enter amount",
+    "save": "Save",
+    "successTitle": "Success operation",
+    "successText": "Token was successfully edited"
+  },
+  "WithdrawErrors": {
+    "undefined": "Error",
+    "undefined_message": "Error has occurred. Please try later",
+    "must_have_fee_speed": "Error",
+    "must_have_fee_speed_message": "Please select the transaction speed",
+    "twofa_check_failed": "Error",
+    "title": "Order was not created!",
+    "withdraw_throttling_error": "Next withdraw action available in",
+    "withdraw_throttling_error_days": "days",
+    "withdraw_too_big_amount": "The maximum withdrawal amount is "
+  },
+  "AccountDomain": {
+    "delAccountAskTitle": "Account deleting!",
+    "delAccountAskMessage": "Are you sure you want to delete the account?\nYou will have to send an email to support@amirwallet.com for the later restore the account",
+    "delAccountAskCancel": "Cancel",
+    "delAccountAnswerSuccess": "The account has been successfully deleted"
+  },
+  "AccountDomainErrors": {
+    "login_user_is_deleted": "The account has been deleted - write to support@amirwallet.com"
+  },
+  "PermissionDomain": {
+    "featureNotAvailable": "This feature isn't available on your phone",
+    "allowCamera": "Allow app to use the camera",
+    "allowLocation": "Allow app to use the geolocation",
+    "openSettings": "Open settings?"
+  },
+  "PermissionDomainErrors": {
+    "somethingWentWrong": "Error!",
+    "somethingWentWrong_message": "Something went wrong!"
+  },
+  "CommonInterface": {
+    "no_internet": "THERE IS NO INTERNET CONNECTION",
+    "save": "Save",
+    "successTitle": "Success operation",
+    "successText": "Token successfully updated"
+  },
+  "SecurityServiceDomainErrors": {
+    "undefined": "Error",
+    "undefined_message": "Error has occurred. Please try later",
+    "must_have_fee_speed": "Error",
+    "must_have_fee_speed_message": "Please select the transaction speed",
+    "twofa_check_failed": "Error",
+    "twofa_check_failed_message": "2fa error",
+    "title": "Order was not created!",
+    "withdraw_throttling_error": "Next withdraw action available in",
+    "withdraw_throttling_error_days": "days",
+    "withdraw_too_big_amount": "The maximum withdrawal amount is "
+  },
+  "DeleteAccount": {
+    "backButtonText": "Delete Account",
+    "message_1_1": "You can send an email with a removal request to ",
+    "message_1_email": "support@amir.capital",
+    "message_1_link": "mailto:support@amir.capital",
+    "message_1_2": ". We will delete the account 5 years after receiving the request.",
+    "message_2": "Amir Capital Group OÜ (registration number No 14698286) registered at: Estonia, Harju maakond, Tallinn, Lasnamäe linnaosa, Valukoja tn 8/2, 11415 operates under Estonian licenses. Pursuant to Article 47 (Retention of Data) Chapter 4 (Collection, Storage and Protection of Data) of the Money Laundering and Terrorist Financing Prevention Act 19 and articles 76-80 from 01.09.2018 and articles 81 and 95 from 01.01.2019) must store customer data for at least five years after the termination of the business relationship."
+  },
+  "Review": {
+    "Title": "Rate ⭐ ⭐ ⭐ ⭐ ⭐",
+    "Message": "Help us made our Amir Wallet application better and comfortable👇 \nRate and leave a honest review.\nJust write down what matters to you and what you want to change or add!\nIt is indeed important to us 🙌",
+    "NotNow": "Not now",
+    "Review": "Leave a review",
+    "NoTY": "No, thanks"
+  },
+  "AWT": {
+    "title": "Уважаемый инвестор!",
+    "line_1": "С 6.08.22 при открытии счёта Стабильный вы имеете право вывести из Накопительного счета:",
+    "line_2": "✅ на 1 год - 5% от суммы счёта Стабильный;",
+    "line_3": "✅ на 2 года -10% от суммы счёта Стабильный;",
+    "line_4": "✅ на 3 года -15% от суммы счёта Стабильный;",
+    "line_5": "✅ на 5 лет - 20% от суммы счёта Стабильный;",
+    "line_6": "✅ на 8 лет - 25% от суммы счёта Стабильный.",
+    "line_7": "*ежемесячно , в валюте счета стабильный",
+    "line_8": "Подробности: ",
+    "line_8_link": "https://t.me/amir_capital/4497",
+    "line_9_1": "Если вы еще не проходили верификацию в сервисе Global Pass в 2022 году, просьба пройти процедуру в вашем личном кабинете - инструкция здесь (",
+    "line_9_link": "https://t.me/amir_capital/4223",
+    "line_9_2": ").",
+    "line_10": "ВНИМАНИЕ!",
+    "line_11": "Выводы из Накопительного счета временно не обрабатываются.",
+    "line_12": "Ответы на все вопросы в Клиентском сервисе: ",
+    "line_12_link": "support@amir.capital",
+    "line_12_href": "mailto:support@amir.capital"
+  },
+  "ShopDomain": {
+    "sollarGiftRulesTitle": "Sollar Gifts rules",
+    "sollarGiftRules1": "I ",
+    "sollarGiftRules2": "agree with the rules ",
+    "sollarGiftRules3": "for exchanging SGC for goods in the bonus program - “SollarGifts”",
+    "yes": "Yes",
+    "no": "No",
+    "didAgree": "According to the Sollar Gifts rules you must agree with the next rules",
+    "showAgree": "Show the agreement"
+  },
+  "SunriseDomain": {
+    "title": "The Partner Code",
+    "desc_1": "To continue using your account, you need to read and accept ",
+    "desc_2": "Amir Partner Code conditions",
+    "confirm": "I have read and accepted the Partner code",
+    "no": "Close",
+    "yes": "Confirm",
+    "didAgree": "According to the rules of 'The Partner Code' you must agree with the next rules",
+    "showAgree": "Show the agreement"
+  },
+  "TwoFAWarning": {
+    "twofa_title": "2FA is not installed.",
+    "twofa_text": "2FA must be installed before any spending transactions.",
+    "kyc_title": "KYC verification is required",
+    "kyc_text1": "Until you pass the verification, you have limited access to your personal account. the total daily limit on transactions is set:",
+    "kyc_text2": "- Withdrawal to an external wallet - up to 1000 USDT equivalent in all currencies",
+    "kyc_text3": "- Transfer to Amir Capital fund clients - up to 1000 USDT equivalent in all currencies",
+    "kyc_text4": "- Company token purchase - without limitation"
+  },
+  "TransactionLimitExceeded": {
+    "text": "Transaction limit exceeded. To remove the limit on the amount of transactions, go through verification"
+  },
+  "ReferralLinkDomainErrors": {
+    "referral_email_already_exists": "Invitation email error",
+    "referral_email_already_exists_message": "This user cannot be invited again",
+    "account_not_found": "Error",
+    "account_not_found_message": "User not found",
+    "already_joined": "Error",
+    "already_joined_message": "You have already joined this program. Please restart the application",
+    "deposit_must_be_greater": "Error",
+    "deposit_must_be_greater_message": "For full access to the affiliate program it is necessary to replenish the Saving/Stable+ accounts or buy a subscription with a total cost of at least $100.",
+    "must_be_partner": "Error",
+    "must_be_partner_message": "You do not have a higher partner to join the program. Please contact customer support"
+  },
+  "UI": {
+    "successSavedTitle": "",
+    "successSavedText": "The changes have been successfully saved!",
+    "unsupportedURL": "This link is no longer supported:",
+    "to": "To:",
+    "from": "From:",
+    "to: ": "to: ",
+    "from: ": "from: ",
+    "message: ": "message: ",
+    "btcWallet": "BTC wallet",
+    "ethWallet": "ETH wallet",
+    "usdtWallet": "USDT wallet",
+    "awtWallet": "AWT wallet",
+    "btcSaving": "BTC saving",
+    "ethSaving": "ETH saving",
+    "usdtSaving": "USDT saving",
+    "fromwallet": "from the wallet account",
+    "fromsavings": "from the savings account"
+  },
+  "UIErrors": {
+    "amountIsInvalidError": "Invalid amount"
+  }
+}

@@ -1,0 +1,2162 @@
+{
+  "AppDomainErrors": {
+    "default_error": "Ошибка!",
+    "default_error_message": "Что-то пошло не так",
+    "invalid_code": "Код невалиден",
+    "invalid_code_message": "Неверный код",
+    "registration_incorrect_email": "Ошибка регистрации",
+    "registration_incorrect_email_message": "Вы ввели некорректный e-mail",
+
+    "registration_incorrect_referral": "Ошибка регистрации",
+    "registration_incorrect_referral_message": "Данная реферальная ссылка недействительная",
+
+    "registration_incorrect_phone": "Ошибка регистрации",
+    "registration_incorrect_phone_message": "Номер телефона указан некорректно",
+
+    "registration_phone_in_use": "Номер телефона занят",
+    "registration_phone_in_use_message": "Номер телефона используется на другом аккаунте",
+
+    "registration_incorrect_password_policy": "Ошибка регистрации",
+    "registration_incorrect_password_policy_message": "Пароль не подходит под требования безопасонти",
+
+    "registration_user_exists": "Ошибка регистрации",
+    "registration_user_exists_message": "Данный пользователь уже зарегистрирован",
+
+    "login_no_device_token": "Сессия преврана",
+    "login_no_device_token_message": "Пожалуйста, перезагрузите страницу и зайдите снова",
+
+    "login_invalid_sign": "Сессия преврана",
+    "login_invalid_sign_message": "Пожалуйста, перезагрузите страницу и зайдите снова",
+
+    "invalid_sign_message": "Произошла ошибка, пожалуйста, обратитесь в поддержку",
+    "wrong_pin_code_title": "Ошибка",
+    "wrong_pin_code_message": "Неверный пин-код при настройке. Пожалуйста, попробуйте еще раз",
+
+    "login_user_not_found": "Ошибка авторизации",
+    "login_user_not_found_message": "Данный аккаунт не найден",
+
+    "login_user_not_verified": "E-mail не подвержден",
+    "login_user_not_verified_message": "Пожалуйста, зайдите на e-mail и перейдите по ссылке из нашего письма для подтверждения",
+
+    "validation_error": "Невозможно войти на портал",
+    "validation_error_message": "Пожалуйста, обратитесь в службу поддержки",
+
+    "internal_error": "Невозможно войти на портал",
+    "internal_error_message": "Пожалуйста, обратитесь в службу поддержки",
+
+    "login_captcha_required": "Ошибка Входа",
+    "login_captcha_required_message": "Каптча не пройдена",
+
+    "withdraw_need_kyc": "Ошибка создания заявки",
+    "withdraw_need_kyc_message": "Вам необходимо пройти верификацию КУС",
+    "withdraw_google_or_phone_verification_required": "Ошибка создания заявки",
+    "withdraw_google_or_phone_verification_required_message": "Вы ввели некорректный код 2факторной защиты",
+    "withdraw_google_or_phone_required": "Ошибка создания заявки",
+    "withdraw_google_or_phone_required_message": "Не установлена 2факторная защита",
+    "withdraw_email_verification_required": "Ошибка создания заявки",
+    "withdraw_email_verification_required_message": "Вы не подтвердили свой адрес e-mail.",
+    "withdraw_target_account_not_found": "Ошибка создания заявки",
+    "withdraw_target_account_not_found_message": "Введен некорректный адрес кошелька",
+    "withdraw_target_incorrect_amount": "Ошибка создания заявки",
+    "withdraw_target_incorrect_amount_message": "Введена некорректная сумма",
+    "withdraw_target_overdraft": "Ошибка создания заявки",
+    "withdraw_target_overdraft_message": "Недостаточно средств на кошельке для создания новой заявки и обработки текущих.",
+    "withdraw_target_too_big_amount": "Ошибка создания заявки",
+    "withdraw_target_too_big_amount_message": "Недостаточно средств на кошельке",
+    "withdraw_target_min_amount_required": "Ошибка создания заявки",
+    "withdraw_target_min_amount_required_message": "Введена слишком маленькая сумма",
+    "withdraw_usdt_min_amount_required": "Ошибка создания заявки",
+    "withdraw_usdt_min_amount_required_message": "Введена слишком маленькая сумма",
+    "withdraw_incorrect_fund_type": "Ошибка создания заявки",
+    "withdraw_incorrect_fund_type_message": "Указан некорректный тип фонда перевода",
+    "withdraw_should_be_in_date_range": "Ошибка создания заявки",
+    "withdraw_should_be_in_date_range_message": "Код 2факторной защиты истек",
+    "withdraw_invalid_addr": "Ошибка создания заявки",
+    "withdraw_invalid_addr_message": "Введенный некорректный адрес",
+    "widthdraw_invalid_amount": "Ошибка создания заявки",
+    "widthdraw_invalid_amount_message": "Введена некорректная сумма",
+    "withdraw_no_account": "Ошибка создания заявки",
+    "withdraw_no_account_message": "Введенный адрес получателя не найден",
+    "receiver_self_reference": "Ошибка создания заявки",
+    "receiver_self_reference_message": "Адрес получателя соответствует адресу отправителя",
+    "withdraw_overdraft": "Ошибка создания заявки",
+    "withdraw_overdraft_message": "Недостаточно средств на кошельке для создания новой заявки и обработки текущих.",
+    "withdraw_limit_per_day": "Ошибка создания заявки",
+    "withdraw_limit_per_day_message": "Превышен суточной лимит вывода средств",
+    "no_receiver_data": "Ошибка создания заявки",
+    "no_receiver_data_message": "Адрес получателя введен некорректно или не найден",
+    "no_amount": "Ошибка создания заявки",
+    "no_amount_message": "Не указана сумма",
+    "receiver_not_found": "Ошибка создания заявки",
+    "receiver_not_found_message": "Адрес получателя введен некорректно или не найден",
+    "withdraw_verification_failed": "Ошибка создания заявки",
+    "withdraw_verification_failed_message": "Введен неверный код 2фа",
+    "withdraw_incorrect_verify_topic": "Ошибка создания заявки",
+    "withdraw_incorrect_verify_topic_message": "Введен неверный код 2фа",
+    "withdraw_face_verify_timeout": "Ошибка создания заявки",
+    "withdraw_face_verify_timeout_message": "Не удалось идентифицировать лицо. Попробуйте еще раз.",
+    "incorrect_fund": "Ошибка создания заявки",
+    "incorrect_fund_message": "Указан некорректный тип фонда перевода",
+    "withdraw_cancel_request_not_found": "Ошибка",
+    "withdraw_cancel_request_not_found_message": "Нельзя отменить заявку на вывод",
+    "withdraw_request_invalid_id": "Ошибка",
+    "withdraw_request_invalid_id_message": "Невозможно создать запрос. Повторите попытку.",
+    "withdraw_request_invalid_status": "Ошибка",
+    "withdraw_request_invalid_status_message": "Невозможно создать запрос. Повторите попытку.",
+    "withdraw_tx_type_not_supported": "Ошибка",
+    "withdraw_tx_type_not_supported_message": "Нельзя отменить заявку на вывод",
+    "withdraw_tx_hash_required": "Ошибка",
+    "withdraw_tx_hash_required_message": "Отсутсвие хеша транзакции",
+    "withdraw_denied": "Ошибка",
+    "withdraw_denied_message": "Данный запрос отклонен. Обратитесь в службу поддержки.",
+    "transfer_request_verdraft": "Ошибка создания заявки",
+    "transfer_request_verdraft_message": "Недостаточно средств на кошельке для создания новой заявки и обработки текущих.",
+    "transfer_disabled": "Ошибка",
+    "transfer_disabled_message": "Невозможно создать заявку на перевод.",
+    "transfer_not_found": "Ошибка",
+    "transfer_not_found_message": "Нельзя отменить заявку",
+    "verification_code_not_found": "Ошибка создания заявки",
+    "verification_code_not_found_message": "Введен неверный код 2фа",
+    "verification_code_attemp_limit": "Ошибка создания заявки",
+    "verification_code_attemp_limit_message": "Код 2факторной защиты истек",
+    "invalid_leading_field": "Ошибка создания заявки",
+    "invalid_leading_field_message": "Введена некорректная сумма",
+    "incorrect_to_fund": "Ошибка создания заявки",
+    "incorrect_to_fund_message": "Указана некорректная валюта получения",
+    "incorrect_from_fund": "Ошибка создания заявки",
+    "incorrect_from_fund_message": "Указана некорректная валюта отправления",
+    "incorrect_withdraw_date_range": "Ошибка создания заявки",
+    "incorrect_withdraw_date_range_message": "Невозможно создать запрос на вывод",
+    "transfer_amount_less_than_zero": "Ошибка создания заявки",
+    "transfer_amount_less_than_zero_message": "Введена некорректная сумма",
+
+    "insufficient_funds": "Ошибка",
+    "insufficient_funds_message": "Недостаточно средств",
+    "invalid_amount": "Ошибка",
+    "invalid_amount_message": "Неверная сумма",
+    "failed_to_verify": "Ошибка",
+    "failed_to_verify_message": "Неверный код",
+
+    "error": "Ошибка",
+    "usdt value should be greater than 50$": "usdt значение должно быть больше 50$",
+
+    "not_found": "Ошибка",
+    "not_found_message": "Неверный пин-код",
+
+    "invalid hash": "Ошибка",
+    "invalid hash_message": "Пин-код не совпадает",
+
+    "sms_minimal_delay": "Ошибка",
+    "sms_minimal_delay_message": "Вы исчерпали лимит отправляемых сообщений. Попробуйте позже",
+
+    "pre_device_token_invalid": "Ошибка",
+    "pre_device_token_invalid_message": "Невалидный код",
+
+    "incorrect amount": "Ошибка",
+    "incorrect amount_message": "Некорректная сумма",
+
+    "not_exists_code": "Ошибка!",
+    "not_exists_code_message": "Введенный код неверен",
+
+    "withdraw_fee mismatch": "Ошибка",
+    "withdraw_fee mismatch_message": "Рассинхронизация комиссий. Попробуйте снова",
+    "withdraw_suspended": "Ошибка",
+    "withdraw_suspended_message": "Сервис выводов временно приостановлен",
+    "withdraw_Invalid address": "Ошибка",
+    "withdraw_Invalid address_message": "Неверный адрес",
+
+    "invalid_address": "Ошибка создания заявки",
+    "invalid_address_message": "Введенный некорректный адрес",
+
+    "must_have_fee": "Ошибка",
+    "must_have_fee_message": "Необходимо выбрать cкорость транзации",
+
+    "verify_code_invalid": "Ошибка",
+    "verify_code_invalid_message": "Неверный код",
+
+    "cannot_use_withdraw_yet_message": "Извините, операция временно приостановлена. Мы уже работаем на этой проблемой",
+    "cannot_buy": "Ошибка покупки",
+    "cannot_buy_message": "Вы не можете купить токен",
+    "overdraft": "Ошибка при покупке",
+    "overdraft_message": "Вы превысили лимит покупок",
+
+    "login_user_was_deleted": "Ошибка",
+    "login_user_was_deleted_message": "Учетная запись удалена - пишите в support@amirwallet.com",
+
+    "2fa_must_be_enabled": "Ошибка",
+    "2fa_must_be_enabled_message": "2FA должен быть включен",
+
+    "use_p2p_instead": "Ошибка",
+    "use_p2p_instead_message": "Вместо этого используйте P2P",
+
+    "login_user_not_found_by_pass": "Ошибка авторизации",
+    "login_user_not_found_by_pass_message": "Данный аккаунт не найден. Неправильный пароль?",
+
+    "incorrect_password_policy": "Некорректный пароль",
+    "incorrect_password_policy_message": "Старый и новый пароль должны содержать не менее 8 латинских букв и цифр, хотя бы одна из букв должна быть заглавной",
+    "fee_mismatch": "Ошибка",
+    "fee_mismatch_message": "Неверно выбрана комиссия. Обратитесь к разработчикам"
+  },
+  "ServerDomainErrors": {
+    "TokenSale": "Обратитесь в службу поддержки",
+    "TokenSale_message": "Сервис работы с токенами на данный момент недоступен",
+    "twoFaDomain": "Обратитесь в службу поддержки",
+    "twoFaDomain_message": "Проблемы с работой 2fa",
+    "Shop": "Обратитесь в службу поддержки",
+    "Shop_message": "Сервис работы с магазином на данный момент недоступен",
+    "Withdraw": "Обратитесь в службу поддержки",
+    "Withdraw_message": "Сервис работы с выводами на данный момент недоступен",
+    "securityServiceDomain": "Обратитесь в службу поддержки",
+    "securityServiceDomain_message": "Работа с некоторыми сервисами на данный момент недоступна",
+    "StableDomain": "Обратитесь в службу поддержки",
+    "StableDomain_message": "Сервис работы со стабильными счетами на данный момент недоступен",
+    "Sunrise": "Обратитесь в службу поддержки",
+    "Sunrise_message": "Работа с санрайз программой на данный момент недоступна",
+    "KycDomain": "Обратитесь в службу поддержки",
+    "KycDomain_message": "Работа с kyc на данный момент недоступна",
+    "EmptyDomain": "Обратитесь в службу поддержки",
+    "EmptyDomain_message": "Один из сервисов не работает",
+    "AccountDomain": "Обратитесь в службу поддержки",
+    "AccountDomain_message": "Один из сервисов не работает",
+    "Transfer": "Обратитесь в службу поддержки",
+    "Transfer_message": "Один из сервисов не работает"
+  },
+  "GlobalPassBio": {
+    "backButtonText": "Назад",
+    "titlePendingFaceauthWithdraw": "Ожидается. Ваша заявка передана в обработку"
+  },
+  "TabNavigator": {
+    "amirWallet": "Amir Wallet",
+    "amirFinance": "Amir Finance",
+    "amirInvest": "Amir Invest",
+    "transfer": "Переводы",
+    "shop": "SollarGifts",
+    "profile": "Профиль",
+    "sunrise": "Sunrise",
+    "tokenSale": "Токены"
+  },
+  "Initial": {
+    "signIn": "Войти",
+    "signUp": "Создать аккаунт",
+    "exchange": "Обмен",
+    "storage": "Хранение",
+    "increase": "Приумножение"
+  },
+  "SignIn": {
+    "title": "Вход в аккаунт",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Пароль",
+    "submit": "Войти"
+  },
+  "SignUp": {
+    "title": "Создание аккаунта",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Пароль",
+    "namePlaceholder": "Имя",
+    "phonePlaceholder": "Номер телефона",
+    "referralPlaceholder": "Реферал",
+    "submit": "Создать"
+  },
+  "signUpFormStore": {
+    "emailRequiredError": "Необходимо ввести email",
+    "emailInvalidError": "Неверный email",
+    "passwordRequiredError": "Необходимо ввести пароль",
+    "passwordInvalidError": "Неверный пароль. Он должен включать в себя как минимум по 1 символу цифры, заглавной и строчной буквы",
+    "passwordTooShortError": "Пароль не должен быть короче 8 символов",
+    "passwordIdenticalCharsError": "Пароль не должен содержать 3 одинаковых символа подряд",
+    "nameRequiredError": "Необходимо ввести имя",
+    "phoneRequiredError": "Необходимо ввести номер телефона",
+    "phoneInvalidError": "Неверный номер телефона. Он должен быть в формате +71234567890",
+    "emailConfirmationAlertTitle": "Подтверждение email",
+    "emailConfirmationAlertMessage": "Откройте письмо, которое мы вам отправили и нажмите на ссылку для подтверждения адреса email",
+    "emailConfirmationAlertButton": "ОК"
+  },
+  "signInFormStore": {
+    "emailRequiredError": "Необходимо ввести email",
+    "emailInvalidError": "Неверный email",
+    "passwordRequiredError": "Необходимо ввести пароль"
+  },
+  "RegisterDevice": {
+    "title": "Авторизация устройства",
+    "tip": "Вы пытаетесь войти с неавторизованного устройства. Чтобы авторизовать устройство введите код из письма, которое мы оправили на Ваш E-mail",
+    "codePlaceholder": "Код из письма",
+    "submit": "Авторизовать"
+  },
+  "Deposit": {
+    "screenTitle": "Пополнение",
+    "token": "Токен",
+    "network": "Сеть",
+    "address": "Адрес",
+    "copyButtonText": "Скопировать адрес",
+    "usdtTip": "Для пополнения кошелька USDT вы можете использовать BUSD и USDC. Курс 1/1"
+  },
+  "Transfer": {
+    "appTopbarTitle": "Перевод",
+    "tabRenderError": "Что-то пошло не так",
+    "convertationTab": "Конвертация",
+    "toSavingTab": "В накопительный",
+    "byEmailTab": "По E-mail"
+  },
+  "StablesAllAccounts": {
+    "appTopbarTitle": "Все Стабильные+ счета",
+    "createBrightButton": "Открыть Стабильный+ счет",
+    "allClosedAccounts": "Закрытые Стабильные+ счета",
+    "legacyHint": "Чтобы просмотреть или закрыть счет Стабильный, открытый до февраля 2020, пожалуйста, воспользуйтесь веб-версией приложения"
+  },
+  "SetupPIN": {
+    "step1Title": "Придумайте PIN код (1/2)",
+    "step2Title": "Подтвердите PIN код (2/2)",
+    "errPINsVary": "PIN коды различаются"
+  },
+  "PIN": {
+    "PINFormTip": "Введите PIN"
+  },
+  "CreateBrightAccount": {
+    "appTopbarTitle": "Открытие Стабильный+ счета",
+    "sunnyBookPromoWarning": "На данный момент открытие счета Стабильный+ по Промо (подарок SunnyBook) доступен только с веб-версии сайта",
+    "sunnyBookPromoLink": "Открыть сайт"
+  },
+  "Kyc": {
+    "appTopbarTitle": "KYC",
+    "cameraPermissionTitle": "Разрешите доступ к камере",
+    "cameraPermissionMessage": "Доступ к камере необходим для возможности сфотографировать документы",
+    "cameraPermissionButtonOK": "Разрешить",
+    "cameraPermissionButtonCancel": "Запретить",
+    "successTitle": "Прохождение KYC",
+    "successMessage": "Ваша заявка отправлена",
+    "inProcess": "Your documents are in the verification process"
+  },
+  "MainSettings": {
+    "lang": "ЯЗЫК",
+    "logoutButton": "Выйти из аккаунта",
+    "appTopbarTitle": "Настройки",
+    "twoFactorSectionTitle": "ДВУХФАКТОРНАЯ АУТЕНТИФИКАЦИЯ",
+    "reinvestmentSectionTitle": "РЕИНВЕСТИЦИИ",
+    "changePasswordSectionTitle": "СМЕНА ПАРОЛЯ",
+    "changeEmailSectionTitle": "ТЕКУЩИЙ EMAIL",
+    "changePhoneSectionTitle": "ТЕКУЩИЙ МОБИЛЬНЫЙ"
+  },
+  "StableScreen": {
+    "appTopbarTitle": "Стабильный+",
+    "controlClose": "Закрыть счёт",
+    "deposit": "Первоначальная сумма",
+    "hasCapitalization": "Капитализация дохода",
+    "capTrue": "Да",
+    "capFalse": "Нет",
+    "monthIncome": "Ежемесячный доход",
+    "term": "Срок инвестиций",
+    "termMonthUnit": "мес",
+    "totalPayout": "Общая сумма выплаты",
+    "netIncome": "Ваш чистый доход",
+    "optYes": "Есть",
+    "verifyTitle": "Подтвердите возврат",
+    "verifyText": "Введите верификацонный код для продолжения",
+    "verifySubmit": "Подтвердить",
+    "controlEdit": "Редактировать",
+    "controlInfo": "Информация о счете",
+    "paymentSchedule": "График выплат",
+    "payRest": "Остаток по выплате",
+    "interestRate": "Процентная ставка",
+    "closedAccount": "Счет закрыт",
+    "dateClose": "Дата закрытия",
+    "legacyOpenWeb": "Чтобы закрыть счет, воспользуйтесь веб-версией приложения",
+    "confirmCloseStableTitle": "Подтверждение закрытия счета",
+    "confirmCloseStableBody": "Для подтверждения операции мы отправили Вам код",
+    "confirmCloseStableSubmit": "Подтвердить закрытие счета",
+    "Promo1": "Промо 1",
+    "NoPromo": "Без акции",
+    "Promo": "Акция"
+  },
+  "StableTermsBottomSheet": {
+    "replenishment": "Пополнение",
+    "partialWithdrawal": "Частичное снятие",
+    "prolongation": "Пролонгация",
+    "optYes": "Есть",
+    "optNo": "Не предусмотрено",
+    "earlyClosure": "Досрочное закрытие",
+    "smallText": "По ставке 13% годовых. При досрочном расторжении все реферальные платежи не возвращаются и остаются у вышестоящих получателей",
+    "accountTerms": "Условия вклада"
+  },
+  "StableClose": {
+    "earlyCLosureNotice": "Обращаем Ваше внимание, что при досрочном закрытии счета все ранее зачисленные выплаченные проценты по депозиту пересчитаются по ставке 13% годовых за месяцы вклада, вне зависимости, на какой срок был открыт счет.",
+    "closeStableTitle": "Закрыть Стабильный+ Счет",
+    "noCapitalization": "Без капитала",
+    "cancelCloseStable": "Отменить",
+    "closeStable": "Закрыть счет",
+    "cantClose": "Нельзя закрыть счет без промо"
+  },
+  "TwoFactorVerifyPopup": {
+    "inputLabel": "ВВЕДИТЕ КОД",
+    "cancelButton": "Отмена",
+    "validation": {
+      "tooShort": "Код слишком короткий",
+      "tooLong": "Код слишком длинный",
+      "required": "Необходимо ввести код"
+    }
+  },
+  "TwoFactorRequiresPopup": {
+    "title": "2FA выключена",
+    "text": "Для обеспечения безопасности вашего аккаунта, Вам необходимо настроить двухфакторную аутентификацию. Временно эта опция доступно только в веб версии.",
+    "open": "Перейти на сайт",
+    "close": "Закрыть"
+  },
+  "TransferFromSavingForm": {
+    "selectSourceText": "ОТКУДА ПЕРЕВОДИТЬ?",
+    "selectSourceTitle": "Откуда переводить?",
+    "sumToTransfer": "СУММА К ВЫВОДУ",
+    "sumToTransferPlaceholder": "Сумма в валюте фонда",
+    "transferButton": "ПЕРЕВОД",
+    "confirmTransfer": "Подтверждение перевода",
+    "confirmTransferDetails": "Для подтверждения операции мы отправили Вам код",
+    "confirmTransferButton": "Перевести",
+    "transferSuccess": "Перевод успешно выполнен",
+    "transferAmount": "Укажите сумму перевода",
+    "amountMustBePositive": "Сумма должна быть положительным числом",
+    "selectFund": "Выберите фонд",
+    "insufficientFunds": "Недостаточно средств",
+    "invalidNumber": "Введите число"
+  },
+  "StableAccountWidget": {
+    "closed": "Закрыт",
+    "stable": "Стабильный",
+    "expectedPayout": "Ожидаемая сумма выплат",
+    "until": "до"
+  },
+  "WithdrawForm": {
+    "transferFromWallet": "ВЫВОД С КОШЕЛЬКА",
+    "selectWallet": "Откуда выводить?",
+    "amount": "СУММА",
+    "amountFund": "Сумма в валюте фонда",
+    "targetWallet": "АДРЕС КОШЕЛЬКА",
+    "targetWalletPlaceholder": "Введите или отсканируйте адрес",
+    "address": "Адрес",
+    "dailyWithdrawalLimit": "Суточный лимит на снятие",
+    "withdrawal": "СНЯТИЕ",
+    "withdrawQuestion": "Вывести?",
+    "confirmWithdrawal": "Для подтверждения операции, введите SMS-код",
+    "send": "Отправить",
+    "transferSuccess": "Перевод успешно выполнен",
+    "selectFund": "Выберите фонд",
+    "enterTransferAmount": "Укажите сумму перевода",
+    "enterTargetAddress": "Укажите адрес назначения",
+    "invalidAddress": "Недопустимый адрес",
+    "dailyLimitExceed": "Сумма превышает суточный лимит",
+    "invalidNumber": "Введите число",
+    "amountMustBePositive": "Сумма должна быть положительным числом",
+    "insufficientFunds": "Недостаточно средств"
+  },
+  "AccountAddress": {
+    "copied": "Скопировано",
+    "accountAddress": "АДРЕС СЧЕТА",
+    "generateQrCode": "Сгенерировать QR-код"
+  },
+  "Courses": {
+    "pair": "Пара",
+    "buying": "Покупка",
+    "selling": "Продажа"
+  },
+  "Filter": {
+    "filter": "ФИЛЬТР",
+    "income": "ВВОД",
+    "withdraw": "ВЫВОД",
+    "transfer": "ПЕРЕВОД",
+    "operations": "ОПЕРАЦИИ"
+  },
+  "mapIncomeType": {
+    "input": "Ввод",
+    "income": "Начисление",
+    "commision_1": "Рефералы(1)",
+    "commision_2": "Рефералы(2)",
+    "commision_3": "Рефералы(3)",
+    "commision_4": "Рефералы(4)",
+    "commision_5": "Рефералы(5)",
+    "transferFrom": "Перевод",
+    "transferInput": "Ввод",
+    "transfer": "Перевод",
+    "p2pTransferOutput": "Перевод (E-mail)",
+    "bonus": "Бонусы",
+    "stableBase": "СВ - создание",
+    "stableCreate": "СВ - создание",
+    "stable_refund": "СВ - возврат",
+    "stable_income": "СВ - начисление",
+    "stable_decrease": "СВ - открытие",
+    "withdraw": "Вывод"
+  },
+  "Period": {
+    "week": "Неделя",
+    "month": "Месяц",
+    "year": "Год",
+    "all": "Все"
+  },
+  "SuccessTransferPopup": {
+    "ok": "ОК"
+  },
+  "TransferByEmailForm": {
+    "sourceFund": "ОТКУДА ПЕРЕВОДИТЬ?",
+    "sourceFundPopup": "Откуда переводить?",
+    "targetEmail": "E-MAIL ПОЛУЧАТЕЛЯ",
+    "enterTargetEmail": "Введите E-mail пользователя",
+    "transferAmount": "СУММА К ВЫВОДУ",
+    "amountFund": "Сумма в валюте фонда",
+    "message": "СООБЩЕНИЕ",
+    "messagePlaceholder": "Введите сообщение (необязательно)",
+    "transfer": "ПЕРЕВОД",
+    "verifyTitle": "Подтверждение перевода по E-mail",
+    "verifyBody": "Для подтверждения операции мы отправили Вам код",
+    "verifySubmit": "Перевести",
+    "transferSuccess": "Перевод успешно выполнен",
+    "invalidNumber": "Введите число",
+    "amountMustBePositive": "Сумма должна быть положительным числом",
+    "insufficientFunds": "Недостаточно средств",
+    "selectFund": "Выберите фонд",
+    "enterAmount": "Укажите сумму перевода",
+    "invalidEmail": "Введите корректный E-mail"
+  },
+  "TransferConvertationForm": {
+    "sourceFund": "ОТКУДА ПЕРЕВОДИТЬ?",
+    "sourceFundTitle": "Откуда переводить?",
+    "destinationFund": "КУДА ПЕРЕВОДИТЬ?",
+    "destinationFundTitle": "Куда выводить?",
+    "transferAmount": "СУММА К ВЫВОДУ",
+    "amountFund": "Сумма в валюте фонда",
+    "destinationFundAmount": "СУММА К ПОЛУЧЕНИЮ",
+    "destinationFundAmountPlaceholder": "Сумма в валюте получения",
+    "transfer": "ПЕРЕВОД",
+    "confirmTransferTitle": "Подтверждение конвертации",
+    "confirmTransferBody": "Для подтверждения операции мы отправили Вам код",
+    "confirmTransferSubmit": "Перевести",
+    "transferSuccess": "Перевод успешно выполнен",
+    "fundSourceMustNotBeEqualToDestination": "Фонд вывода должен быть отличным от фонда назначения",
+    "fundDestinationMustNotBeEqualToSource": "Фонд назначения должен быть отличным от фонда вывода",
+    "invalidNumber": "Введите число",
+    "amountMustBePositive": "Сумма должна быть положительным числом",
+    "insufficientFunds": "Недостаточно средств",
+    "selectFund": "Выберите фонд",
+    "enterTargetAddress": "Укажите адрес назначения",
+    "enterTransferAmount": "Укажите сумму перевода"
+  },
+  "START_DAY_TRANSACTION": {
+    "monday": "c понедельника",
+    "tuesday": "со вторника",
+    "wednesday": "со среды",
+    "thursday": "с четверга",
+    "fridays": "с пятницы",
+    "saturday": "с субботы",
+    "sunday": "с воскресенья"
+  },
+  "END_DAY_TRANSACTION": {
+    "monday": "по понедельник",
+    "tuesday": "по вторник",
+    "wednesday": "по среду",
+    "thursday": "по четверг",
+    "fridays": "по пятницу",
+    "saturday": "по субботу",
+    "sunday": "по воскресенье"
+  },
+  "SAME_DATE_TRANSACTION": {
+    "monday": "по понедельникам",
+    "tuesday": "по вторникам",
+    "wednesday": "по средам",
+    "thursday": "по четвергам",
+    "fridays": "по пятницам",
+    "saturday": "по субботам",
+    "sunday": "по воскресеньям"
+  },
+  "TransferToSavingForm": {
+    "sourceFund": "ОТКУДА ПЕРЕВОДИТЬ?",
+    "sourceFundTitle": "Откуда переводить?",
+    "transferAmount": "СУММА К ВЫВОДУ",
+    "amountFund": "Сумма в валюте фонда",
+    "transfer": "ПЕРЕВОД",
+    "confirmTransfer": "Подтверждение перевода",
+    "confirmTransferBody": "Для подтверждения операции мы отправили Вам код",
+    "confirmTransferSubmit": "Перевести",
+    "transferSuccess": "Перевод успешно выполнен",
+    "invalidNumber": "Введите число",
+    "amountMustBePositive": "Сумма должна быть положительным числом",
+    "insufficientFunds": "Недостаточно средств",
+    "selectFund": "Выберите фонд",
+    "enterAmount": "Укажите сумму перевода"
+  },
+  "WalletItem": {
+    "wallet": "КОШЕЛЁК",
+    "details": "Смотреть детализацию",
+    "myAddress": "Мой адрес",
+    "shareAddress": "Поделиться адресом...",
+    "qrWithAddress": "Открыть QR с адресом"
+  },
+  "PINForm": {
+    "logout": "ВЫХОД"
+  },
+  "BrightAccountWidget": {
+    "until": "До"
+  },
+  "CustomDrawer": {
+    "main": "Главная",
+    "accounts": "Счета",
+    "transfers": "Переводы",
+    "settings": "Настройки",
+    "logout": "Выход из аккаунта",
+    "qrReader": "QR сканер",
+    "createQRRequest": "Создать QR запрос"
+  },
+  "GoogleReCaptcha": {
+    "cancel": "Отмена"
+  },
+  "SelectPopupCurrency": {
+    "withdrawCurrency": "Валюта вывода",
+    "selectCurrency": "Выберите валюту"
+  },
+  "SelectPopupFund": {
+    "wallet": "Кошелек",
+    "savings": "Накопительный счет",
+    "wallets": "Кошельки",
+    "savingsAccounts": "Накопительные счета",
+    "selectAccount": "Выберите счет"
+  },
+  "VerificationPopup": {
+    "codeTooShort": "Код слишком короткий",
+    "codeTooLong": "Код слишком длинный",
+    "codeRequired": "Необходимо ввести код",
+    "enterCode": "ВВЕДИТЕ КОД",
+    "cancel": "Отмена"
+  },
+  "CreateBrightAccountForm": {
+    "title": "Название",
+    "titlePlaceholder": "Введите название",
+    "depositAmount": "Сумма депозита",
+    "depositAmountPlaceholder": "Введите сумму депозита",
+    "term": "Срок инвестиции",
+    "capitalization": "Капитализация",
+    "confirmTitle": "Подтвердите операцию",
+    "confirmText": "Для подтверждения операции мы отправили Вам код",
+    "confirmSubmit": "Открыть счет",
+    "amountRequired": "Укажите сумму вклада",
+    "6month": "6 месяцев",
+    "12month": "12 месяцев",
+    "18month": "18 месяцев",
+    "24month": "24 месяцев",
+    "36month": "36 месяцев",
+    "60month": "60 месяцев",
+    "96month": "96 месяцев"
+  },
+  "ResultView": {
+    "weReturn": "Мы вернём",
+    "youEarn": "Вы заработаете",
+    "monthlyRate": "Месячная ставка",
+    "createAccount": "Открыть счет"
+  },
+  "ChangeEmailForm": {
+    "invalidEmail": "Введите корректный E-mail",
+    "emailRequired": "Необходимо ввести E-mail",
+    "newEmail": "Новый E-mail",
+    "save": "Сохранить"
+  },
+  "ChangePasswordForm": {
+    "passwordTooShort": "Пароль слишком короткий",
+    "passwordRules": "Пароль должен содержать заглавные и строчные\nбуквы латинского алфавита и по крайней мере одну цифру",
+    "passwordsNotEqual": "Пароли не совпадают",
+    "requiredField": "Это поле обязательно для заполнения",
+    "currentPassword": "Текущий пароль",
+    "newPassword": "Новый пароль",
+    "confirmNewPassword": "Повторите новый пароль",
+    "change": "Сменить"
+  },
+  "ReinvestmentForm": {
+    "fromSavingsBtc": "Начисления с накопительного (BTC)",
+    "fromSavingsEth": "Начисления с накопительного (ETH)",
+    "fromSavingsUsdt": "Начисления с накопительного (USDT)",
+    "wallet": "Кошелек",
+    "reinvestment": "Реинвестирование",
+    "fromStable": "Начисления со стабильного",
+    "fromReferrals": "Партнерские начисления",
+    "save": "Сохранить"
+  },
+  "ResetPhoneForm": {
+    "resetWarning": "Важно! На старый номер телефона будет отправлен\nкод подтверждения. Если у Вас нет доступа к\nстарому номеру, свяжитесь с нашим представителем.",
+    "reset": "Сбросить",
+    "confirmTitle": "Сбросить номер телефона?",
+    "confirmText": "Для подтверждения операции мы отправили Вам код"
+  },
+  "EnableGoogle2faPopup": {
+    "somethingGoesWrong": "Что-то пошло не так",
+    "secretKey": "Введите секретный ключ в приложение Google Authenticator или\nотсканируйте QR код",
+    "copyKey": "Скопировать ключ в буфер обмена",
+    "next": "Далее",
+    "codeTooShort": "Код слишком короткий",
+    "codeTooLong": "Код слишком длинный",
+    "codeRequired": "Необходимо ввести код",
+    "enterSecretKey": "Введите код, сгенерированный приложением для подтверждения включения\nдвухфакторной аутентификации",
+    "send": "Отправить",
+    "back": "Назад",
+    "keyCopied": "Ключ скопирован"
+  },
+  "EnablePhone2faPhoneForm": {
+    "phoneRequired": "Необходимо номер телефона",
+    "phoneRules": "Введите номер телефона в формате +79991112233",
+    "phoneForCodes": "Введите номер, на который будут приходить коды верификации",
+    "phonePlaceholder": "Номер телефона",
+    "submit": "Отправить"
+  },
+  "EnablePhone2faPopup": {
+    "somethingGoesWrong": "Что-то пошло не так"
+  },
+  "EnablePhone2faVerifyForm": {
+    "codeTooShort": "Код слишком короткий",
+    "codeTooLong": "Код слишком длинный",
+    "codeRequired": "Необходимо ввести код",
+    "enterSecretKey": "Введите код, сгенерированный приложением, для подтверждения включения\nдвухфакторной аутентификации",
+    "submit": "Отправить"
+  },
+  "withdrawTransferErrors": {
+    "overdraft": "Попробуйте отменить предыдущие запросы на "
+  },
+  "openStableAccountIterator": {
+    "failedToOpen": "Не удалось открыть стабильный счет"
+  },
+  "verifyOpenStableAccountIterator": {
+    "accountCreated": "Счет успешно создан!",
+    "codeExpired": "Код подтверждения неверный или истек срок действия кода. Попробуйте еще раз"
+  },
+  "refundStableAccountIterator": {
+    "createFailed": "Не удалось закрыть стабильный счет"
+  },
+  "verifyRefundStableAccountIterator": {
+    "closeSuccess": "Счет успешно закрыт!",
+    "codeExpired": "Код подтверждения неверный или истек срок действия кода. Попробуйте еще раз"
+  },
+  "fetchStableAccountsIterator": {
+    "codeExpired": "Код подтверждения неверный или истек срок действия кода. Попробуйте еще раз"
+  },
+  "walletsIterator": {
+    "fetchFailed": "Не удалось получить информацию о кошельках. Попробуйте повторить запрос позже"
+  },
+  "fetchWithdrawListIterator": {
+    "fetchFailed": "Не удалось получить список на вывод. Повторите попытку позже"
+  },
+  "cancelWithdrawIterator": {
+    "cancelFailed": "Не удалось отменить заявку на вывод. Повторите попытку позже."
+  },
+  "setupPinTask": {
+    "setPinFailed": "Неудалось установить PIN. Попробуйте снова"
+  },
+  "signInIterator": {
+    "emailNotVerified": "Необходимо верифицировать E-mail",
+    "invalidCredentials": "Неверный логин или пароль",
+    "cantLogIn": "Не удалось войти"
+  },
+  "signUpIterator": {
+    "emailUsed": "Пользователь с таким E-mail уже зарегестрирован",
+    "registerError": "Ошибка при регистрации нового пользователя"
+  },
+  "userIterator": {
+    "fetchFailed": "Не удалось получить данные пользователя. Попробуйте позднее"
+  },
+  "changeEmailTask": {
+    "requestSended": "Заявка на смену E-mail отправлена. Чтобы подтвердить операцию, перейдите по ссылке в письме, которое мы выслали на старый адрес",
+    "changeFailed": "Не удалось изменить E-mail. Повторите попытку позже"
+  },
+  "changePasswordIterator": {
+    "changeSuccess": "Пароль успешно обновлен!",
+    "changeFailed": "Ошибка! Пароль не изменен"
+  },
+  "updateReinvestmentIterator": {
+    "updateSuccess": "Настройки успешно обновлены",
+    "updateFailed": "Что-то пошло не так. Настройки не сохранены"
+  },
+  "resetPhoneTask": {
+    "resetFailed": "Не удалось сбросить телефон. Повторите попытку позже"
+  },
+  "verifyResetPhoneTask": {
+    "resetSuccess": "Номер телефона успешно сброшен",
+    "resetVerifyFailed": "Не удалось подтвердить сброс номера телефона"
+  },
+  "acquireDeviceTokenTask": {
+    "deviceRegistered": "Устройство успешно зарегистрировано. Теперь Вы можете войти в аккаунт",
+    "deviceRegisterFailed": "Ошибка регистрации устройства. Возможно код введен неверно"
+  },
+  "terminateDeviceTokenTask": {
+    "terminateFailed": "Ошибка. Не удалось авторизоваться. Попробуйте войти снова"
+  },
+  "createBrightTask": {
+    "createFailed": "Ошибка. Не удалось открыть Стабильный+ счет"
+  },
+  "verifyBrightCreationTask": {
+    "createSuccess": "Стабильный+ счет успешно открыт",
+    "verifyFailed": "Ошибка. Неверный код подтверждения"
+  },
+  "refundBrightTask": {
+    "refundError": "Ошибка. Не удалось закрыть Стабильный+ счет"
+  },
+  "verifyBrightRefundTask": {
+    "closeSuccess": "Стабильный+ счет успешно закрыт",
+    "closeError": "Ошибка. Неверный код подтверждения"
+  },
+  "transferEffect": {
+    "transfersDisabled": "Перевод не выполнен. Сервис переводов временно недоступен. Повторите попытку позже",
+    "insufficientFunds": "Ошибка. Перевод не выполнен. На балансе недостаточно средств",
+    "somethingWrong": "Неизвестная ошибка. Перевод не выполнен. Что-то пошло не так"
+  },
+  "verifyTransferEffect": {
+    "invalidCode": "Ошибка. Перевод не выполнен. Неверный код верификации",
+    "somethingWrong": "Неизвестная ошибка. Что-то пошло не так"
+  },
+  "p2pTransferEffect": {
+    "userNotFound": "Ошибка. Пользователь не зарегестрирован в системе",
+    "overdraft": "Ошибка. Перевод не выполнен. На балансе недостаточно средств",
+    "usersEqual": "Ошибка. Отправитель и получатель совпадают",
+    "somethingWrong": "Неизвестная ошибка. Что-то пошло не так"
+  },
+  "verifyP2pTransferEffect": {
+    "transferFailed": "Ошибка. Перевод не выполнен. Неверный код верификации"
+  },
+  "txTypeToString": {
+    "input": "Ввод",
+    "income": "Начисление",
+    "commision1": "Партнеры (1)",
+    "commision2": "Партнеры (2)",
+    "commision3": "Партнеры (3)",
+    "transferFrom": "Перевод - вывод",
+    "transferInput": "Перевод - ввод",
+    "transfer": "Перевод - вывод",
+    "bonus": "Бонусы",
+    "stableBase": "Стабильный вклад - создание",
+    "stableCreate": "Стабильный вклад",
+    "stableRefund": "Стабильный вклад - возврат",
+    "stableIncome": "Стабильный вклад - начисление",
+    "stableDecrease": "Стабильный вклад - открытие",
+    "withdraw": "Вывод"
+  },
+  "renderCourseString": {
+    "for": "за"
+  },
+  "enableGoogle2faTask": {
+    "somethingWrong": "Что-то пошло не так. Повторите попытку позже"
+  },
+  "verifyEnableGoogle2faTask": {
+    "enabled": "Двухфакторная аутентификация включена",
+    "somethingWrong": "Что-то пошло не так. Повторите попытку позже"
+  },
+  "enablePhone2faTask": {
+    "somethingWrong": "Что-то пошло не так. Повторите попытку позже"
+  },
+  "verifyEnablePhone2faTask": {
+    "2faEnabled": "Двухфакторная аутентификация включена",
+    "somethingWrong": "Что-то пошло не так. Повторите попытку позже"
+  },
+  "disable2faTask": {
+    "somethingWrong": "Что-то пошло не так. Повторите попытку позже"
+  },
+  "verifyDisable2faTask": {
+    "2faDisabled": "Двухфакторная аутентификация отключена",
+    "somethingWrong": "Что-то пошло не так. Повторите попытку позже"
+  },
+  "QRScanner": {
+    "tip": "Наведите свою камеру на QR код",
+    "closeButtonText": "Закрыть",
+    "requestTitle": "Запрос на использование камеры",
+    "requestMessage": "Разрешите использовать камеру для сканирования QR-кодов",
+    "requestPositive": "ОК",
+    "permissionDenied": "Доступ к камере запрещен"
+  },
+  "ShareWalletPopup": {
+    "closeButton": "Закрыть"
+  },
+  "AddressInput": {
+    "invalidAddress": "Невалидный QR код"
+  },
+  "QRPopup": {
+    "close": "Закрыть"
+  },
+  "CreateRequestForm": {
+    "destinationLabel": "Счет назначения",
+    "destinationTitle": "Выберите счет",
+    "amountTitle": "Сумма",
+    "amountPlaceholder": "Сумма в валюте фонда",
+    "messageLabel": "Сообщение (необязательно)",
+    "messagePlaceholder": "Введите сообщение",
+    "submit": "Сгенерировать QR код",
+    "selectFund": "Выберите фонд"
+  },
+  "CreateQRRequest": {
+    "appTopbarTitle": "Создание QR запроса",
+    "description": "Вы можете создать QR код на запрос перевода средств и передать его другому пользователю"
+  },
+  "QRReader": {
+    "invalidAddress": "Невалидный адрес в QR коде"
+  },
+  "QRTransfer": {
+    "title": "Перевод по QR коду"
+  },
+  "notificationsPermissions": {
+    "featureNotAvailable": "Данное устройство не поддерживает уведомления",
+    "allowNotifications": "Необходимо дать разрешение на уведомления",
+    "openSettings": "Открыть настройки?",
+    "cancel": "Отмена",
+    "ok": "Ок"
+  },
+  "ProductItem": {
+    "newLabel": "Новинка"
+  },
+  "OrdersHistoryListHeaderItem": {
+    "new": "Новый",
+    "processed": "Проведена",
+    "processing": "В обработке",
+    "approved": "Подтвержден",
+    "cancelled": "Отменен",
+    "denied": "Отклонена",
+    "shipping": "Доставка",
+    "wait": "На рассмотрении",
+    "in_queue": "В очереди",
+    "done": "Завершен"
+  },
+  "OrdersHistoryListItem": {
+    "items": "шт."
+  },
+  "ShopProduct": {
+    "add": "Добавить",
+    "gotoBasket": "Открыть корзину"
+  },
+  "ProductsPageItem": {
+    "addToCart": "В корзину",
+    "alreadyInCart": "В корзине"
+  },
+  "ShopBasket": {
+    "empty": "Корзина пуста.",
+    "yourBalance": "Ваш баланс",
+    "createOrder": "Оформить заказ",
+    "total": "Итого",
+    "product": "товара",
+    "successAdded": "успешно добавлен в корзину",
+    "successRemoved": "успешно удален из корзины"
+  },
+  "ShopOrder": {
+    "successCreateTitle": "Успешная операция",
+    "successCreateMessage": "Заказ успешно создан"
+  },
+  "FiltersPage": {
+    "pendingText": "Загружаем данные...",
+    "screenTitle": "Sollar Gifts фильтры",
+    "sollarCostTitle": "Стоимость в Sollar",
+    "resetFilters": "Сбросить",
+    "categories": "Категории",
+    "brands": "Бренды",
+    "applyFilters": "Применить"
+  },
+  "ShopFavourites": {
+    "pendingText": "Загружаем данные...",
+    "screenTitle": "Избранное",
+    "noFavourites": "Список избранных товаров пуст"
+  },
+  "ShopHistory": {
+    "screenTitle": "История заказов",
+    "default": "Все",
+    "new": "Новые",
+    "processing": "В обработке",
+    "approved": "Подтверждены",
+    "shipping": "Доставляются",
+    "done": "Завершены",
+    "cancelled": "Отменены",
+    "year": "г.",
+    "empty": "Заказы не найдены",
+    "orderDetailsBtn": "Детали заказа",
+    "pendingText": "Загружаем данные..."
+  },
+  "ShopOrderDetails": {
+    "screenTitle": "Информация о заказе",
+    "date": "Дата и время заказа",
+    "transportCompany": "Ссылка на транспортную компанию (ТК)",
+    "trackingNumber": "Номер отслеживания",
+    "fullName": "Фамилия Имя Отчество",
+    "phone": "Контактный телефон",
+    "address": "Адрес доставки",
+    "comment": "Коментарий к заказу",
+    "noComment": "Отсутствует",
+    "error": "Ошибка",
+    "errorNoLink": "Ссылка на транспортную компанию не была предоставлена или некорректна, пожалуйста, обратитесь в техническую поддержку",
+    "linkToTransportCompany": "Перейти на сайт ТК"
+  },
+  "ShopIndex": {
+    "shop": "SollarGifts",
+    "filter": "Фильтровать",
+    "cart": "Корзина",
+    "history": "История заказов",
+    "createOrder": "Оформить заказ"
+  },
+  "ShopCheckout": {
+    "screenTitle": "Оформить заказ",
+    "surname": "Фамилия",
+    "name": "Имя",
+    "patronymic": "Отчество",
+    "phoneNumber": "Контактный номер телефона",
+    "country": "Страна",
+    "city": "Город",
+    "street": "Улица",
+    "house": "Дом",
+    "apartment": "Квартира",
+    "postalCode": "Почтовый индекс",
+    "address": "Адрес получателя",
+    "comment": "Комментарий к заказу",
+    "submitOrder": "Подтвердить заказ",
+    "recipientDetails": "Информация о получателе",
+    "other": "Дополнительно",
+    "warningTextTitle": "Важно!",
+    "warningText": "\nПросим Вас при оформлении заказа в подарок указывать в поле ФИО и контактных данных сразу конечного получателя.\n\nДля отправки электронного подарка (сертификат, билеты на мероприятия, обучение) - укажите, пожалуйста, почту получателя в коментарии к заказу"
+  },
+  "ShopCheckoutStore": {
+    "requiredSurname": "Пожалуйста, укажите полную информацию о получателе. Введите фамилию.",
+    "requiredName": "Пожалуйста, укажите полную информацию о получателе. Введите имя.",
+    "requiredPhone": "Пожалуйста, укажите полную информацию о получателе. Введите корректный номер телефона.",
+    "requiredCountry": "Пожалуйста, укажите полную информацию об адресе. Введите страну.",
+    "requiredCity": "Пожалуйста, укажите полную информацию об адресе. Введите город.",
+    "requiredStreet": "Пожалуйста, укажите полную информацию об адресе. Введите улицу.",
+    "requiredPostCode": "Пожалуйста, укажите полную информацию об адресе. Введите почтовый индекс.",
+    "requiredHouse": "Пожалуйста, укажите полную информацию об адресе. Введите номер дома.",
+    "successTitle": "Заказ успешно оформлен",
+    "successMessage": "Детали заказа Вы можете увидеть в разделе Истории заказов",
+    "successOk": "Ok"
+  },
+  "Showcase": {
+    "notFound": "Товаров удовлетворяющих требованиям не найдено",
+    "pendingText": "Загружаем данные...",
+    "buttonFilter": "Фильтр",
+    "buttonSort": "Сортировка"
+  },
+  "submitOrderFx": {
+    "done": "Заказ создан",
+    "fail": "При создании заказа возникла ошибка"
+  },
+  "Accounts": {
+    "walletsSectionTitle": "Кошельки",
+    "sollarGiftsSectionTitle": "Sollar Gifts",
+    "sollarGiftsSectionTitleButton": "В магазин",
+    "shortMonth": "мес",
+    "shortDay": "д.",
+    "savingsSectionTitle": "Накопительные счета",
+    "stablesPlusSectionTitle": "Стабильные+ счета",
+    "createNewStablePlusButton": "Создать новый Стабильный+ счет",
+    "sunriseProgram": "Sunrise program",
+    "allStablesPlusButton": "Все",
+    "requestQueueSectionTitle": "Очередь заявок",
+    "allRequestQueueButton": "Все Заявки",
+    "limit": "Ограничение {{limit}} USDT",
+    "blockedSavingsAccountsInfo": "Выводы с накопительного счета возможны только после окончания антикризисной программы или в рамках промо акции: \"Открытие стабильного + вывод с накопительного\"."
+  },
+  "RequestDetails": {
+    "title": "Детали операции",
+    "date": "Дата",
+    "amount": "Сумма",
+    "from": "Откуда",
+    "to": "Куда",
+    "id": "Номер заявки",
+    "approximateExecution": "Предполагаемая дата исполнения",
+    "cancelButtonText": "Отменить операцию",
+    "btcWallet": "BTC кошелек",
+    "ethWallet": "ETH кошелек",
+    "usdtWallet": "USDT кошелек",
+    "btcSaving": "BTC накопительный",
+    "ethSaving": "ETH накопительный",
+    "usdtSaving": "USDT накопительный"
+  },
+  "AccountLayout": {
+    "txHistorySectionTitle": "Транзакции",
+    "noTxsMockText": "Ваши транзакции будут отображаться здесь"
+  },
+  "CryptoWallet": {
+    "replenishButton": "Пополнить",
+    "transferButton": "Перевод",
+    "withdrawButton": "Вывод",
+    "moreButton": "Доп. опции",
+    "walletDetailAddress": "Адрес кошелька",
+    "walletDetailUSDTEquivalent": "Эквивалент в USDT",
+    "annualProfit": "Процент на остаток",
+    "showAllHistoryButton": "Показать всю историю",
+    "txHistorySectionTitle": "Транзакции",
+    "accountDetailsSectionTitle": "Информация"
+  },
+  "SollarWallet": {
+    "showAllHistoryButton": "Показать всю историю",
+    "buySollarButton": "Купить",
+    "transactionHistory": "История операций",
+    "exchangeSollar": "Обменять",
+    "successTitle": "Обмен успешен",
+    "successText": "",
+    "goToSollarGifts": "Перейти в Sollar Gifts",
+    "gettingSollar": "Получаете",
+    "givingSollar": "Отдаете",
+    "balanceOfTether": "Баланс Tether",
+    "titleBuyTether": "Купить Sollar Gift Coins",
+    "fullAmountTether": "Вся сумма",
+    "amountIsRequiredError": "Необходимо ввести сумму больше нуля",
+    "amountIsInvalidError": "Неверный форма суммы",
+    "notEnoughFundsError": "На счету недостаточно средств",
+    "exchangeDone": "Покупка Sollar выполнена успешно",
+    "txHistorySectionTitle": "Транзакции",
+    "default": "Условия Программы Лояльности"
+  },
+  "Saving": {
+    "walletDetailUSDTEquivalent": "Эквивалент в USDT",
+    "transferButton": "Перевод",
+    "withdrawButton": "Вывести",
+    "annualProfit": "Процент на остаток",
+    "showAllHistoryButton": "Показать всю историю",
+    "accountDetailsSectionTitle": "Информация",
+    "txHistorySectionTitle": "Транзакции"
+  },
+  "CryptoWalletTxHistory": {
+    "backButton": "Назад"
+  },
+  "SollarWalletTxHistory": {
+    "backButton": "Назад"
+  },
+  "SavingTxHistory": {
+    "backButton": "Назад"
+  },
+  "RequestHistory": {
+    "backButton": "Назад"
+  },
+  "operationTypes": {
+    "input": "Ввод",
+    "income": "Начисление",
+    "interest_accrual_income": "Начисление на остаток",
+    "commision_1": "Партнеры (1)",
+    "commision_2": "Партнеры (2)",
+    "commision_3": "Партнеры (3)",
+    "commision_4": "Партнеры (4)",
+    "commision_5": "Партнеры (5)",
+    "transfer_from": "Перевод (вывод)",
+    "transfer_input": "Перевод (ввод)",
+    "transfer": "Перевод (вывод)",
+    "bonus": "Бонус",
+    "stable_base": "Открытие стабильного",
+    "stable_create": "Открытие стабильного",
+    "stable_refund": "Рефанд стабильного",
+    "stable_income": "Начисления стабильного",
+    "stable_decrease": "Открытие стабильного",
+    "new_stable_base": "Открытие стабильного+",
+    "new_stable_create": "Открытие стабильного+",
+    "new_stable_refund": "Рефанд стабильного+",
+    "new_stable_income": "Начисления стабильного+",
+    "new_stable_withdraw": "Начисления стабильного+",
+    "new_stable_decrease": "Открытие стабильного+",
+    "withdraw": "Вывод",
+    "withdraw_fee": "Комиссия за вывод",
+    "withdraw_in_process": "Вывод (в обработке)",
+    "transfer_in_process": "Перевод (в обработке)",
+    "p2p_transfer_output": "Перевод пользователю (отправка)",
+    "p2p_transfer_input": "Перевод пользователю (прием)",
+    "amir_cell_create_decrease": "Покупка AmirCell",
+    "amir_cell_cancel": "Отмена AmirCell",
+    "Confirmed": "Пополнение (обработано)",
+    "Pending": "Пополнение (в обработке)",
+    "Confirming": "Пополнение (в обработке)",
+    "Failed": "Пополнение (не обработано)",
+    "order_decrease": "Покупка SollarGifts",
+    "sollar_gift": "SollarGifts",
+    "solar_buy": "Покупка Sollar",
+    "reward_activity": "Доход за персональную активность",
+    "reward_partners": "Доход за активность партнеров",
+    "income_deposit": "Начисления за собственный депозит",
+    "income_structure": "Начисления за депозит структуры",
+    "admin_transfer": "Начисление (админ)",
+    "admin_decrease": "Снятие (админ)",
+    "order_refund": "Возврат SollarGifts",
+    "commision": "Начисление Sunrise Program",
+    "buy": "Покупка",
+    "sell": "Продажа",
+    "debit": "Списание",
+    "additional": "Начисление",
+    "buy_token": "Покупка токена",
+    "reward_structure_usdt": "Начисление за активность (прирост объема структуры USDT)",
+    "interest_accrual_solar_income": "Начисление на остаток (Sollar)",
+    "create": "Создание",
+    "sell_of_product": "Оплата за заказ",
+    "new_stable_promo_bonus_refund": "Снятие средств за подарок",
+    "p2ptransfer": "Перевод пользователю (отправка)",
+    "p2p_exchange_buy": "P2P-Покупка",
+    "p2p_exchange_refund": "P2P-Возврат депозита",
+    "p2p_exchange_debit": "P2P-Cписание (блокировка) депозита при публикации объявления",
+    "p2p_exchange_fee": "P2P-Списание комиссии",
+    "p2p_exchange_refund_fee": "P2P-Возврат комиссии",
+    "fee": "Комиссия",
+    "stable": "Стабильные",
+    "min_deposit": "Минимальный остаток",
+    "savings": "Накопительные",
+    "interest_accrual_income_amir_cell": "Ежемесячное начисление на депозит AmirCell",
+    "interest_accrual_income_cell": "Ежемесячное начисление на депозит AmirCell",
+    "amiracademy_purchase_share": "Реферальные начисления AmirAcademy",
+    "reward": "Начисление за активность нижестоящих Амбассадоров",
+    "amircell_purchase": "Покупка AmirCell",
+    "amircell_rollback": "Отмена AmirCell",
+    "amircell_replenishment_processed": "Пополнение (обработано)",
+    "amircell_replenishment_in_process": "Пополнение (в обработке)",
+    "amircell_replenishment_not_processed": "Пополнение (не обработано)",
+    "sollargifts_purchase": "Покупка SollarGifts",
+    "sollar_purchase": "Покупка Sollar",
+    "personal_income": "Доход за персональную активность",
+    "accruals_partner": "Начисление за активность (прирост партнеров)",
+    "accruals_deposit": "Начисления за депозит структуры",
+    "accruals_admin": "Начисление (админ)",
+    "withdrawal_admin": "Снятие (админ)",
+    "sollar_return": "Возврат SollarGifts",
+    "amiracademy_distribution": "Начисление за",
+    "role": "роль",
+    "amir_cell_change": "Смена подписки",
+    "token_purchased": "Покупка токена.",
+    "token_sell": "Продажа токена.",
+    "token_create": "Создание токена.",
+    "emission": "Эмиссия",
+    "deflation": "Buyback",
+    "sell_token": "Продажа токена"
+  },
+  "LabelTypes": {
+    "new": "Новинка",
+    "certificate": "Сертификат",
+    "giftery": "Электронный сертификат",
+    "digital": "Электронный сертификат"
+  },
+  "SettingsMenu": {
+    "backButtonText": "О приложении",
+    "settings": "Настройки",
+    "info": "Инфо",
+    "screenTitle": "Мой профиль",
+    "deleteAccount": "Удалить аккаунт",
+    "partnerLink": "Партнерская ссылка",
+    "languageButtonText": "Изменить язык",
+    "kycButtonText": "Подтверждение личности (KYC)",
+    "2faButtonText": "Двухфакторная аутентификация (2FA)",
+    "reinvestmentButtonText": "Настройка реинвестирования",
+    "changePasswordButtonText": "Изменить пароль",
+    "changeEmailButtonText": "Изменить электронную почту",
+    "logoutButtonText": "Выйти из аккаунта",
+    "faq": "Часто задаваемые вопросы",
+    "aboutApp": "О приложении",
+    "officialAccounts": "Официальные аккаунты в соцсетях",
+    "publicAgreement": "Публичная оферта",
+    "privacyPolicy": "Политика конфиденциальности",
+    "cookiePolicy": "Политика использования файлов Cookie",
+    "companyBenefits": "Преимущества Amir Capital",
+    "regulations": "Регламент Amir Capital",
+    "kycAmlPolicy": "Политика KYC/AML",
+    "stablePolicy": "Условия размещения активов на счет Стабильный+",
+    "riskProcedure": "Процедуры и правила внутреннего контроля по снижению рисков",
+    "verification": "Верификация",
+    "riskNotification": "Уведомления о рисках",
+    "personalDataConsent": "Согласие на обработку персональных данных",
+    "unsupportedURL": "Данная ссылка больше не поддерживается:"
+  },
+  "LanguageSettings": {
+    "backButtonText": "Настройки языка"
+  },
+  "ReinvestmentSettings": {
+    "backButtonText": "Reinvestment settings"
+  },
+  "ChangePassword": {
+    "backButtonText": "Смена пароля",
+    "submitButtonText": "Изменить",
+    "oldPasswordPlaceholder": "Введите старый пароль",
+    "newPasswordPlaceholder": "Введите новый пароль",
+    "newPasswordConfirmPlaceholder": "Введите новый пароль еще раз"
+  },
+  "ChangePasswordStore": {
+    "success": "Пароль был успешно изменен",
+    "invalidPasswordError": "Новый пароль невалиден. Пароль не изменен",
+    "defaultError": "Что-то пошло не так. Пароль не изменен",
+    "oldPasswordRequiredError": "Необходимо ввести старый пароль",
+    "oldPasswordInvalidError": "Невалидный пароль",
+    "oldPasswordTooShortError": "Пароль слишком короткий",
+    "newPasswordRequiredError": "Необходимо ввести новый пароль",
+    "newPasswordInvalidError": "Пароль должен быть длиннее 8 символов и содержать минимум одну заглавную букву и одну цифру",
+    "newPasswordTooShortError": "Пароль слишком короткий",
+    "newPasswordConfirmRequiredError": "Необходимо ввести подтверждение нового пароля",
+    "newPasswordConfirmInvalidError": "Невалидный пароль",
+    "newPasswordConfirmTooShortError": "Пароль слишком короткий",
+    "newPasswordConfirmNotEqualError": "Новый пароль и подтверждение не совпадают"
+  },
+  "ChangeEmail": {
+    "backButtonText": "Сменить E-mail",
+    "submitButtonText": "Сохранить",
+    "newEmailPlaceholder": "Введите новый E-mail"
+  },
+  "ChangeEmailStore": {
+    "success": "Заявка на смену E-mail отправлена. Чтобы подтвердить операцию, перейдите по ссылке в письме, которое мы выслали на старый адрес",
+    "defaultError": "Не удалось изменить E-mail. Повторите попытку позже",
+    "newEmailTooShortError": "Пароль слишком короткий"
+  },
+  "CloseStable": {
+    "successTitle": "Успешная операция",
+    "successText": "Стабильный+ счет был успешно закрыт",
+    "successOK": "OK"
+  },
+  "KYCScreen": {
+    "backButtonText": "Подтверждение личности (KYC)",
+    "startButtonText": "Начать процедуру подтверждения",
+    "alreadyPassedText": "Вы уже прошли процедуру подтверждения личности. KYC активен",
+    "descriptionText": "Прохождение верификации и установка двуфакторной защиты необходимы для обеспечения безопасности доступа к Вашему аккаунту, а так же для полноценного использования возможностей AmirWallet. Без данных процедур будут заблокированы:",
+    "lockedFeatureOne": "- Ввод, вывод, перевод средств на кошельки",
+    "lockedFeatureTwo": "- Открытие доходных продуктов",
+    "lockedFeatureThree": "- Программа лояльности и бонусные баллы",
+    "inProcess": "Вы завершили процесс верификации пользователя. В настоящее время ваша заявка находится на рассмотрении."
+  },
+  "TwoFactorAuthSettings": {
+    "backButtonText": "Настройка 2FA"
+  },
+  "TFASettingsInitEnableStep": {
+    "disabledText": "Для защиты вашего аккаунта и разблокировки всех функций кошелька Вам необходимо пройти подтверждение личности и установить двухфакторную аутентификацию",
+    "tfaAppButtonText": "Authenticator",
+    "tfaPhoneButtonText": "SMS",
+    "tfaDisableButtonText": "Выключить 2FA",
+    "requiresKycText": "Чтобы включить двухфакторную аутентификацию вам необходимо пройти процедуру подтверждения личности (KYC)",
+    "openKycSettings": "Открыть настройку KYC"
+  },
+  "TFASettingsGoogleQRStep": {
+    "tip": "Скачайте Google Authenticator из AppStore или Play Market, откройте приложение. Вы можете отсканировать QR код ниже (нажав в приложении ‘Сканировать код’) или скопировать Секретный ключ ниже и ввести его в приложении вручную.",
+    "secretLabel": "Секретный ключ",
+    "qrButtonText": "Сгенерировать QR код",
+    "nextButtonText": "Следующий шаг"
+  },
+  "TFASettingsGoogleCodeStep": {
+    "codeInputPlaceholder": "Введите 6-значный код из приложения",
+    "submit": "Включить 2FA"
+  },
+  "TFASettingsSmsPhoneStep": {
+    "phoneInputPlaceholder": "Введите номер телефона",
+    "submitButtonText": "Отправить код подтверждения"
+  },
+  "TFASettingsSmsCodeStep": {
+    "codeInputPlaceholder": "Введите 6-значный код из SMS",
+    "submitButtonText": "Включить 2FA"
+  },
+  "TFAStatus": {
+    "disabled": "Отключен",
+    "enabledPhone": "Включен через SMS",
+    "enabledApp": "Включен через Authenticator",
+    "pending": "Обработка запроса...",
+    "error": "Ошибка"
+  },
+  "SecurityAlert": {
+    "kycAlertTitle": "Пройдите процедуру верификации",
+    "kycAlertText": "Для безопасности аккаунта мы ограничили возможность совершать ряд операций с Вашими средствами. Чтобы получить доступ ко всем функциям кабинета необходимо пройти процедуру подтверждения личности",
+    "kycAlertButtonText": "Пройти KYC",
+    "tfaAlertTitle": "Установите двухфакторную аутентификацию",
+    "tfaAlertText": "Для безопасности аккаунта мы ограничили возможность совершать ряд операций с Вашими средствами. Чтобы получить доступ ко всем функциям кабинета необходимо настроить двухфакторную аутентификацию",
+    "tfaAlertButtonText": "Настроить 2FA"
+  },
+  "twoFaDomain": {
+    "confirmDisable2faTitle": "Отключение 2FA",
+    "confirmDisable2faMessage": "Вы уверены что хотите отключить двухфакторную аутентификацию?",
+    "yes": "Да",
+    "cancel": "Отмена",
+    "confirmDisable2faYesButtonText": "Да",
+    "confirmDisable2faNoButtonText": "Отмена",
+    "successfullyDisabled2faTitle": "2FA успешно отключена",
+    "successfullyDisabled2faOKButtonText": "ОК",
+    "successfullyEnabled2faTitle": "2FA успешно включена",
+    "successfullyEnabled2faOKButtonText": "ОК"
+  },
+  "twoFaDomainErrors": {
+    "twofa_sms_phone_in_use": "Ошибка",
+    "twofa_sms_phone_in_use_message": "Телефон уже используется в системе",
+    "must_have_code": "Ошибка",
+    "account_not_found": "Ошибка",
+    "google_is_enabled": "Ошибка",
+    "phone_is_verified": "Ошибка",
+    "phone_is_not_set": "Ошибка",
+    "phone_is_in_use": "Ошибка",
+    "application_id_is_already_used": "Ошибка",
+    "no_action_id": "Ошибка",
+    "kyc_not_passed": "Ошибка",
+    "google_code_verification_failed": "Ошибка",
+    "2fa_must_be_enabled": "Ошибка"
+  },
+  "requestTypes": {
+    "withdraw": "Вывод",
+    "transfer": "Перевод",
+    "p2ptransfer": "P2P перевод"
+  },
+  "withdrawStore": {
+    "overdraftErrorTitle": "Ошибка вывода",
+    "overdraftErrorMessage": "Недостаточно средств",
+    "overdraftErrorOk": "OK",
+    "suspendedErrorTitle": "Ошибка вывода",
+    "suspendedErrorMessage": "Сервис выводов приостановлен",
+    "suspendedErrorOk": "OK",
+    "requiresEmailVerificationErrorTitle": "Ошибка вывода",
+    "requiresEmailVerificationErrorMessage": "Вам надо верифицировать ваш адрес электронной почты",
+    "requiresEmailVerificationErrorOk": "OK",
+    "invalid2faCodeErrorTitle": "Ошибка вывода",
+    "invalid2faCodeErrorMessage": "Код подтверждения неверный",
+    "invalid2faCodeErrorOk": "OK",
+    "limitErrorTitle": "Ошибка вывода",
+    "limitErrorMessage": "Превышен дневной лимит",
+    "limitErrorOk": "OK",
+    "faceMismatchErrorTitle": "Ошибка вывода",
+    "faceMismatchErrorMessage": "Несоответствие лица",
+    "faceMismatchErrorOk": "OK",
+    "successWithdrawTitle": "Вывод успешен",
+    "successWithdrawMessage": "",
+    "successWithdrawOk": "OK",
+    "amountIsRequiredError": "Необходимо ввести сумму",
+    "amountIsInvalidError": "Неверный форма суммы",
+    "notEnoughFundsError": "На счету недостаточно средств",
+    "addressIsRequired": "Необходимо ввести адрес",
+    "addressIsInvalid": "Неверный адрес",
+    "verifyCodeIsRequired": "Необходимо ввести код подтверждения",
+    "withdrawDefaultErrorTitle": "Ошибка",
+    "withdrawDefaultErrorMessage": "Незивестная ошибка",
+    "withdrawDefaultErrorOk": "OK",
+    "checkSuccessTitle": "Успех",
+    "checkSuccessMessage": "Заявка на вывод успешно создана",
+    "checkSuccessOk": "OK",
+    "feeMismatchErrorTitle": "Комиссии обновились",
+    "feeMismatchErrorMessage": "Заявка не создана. Попробуйте снова",
+    "feeMismatchErrorOk": "OK",
+    "invalidAddressErrorTitle": "Неверный адрес",
+    "invalidAddressErrorMessage": "Проверьте адрес назначения, валюту вывода и сеть",
+    "invalidAddressErrorOk": "OK",
+    "dailyLimit": "Максимальный вывод {{limit}}{{fund}}",
+    "dailyLimitExceed": "Сумма превышает дневной лимит"
+  },
+  "Withdraw": {
+    "titlePendingFaceauthWithdraw": "Ожидается. Ваша заявка передана в обработку",
+    "screenTitle": "Вывод",
+    "submitWithdrawButtonText": "Вывод",
+    "amountPlaceholder": "Введите сумму",
+    "addressPlaceholder": "Введите адрес",
+    "feePickerPlaceholder": "Выберите скорость транзакции",
+    "feePickerFast": "Средняя скорость",
+    "feePickerFastest": "Быстрая скорость",
+    "feeDescriptionBtc": "Уважаемые пользователи! Наличие комиссии не гарантирует мгновенную отправку транзакции ввиду волатильности комиссии и нагрузки сети",
+    "feeDescriptionEth": "Уважаемые пользователи! Увеличение Вами комиссии делает транзакцию более приоритетной для исполнения, но не гарантирует ее мгновенной отправки ввиду волатильности комиссии и нагрузки в сети",
+    "btcSpeed": "Средняя скорость проведения транзакции от 1 до 60 минут.",
+    "feeTipHead": "Важная информация",
+    "feeTipText": "Введено изменение порядка вывода: теперь вы можете вывести из счета только соответствующую валюту. Чтобы вывести другую валюту, сделайте перевод на соответствующий счет. Комиссия не взимается, если сумма вывода превышает 5000 USDT или 0.1 BTC или 3 ETH",
+    "txFeeLabel": "Комиссия",
+    "entireAmountBtn": "Вся сумма",
+    "token": "Токен",
+    "network": "Сеть",
+    "feeRadioLabel": "Выберите скорость и комиссию за транзакцию",
+    "feeSlow": "Медленно",
+    "feeFast": "Средне (60+ минут)",
+    "feeFastest": "Быстро (1-60 минут)",
+    "chooseBlockchain": "Сеть",
+    "chooseToken": "Токен",
+    "monthly_limit": "Месячный лимит вывода для верифицированных пользователей составляет",
+    "order_withdrawal": "Введено изменение порядка вывода: теперь вы можете вывести из счета только соответствующую валюту. Чтобы вывести другую валюту сделайте перевод на соответствующий счет.",
+    "trcWarning": "Важно! Отправка USDT TRC-20 происходит по смарт-контракту. Не все онлайн-обменники работают с данными транзакциями. Просим перед выводом средств уточнять в обменнике возможность обработки вашей заявки.",
+    "limit": "Ограничение {{limit}} {{currency}}"
+  },
+  "WithdrawDomainErrors": {
+    "title": "Заявка не создана!",
+    "withdraw_throttling_error": "Следующий вывод будет доступен через",
+    "withdraw_throttling_error_days": "дней",
+    "withdraw_too_big_amount": "Максимальный объём вывода "
+  },
+  "requestsStore": {
+    "cancelTransferSuccessTitle": "Успех",
+    "cancelTransferSuccessMessage": "Заявка успешно отменена",
+    "cancelTransferSuccessOk": "OK"
+  },
+  "AccountSelector": {
+    "btcWallet": "Кошелек BTC",
+    "ethWallet": "Кошелек ETH",
+    "usdtWallet": "Кошелек Tether",
+    "btcSaving": "Накопительный BTC",
+    "ethSaving": "Накопительный ETH",
+    "usdtSaving": "Накопительный USDT"
+  },
+  "TransferMenu": {
+    "screenTitle": "Переводы",
+    "conversion": "Конвертация",
+    "toSaving": "В накопительный",
+    "toWallet": "Вывести с накопительного",
+    "email": "По электронной почте",
+    "phone": "По номеру телефона"
+  },
+  "TransferConversion": {
+    "screenTitle": "Конвертация",
+    "submitButtonText": "Конвертировать",
+    "amountPlaceholder": "Сумма",
+    "destinationAmountPlaceholder": "Сумма в валюте назначения",
+    "courseOne": "Курс обмена:",
+    "courseTwo": "за",
+    "confirmTransferTitle": "Подтверждение конвертации",
+    "confirmTransferBody": "Введите 6-значный код из SMS или приложения",
+    "confirmTransferSubmit": "Подтвердить"
+  },
+  "transferConversionStore": {
+    "amountIsRequiredError": "Введите сумму для конвертации",
+    "notEnoughFundsError": "Недостаточно средств",
+    "destinationAmountIsRequiredError": "Введите сумму в валюте назначения",
+    "uselessTransfer": "Невозможно совершить перевод на тот же счет",
+    "successTitle": "Перевод прошел успешно",
+    "successText": "",
+    "successOk": "OK",
+    "btcWallet": "С кошелька BTC",
+    "ethWallet": "С кошелька ETH",
+    "usdtWallet": "Баланс Tether",
+    "btcSaving": "С накопительного BTC",
+    "ethSaving": "С накопительного ETH",
+    "usdtSaving": "С накопительного USDT"
+  },
+  "Stable": {
+    "shortMonthes": "мес.",
+    "cryptocurrency": "Криптовалюта",
+    "enterTitle": "Введите название счета",
+    "enterAmount": "Необходимо ввести сумму больше нуля",
+    "screenTitle": "Создать Стабильный+ счет",
+    "nameOfAccount": "Название счета",
+    "termOfInvestment": "Срок инвестирования",
+    "selectTerm": "Выберите срок инвестирования",
+    "depositAmount": "Сумма депозита",
+    "incomeCapitalization": "Капитализация дохода",
+    "available": "Доступно",
+    "monthlyIncome": "Ежемесячный доход",
+    "netIncome": "Ваш чистый доход",
+    "rate": "Ставка",
+    "finalAmount": "Сумма в конце срока",
+    "buttonOpenStable": "Открыть стабильный +",
+    "maxLengthNameError": "Название не должно превышать 30 символов",
+    "capitalizationRequired": "Необходимо ввести капитализацию дохода",
+    "amountIsRequiredError": "Необходимо ввести сумму больше нуля",
+    "amountIsInvalidError": "Неверный форма суммы",
+    "minAmountError": "Минимальная сумма депозита {{amount}} {{currency}}",
+    "notEnoughFundsError": "На счету недостаточно средств",
+    "conditionsNotMetError": "Условия не выполнены",
+    "successTitle": "Успешная операция",
+    "successText": "Cчет Stable+ успешно создан",
+    "verifyCodeIsRequired": "Необходимо ввести код подтверждения",
+    "capitalInfo": "Капитализация вклада – это суммирование начисленных за предыдущий период процентов с основной суммой сбережений",
+    "renameTitle": "Переименовать Стабильный+ счет",
+    "enterNewName": "Новое название счета",
+    "successTitleRename": "Переименование успешно",
+    "successTextRename": "Переименование счета успешно завершено",
+    "save": "Сохранить",
+    "cancel": "Отменить",
+    "selectGiftTitle": "Выберите подарок",
+    "sunnyBookGift": "Sunny Book",
+    "withoutGift": "Мне не нужен подарок",
+    "sunnyBookTitle": "Книга Sunny Book в подарок при одном из следующих условий:",
+    "sunnyBookOption1": "От {{amount}} {{token}} на 12 месяцев с капитализацией",
+    "sunnyBookOption2": "От {{amount}} {{token}} на 24 месяца с капитализацией",
+    "sunnyBookOption3": "От {{amount}} {{token}} на 36, 60 или 96 месяцев с капитализацией",
+    "selectDeliveryOptionTitle": "Выберите способ доставки",
+    "deliveryPartner": "Я хочу получить подарок через партнера",
+    "deliveryShop": "Я хочу получить подарок через почту",
+    "deliveryPartnerDescription": "Партнер, электронную почту которого вы введете ниже, передаст вам подарок",
+    "deliveryShopDescription": "Подарок будет добавлен в вашу корзину Sollar Gifts. После открытия счета перейдите в магазин и закажите доставку",
+    "deliveryPartnerEmailPlaceholder": "Введите почту вашего партнера",
+    "enterEmail": "Введите почту",
+    "emailIsInvalidError": "Неверный формат почты",
+    "totalIncome": "Сумма на конец срока",
+    "rateInvalidValue": "Неправильная процентная ставка"
+  },
+  "StableDomainErrors": {
+    "unknown": "Ошибка!",
+    "unknown_message": "Что-то пошло не так",
+    "insufficient_funds": "Ошибка",
+    "insufficient_funds_message": "Недостаточно средств",
+    "invalid_term": "Ошибка",
+    "invalid_term_message": "Неверный срок депозита",
+    "invalid_amount": "Ошибка",
+    "invalid_amount_message": "Неверная сумма",
+    "invalid_score_id": "Что-то пошло не так",
+    "invalid_score_id_message": "Повторите попытку позже. Код ошибки [invalid_score_id]",
+    "score_not_found": "Что-то пошло не так",
+    "score_not_found_message": "Повторите попытку позже. Код ошибки [score_not_found]",
+    "cannot_use_promo": "Ошибка промоакции SunnyBook",
+    "cannot_use_promo_message": "В форме допущена ошибка или вы уже создали максимальное кол-во промо счетов",
+    "partner_email_not_found": "Неверная почта партнера",
+    "partner_email_not_found_message": "Мы не нашли аккаунт, к которму привязана эта почта",
+    "cannot_open_additional_promo": "Невозможно открыть еще один промо счет",
+    "cannot_open_additional_promo_message": "Вы достигли лимита. Чтобы открыть счет без промо, нажмите 'Мне не нужен подарок' в форме"
+  },
+  "CloseStableDomainErrors": {
+    "unknown": "Ошибка!",
+    "unknown_message": "Что-то пошло не так"
+  },
+  "SecurityServiceTwoFaBottomSheet": {
+    "title": "Код для подтверждения",
+    "tip": "Для подтверждения операции, введите одноразовый код из SMS или приложения для генерации кодов",
+    "submitButtonText": "Отправить",
+    "cancelButtonText": "Отмена",
+    "codeInputPlaceholder": "Введите код",
+    "verifyCodeIsRequired": "Код является обязательным",
+    "successTitle": "Успешная операция",
+    "successText": "Операция выполнена успешно"
+  },
+  "TransferFromSaving": {
+    "backTitle": "Вывести с накопительного",
+    "fromSaving": "С накопительного счета",
+    "toWallet": "На кошелек",
+    "sumForTransfer": "Сумма перевода",
+    "fullAmount": "Вся сумма",
+    "transfer": "Перевести",
+    "transferInfoRequest": "Заявки на вывод с накопительного счета принимаются каждый день.",
+    "transferInfoDuration": "Фиксация заявок осуществляется - в 23:59 воскресенья. Отсчёт времени вывода осуществляется с понедельника 00:01. Инвестор имеет право вывести с трёх счетов накопительный usdt, btc и eth активы которые в суммарном эквиваленте составляют следующие значения:",
+    "duration_48h": "- До $500 в течении 48 часов.",
+    "duration_96h": "- До $5000 в течении 96 часов.",
+    "duration_6days": "- До $50 000 в течении 6 календарных дней.",
+    "duration_14days": "- Свыше $50 000 в течении 14 дней.",
+    "amountIsRequiredError": "Необходимо ввести сумму больше нуля",
+    "amountIsInvalidError": "Неверный форма суммы",
+    "notEnoughFundsError": "На счету недостаточно средств",
+    "successTitle": "Успешная операция",
+    "successText": "Перевод успешно создан",
+    "to": "Куда:",
+    "from": "Откуда:",
+    "blockedSavingsAccountsInfo": "Выводы с накопительного счета возможны только после окончания антикризисной программы или в рамках промо акции: \"Открытие стабильного + вывод с накопительного\"."
+  },
+  "TransferToSaving": {
+    "backTitle": "Вывести на накопительный",
+    "toSavings": "Из кошелька",
+    "toWallet": "В накопительный",
+    "sumForTransfer": "Сумма перевода",
+    "fullAmount": "Вся сумма",
+    "transfer": "Перевести",
+    "amountIsRequiredError": "Необходимо ввести сумму больше нуля",
+    "amountIsInvalidError": "Неверный формат суммы",
+    "notEnoughFundsError": "На счету недостаточно средств",
+    "successTitle": "Перевод прошел успешно",
+    "successText": "Перевод успешно создан",
+    "default_error": "Ошибка!",
+    "default_error_message": "Что-то пошло не так",
+    "invalidInputError": "Код подверждения неверен или истек срок его действия. Пожалуйста, попоробуйте еще раз",
+    "to": "Куда:",
+    "from": "Откуда:",
+    "blockedSavingsAccountsAlert": "Будьте внимательны! Вывод с накопительного счета возможен только после окончания антикризисных мер."
+  },
+  "TransferErrors": {
+    "below_minimum_limit": "Ошибка",
+    "below_minimum_limit_message": "Сумма перевода должна быть больше нуля",
+    "transfer_request_verdraft": "Ошибка создания заявки",
+    "transfer_request_verdraft_message": "Недостаточно средств на кошельке для создания новой заявки и обработки текущих.",
+    "transfer_disabled": "Ошибка",
+    "transfer_disabled_message": "Невозможно создать заявку на перевод.",
+    "transfer_not_found": "Ошибка",
+    "transfer_not_found_message": "Нельзя отменить заявку",
+    "transfer_amount_less_than_zero": "Ошибка создания заявки",
+    "transfer_amount_less_than_zero_message": "Введенная сумма некорректна",
+    "successTitle": "Успешная операция",
+    "successText": "Перевод успешно создан",
+    "default_error": "Ошибка!",
+    "default_error_message": "Что-то пошло не так",
+    "p2p_user_not_verified": "Ошибка!",
+    "p2p_user_not_verified_message": "Невозможно совершить перевод пользователю, не прошедшему KYC верификацию",
+    "overdraft": "Ошибка",
+    "overdraft_message": "Попробуйте отменить предыдущие запросы на перевод",
+    "p2p_email_not_found": "Ошибка!",
+    "p2p_email_not_found_message": "E-mail получателя не найден",
+    "p2p_phone_not_found": "Ошибка!",
+    "p2p_phone_not_found_message": "Номер телефона не найден",
+    "p2p_phone_not_unique": "Ошибка!",
+    "p2p_phone_not_unique_message": "Номер телефона привязан к нескольким аккаунтам",
+    "not_exists_code": "Ошибка!",
+    "not_exists_code_message": "Введенный код неверен",
+    "p2p_user_email_not_verified": "Ошибка при переводе",
+    "p2p_user_email_not_verified_message": "Невозможно совершить перевод пользователю, который не подтвердил email"
+  },
+  "TransferByEmail": {
+    "emailRequired": "Необходимо ввести E-mail",
+    "invalidEmail": "Введите корректный E-mail",
+    "amountIsRequiredError": "Необходимо ввести сумму больше нуля",
+    "notEnoughFundsError": "На счету недостаточно средств",
+    "successTitle": "Успешная операция",
+    "successText": "Перевод успешно создан",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Сообщение",
+    "sumForTransfer": "Сумма перевода",
+    "backTitle": "Перевод с помощью E-mail",
+    "fullAmount": "Вся сумма",
+    "transfer": "Перевести",
+    "backButton": "Назад",
+    "limit": "Ограничение {{limit}} {{currency}}",
+    "confirmTitle": "Подтверждение",
+    "confirmMessage": "Подтвердите перевод {{amount}} {{coin}} {{account}} по email {{email}}",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена"
+  },
+  "TransferByPhone": {
+    "invalidFormat": "Неверный номер телефона. Он должен быть в формате +71234567890",
+    "amountIsRequiredError": "Необходимо ввести сумму больше нуля",
+    "notEnoughFundsError": "На счету недостаточно средств",
+    "successTitle": "Успешная операция",
+    "successText": "Перевод успешно создан",
+    "phonePlaceholder": "Телефон",
+    "messagePlaceholder": "Сообщение",
+    "sumForTransfer": "Сумма перевода",
+    "backTitle": "Перевод с помощью телефона",
+    "fullAmount": "Вся сумма",
+    "transfer": "Перевести",
+    "backButton": "Назад",
+    "limit": "Ограничение {{limit}} {{currency}}",
+    "confirmTitle": "Подтверждение",
+    "confirmMessage": "Подтвердите перевод {{amount}} {{coin}} {{account}} по номеру тел. {{phone}}",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена"
+  },
+  "BottomSheetForm": {
+    "title": "Заголовок",
+    "cancel": "Отмена",
+    "ok": "OK"
+  },
+  "ShopErrors": {
+    "invalid_field": "Ошибка",
+    "invalid_field_message": "Ошибка данных",
+    "bookmark_not_found": "Ошибка",
+    "bookmark_not_found_message": "Данная закладка не найдена",
+    "product_not_found": "Ошибка",
+    "product_not_found_message": "Неверный идентификатор товара",
+    "product_option_not_found": "Ошибка",
+    "product_option_not_found_message": "Данный товар не найден",
+    "basket_item_not_found": "Ошибка",
+    "basket_item_not_found_message": "Ошибка при поиске товара с данным идентификатором",
+    "category_not_found": "Ошибка",
+    "category_not_found_message": "Данная категория не найдена",
+    "brand_not_found": "Ошибка",
+    "brand_not_found_message": "Такого бренда не существует",
+    "product_color_not_foun": "Ошибка",
+    "product_color_not_foun_message": "Некорректный цвет"
+  },
+  "ShopFeaturedProducts": {
+    "recommendedProducts": "Похожие товары",
+    "product_color_not_foun_message": "Некорректный цвет",
+    "Unavailable quantity": "Превышено максимально доступное количество товаров одного типа"
+  },
+  "ShopSort": {
+    "screenTitle": "Сортировать",
+    "byPopularity": "По популярности",
+    "byPriceAsc": "Цена по возрастанию",
+    "byPriceDesc": "Цена по убыванию",
+    "byNovelty": "По новизне",
+    "submitButton": "Применить"
+  },
+  "ShopSearchInput": {
+    "search": "Поиск"
+  },
+  "SunriseProgram": {
+    "title": "Программа Sunrise",
+    "pendingText": "Загружаем данные..."
+  },
+  "SunriseLevelIcon": {
+    "level": "Ваш уровень"
+  },
+  "SunriseProfileInfo": {
+    "pointsInfo": "— 1 балл равен скидке в размере 1 USDT.\n— Накопительные баллы по разным продуктам не суммируются, нельзя потратить накопительные баллы по одному продукту на другой продукт.\n— Баллы имеют неограниченный срок действия.\n— Списать баллы можно при оформлении соответвующего продукта при оформлении заявки, сообщив нашему специалисту, сколько из накопленных баллов вы хотите использовать.",
+    "profileInfo": "Информация о профиле",
+    "userStatus": "Ваш уровень",
+    "assignmentDate": "Дата присвоения",
+    "userPriveleges": "Привилегии",
+    "userGifts": "Подарки",
+    "cumulativeDiscount": "Накопительные скидки",
+    "accruedPointsHistory": "История накопления баллов"
+  },
+  "SunriseProgramsFullMap": {
+    "privelegeAccess": "Доступ на участие в закрытых мероприятиях",
+    "loyaltyLight": "Доступ на участие в закрытых мероприятиях и прямое инвестирование в бизнес проекты с низким риском",
+    "loyaltyShine": "Доступ на участие в закрытых мероприятиях и прямое инвестирование в бизнес проекты со средним риском",
+    "loyaltySun": "Доступ на участие в закрытых мероприятиях и прямое инвестирование в бизнес проекты с высоким риском",
+    "privelegeCoursesSimple": "Дополнительные платные курсы за счёт и на усмотрение компании по предложению Амбассадора",
+    "privelegeCoursesExtended": "Дополнительные платные курсы за счёт и на усмотрение компании по предложению Амбассадора, 50% вознаграждений за нижестоящих прямых Амбассадоров",
+    "privelegeAmbassador": "Накопительная скидка на Amir Guard (80), Amir Smart Club (100), Amir Travel Club (100)",
+    "privelegeRegAmbassador": "Накопительная скидка на Amir Guard (130), Amir Smart Club (100), Amir Travel Club (200)",
+    "privelegeIntAmbassador": "Накопительная скидка на Amir Guard (210), Amir Smart Club (100), Amir Travel Club (300)",
+    "privelegeTopAmbassador": "Накопительная скидка на Amir Guard (340), Amir Smart Club (100), Amir Travel Club (500)",
+    "privelegeBoardMember": "Накопительная скидка на Amir Guard (550), Amir Smart Club (100), Amir Travel Club (800)",
+    "giftSunriseRay": "Комплект Ray",
+    "giftSunriseLight": "Комплект Light",
+    "giftSunriseShine": "Комплект Shine, накопительная скидка Amir Travel Club (50)",
+    "giftSunriseSun": "Комплект Sun, накопительные скидки Amir Travel Club (100), Amir Guard (150), Amir Smart (50)",
+    "giftDefaultLight": "Накопительная скидка Amir Travel Club (50)",
+    "giftDefaultShine": "Накопительные скидки Amir Travel Club, Amir Guard",
+    "giftDefaultSun": "Накопительные скидки Amir Travel Club (100), Amir Guard (150), Amir Smart (50)",
+    "conditionsSimple": "Открытие 4 линии при выполнении условий активности",
+    "conditionsExtended": "Открытие 4 и 5 линий при выполнении условий активности",
+    "conditionsRegAmbassador": "2 A. в разных ветках",
+    "conditionsIntAmbassador": "2 R.A. в разных ветках",
+    "conditionsTopAmbassador": "2 I.A. в разных ветках",
+    "conditionsBoardMember": "2 T.A. в разных ветках",
+    "none": "Нет",
+    "regAmbassadorReward": "По 100% от дохода каждого прямого Амбассадора любого уровня.",
+    "intAmbassadorReward": "По 100% от дохода каждого прямого R.А. и прямых А.",
+    "topAmbassadorReward": "По 100% от дохода каждого прямого I.А. и прямых R.A. и А.",
+    "boardMemberReward": "По 100% от дохода каждого прямого Т.А. и прямых I.A., R.A. и А.",
+    "conditionRay": "Депозит в 1ой линии от 1 000$ ИЛИ\n1 000$+ на собственном депозите",
+    "conditionLight": "Депозит в 1ой линии 10 000$+ и 2 Ray в 1ой линии ИЛИ 10 000$+ на собственном депозите",
+    "conditionShine": "Депозит в 1ой линии 40 000$+, 3 Light в 1ой линии и 100 000$ во всей структуре ИЛИ 100 000$+ на собственном депозите",
+    "conditionSun": "Депозит в 1ой линии 200 000$, 5 Light в 1ой линии и 500 000$ во всей структуре ИЛИ 500 000$+ на собственном депозите",
+    "incomeLineSpark": "1 лн. - 5%",
+    "incomeLineRay": "1 лн. - 10%, 2 лн. - 4%",
+    "incomeLineLight": "1 лн. - 15%, 2 лн. - 6%, 3 лн. - 3%",
+    "incomeLineShine": "1 лн. - 20%, 2 лн. - 8%, 3 лн. - 4%",
+    "incomeLineSun": "1 лн. - 25%, 2 лн. - 10%, 3 лн. - 5%",
+    "hiddenGifts1": "Накопительная скидка Amir Travel Club",
+    "hiddenGifts2": "Накопительная скидка Amir Travel Club, Amir Guard",
+    "hiddenGifts3": "Накопительная скидка Amir Travel Club, Amir Guard, Amir Smart"
+  },
+  "SunriseMoreInfoBlock": {
+    "moreAboutProgram": "Подробнее о программе",
+    "partnerLink": "Партнерская ссылка",
+    "careerProgram": "Карьерная программа",
+    "alertLink": "Невозможно открыть ссылку. Пожалуйста, обратитесь в службу поддержки.",
+    "partnerName": "Имя партнера",
+    "invite": "Пригласить по E-mail",
+    "unsupportedURL": "Данная ссылка больше не поддерживается:",
+    "shareTitle": "Поделиться ссылкой на приложение с реферальным кодом (бета)",
+    "shareButton": "Поделиться",
+    "copy": "Скопировать",
+    "send": "Отправить"
+  },
+  "SunriseUserInfoRow": {
+    "infoTitle": "Информация",
+    "level": "Ваш уровень",
+    "account": "Ваш счет",
+    "accountStructure": "Счет структуры",
+    "previousMonthIncome": "Доход за предыдущий месяц",
+    "numberOfPartners": "Количество партнеров в структуре",
+    "ambassadorPartner": "Амбассадор",
+    "partner": "Партнер",
+    "activity": "Активность",
+    "noPartner": "Отсутствует",
+    "noAmbassador": "Отсутствует"
+  },
+  "LoyaltyLandingScreen": {
+    "shortTitle": "Программа Лояльности",
+    "title": "Добро пожаловать в Программу Лояльности Amir Capital!",
+    "shortInfo": "Мы начисляем бонусные Sollar, дарим особые привилегии и подарки в зависимости от Вашего личного депозита (сумма всех счетов).",
+    "howItWorksTitle": "Как работает Программа Лояльности?",
+    "howItWorksText": "В зависимости от суммы депозита присваивается статус Программы Лояльности, от которого зависит какие особые привилегии или подарки Вам будут доступны. Начисление бонусных Sollar производится ежемесячно, исходя из эквивалента 2 Sollars за каждые 10 000 USDT.",
+    "programLevelsTitle": "Уровни Программы Лояльности и их возможности",
+    "getUSDTTitle": "Как сделать так, чтобы получать не только Sollar, но и USDT?",
+    "getUSDTText": "Присоединяйтесь к Sunrise Программе, чтобы получать дополнительный доход в USDT и Sollar не только за свой счет, но и за счет Ваших партнеров.",
+    "moreAboutSunrise": "Узнать подробнее о Программе Sunrise"
+  },
+  "SunriseLandingScreen": {
+    "shortTitle": "Программа Sunrise",
+    "title": "Добро пожаловать в Sunrise Программу Amir Capital!",
+    "alreadyJoinedButton": "Уже присоединились к программе Sunrise",
+    "joinSunriseButton": "Вступить в Sunrise Программу",
+    "shortInfo": "Присоединяйтесь к Sunrise Программе, чтобы получать дополнительный доход в USDT и Sollar не только за свой счет, но и за счет Ваших партнеров.",
+    "howItWorksTitle": "Как работает Sunrise Программа?",
+    "howItWorksText": "После вступления в программу Вы можете приглашать в программу партнеров и получать реферальный профит от их дохода и дохода приглашенных ими людей. Чем больше Ваш депозит и количество партнеров в Вашей системе - тем выше Ваш статус и тем больше возможностей Вам открывается.",
+    "programLevelsTitle": "Уровни Sunrise Программы и их возможности",
+    "becomeAmbassadorTitle": "Хотите большего? Станьте амбассадором Amir Capital!",
+    "becomeAmbassadorText": "Присоединяйтесь к финансовой интеллигенции сообщества Amir Partners, которая занимается просветительским трудом в достижении финансового благополучия, сохраняет и несёт ценности и миссию группы компаний.",
+    "figureOutMore": "Узнать больше",
+    "joinSunriseTitle": "Вступить в Sunrise Программу",
+    "joinSunriseText": "Нажав кнопку вступить Вы соглашаетесь с условиями о вступлении в Sunrise Program",
+    "joinSunriseConditions": "Sunrise Программы;",
+    "joinSunriseConductCode": "Этического Кодекса Партнера;",
+    "joinSunriseAgreement": "Договора публичной оферты;",
+    "join": "Вступить",
+    "close": "Закрыть",
+    "unsupportedURL": "Данная ссылка больше не поддерживается:"
+  },
+  "AmbassadorLandingScreen": {
+    "shortTitle": "Программа для Амбассадоров",
+    "title": "Хотите большего? Станьте амбассадором Amir Capital!",
+    "shortInfo": "Присоединяйтесь к финансовой интеллигенции сообщества Amir Partners, которая занимается просветительским трудом в достижении финансового благополучия, сохраняет и несёт ценности и миссию группы компаний.",
+    "howToBecomeAmbassadorTitle": "Как стать Амбассадором?",
+    "howToBecomeAmbassadorText": "- 5 Light + в 1 линии и 21 Light + в первых трех линиях;\n- Пройти начальные модули в Amir Academy;\n- Пройти комиссионное собеседование;\n- Подписать Кодекс Амбассадора.",
+    "programLevelsTitle": "Статусы Амбассадоров и их возможности",
+    "programLevelsHint": "Накопительные скидки активируются 1 числа на следующий месяц при достижении условия и деактивируются 1 числа при невыполнении условия",
+    "applyRequestButton": "Подать заявку",
+    "close": "Закрыть",
+    "join": "Вступить",
+    "joinAmbassadorTitle": "Вступить в Программу Амбассадоров",
+    "joinAmbassadorText": "Нажав кнопку вступить, Вы принимаете условия Ambassador Program:",
+    "joinAmbassadorConditions": "Программы Амбассадоров;",
+    "joinAmbassadorConductCode": "Кодекса Этики Амбассадора;",
+    "joinSunriseAgreement": "Договора публичной оферты;",
+    "unsupportedURL": "Данная ссылка больше не поддерживается:"
+  },
+  "SunriseProgramsCardSlider": {
+    "hint": "*смахните пальцем вправо, чтобы увидеть следующую карту "
+  },
+  "SunriseProgramsInfoCard": {
+    "deposit": "Депозит",
+    "priveleges": "Привилегии",
+    "gifts": "Подарки",
+    "monthlyReward": "Ежемесячное вознаграждение",
+    "conditionsToLevelUp": "Условия для повышения статуса",
+    "conditionsForStructure": "Условия для структуры",
+    "level": "Уровень",
+    "income": "Доход"
+  },
+  "SunriseStore": {
+    "nameRequired": "Укажите имя реферала",
+    "addReferralTitleSuccess": "Операция выполнена успешно",
+    "addReferralMessageSuccess": "Сообщение с приглашением было отправлено пользователю",
+    "joinedSunriseTitle": "Операция выполнена",
+    "joinedSunriseMessage": "Вы успешно вступили в Sunrise Программу",
+    "joinedAmbassadorTitle": "Операция выполнена",
+    "joinedAmbassadorMessage": "Вы успешно вступили в Программу Амбассадоров"
+  },
+  "Sunrise": {
+    "structure": "Структура",
+    "lineName": "-ая линия",
+    "showContacts": "Показывать свои контакты",
+    "comment": "Комментарий",
+    "balance": "Баланс",
+    "detalization": "Детализация",
+    "debit": "Списание",
+    "discountHistoryTitle": "История начислений",
+    "cumulative_discount_monthly_payment": "Ежемесячное начисление за",
+    "year": "года",
+    "the": "",
+    "lineScreenTitle": "-ая линия",
+    "linePartnerTitle": "Партнеры линии",
+    "equivalent": "Эквивалент",
+    "account": "Счет",
+    "lowerThe": "the",
+    "thOfLine": "ой линии",
+    "noData": "Нет данных для выбранной даты"
+  },
+  "SunriseErrors": {
+    "changeShowContacts": "Ошибка при попытке изменить значение 'Показывать свои контакты'",
+    "referral_email_already_exists": "Ошибка при отправке приглашения",
+    "referral_email_already_exists_message": "Данного пользователя нельзя пригласить еще раз",
+    "account_not_found": "Ошибка",
+    "account_not_found_message": "Пользователь не найден",
+    "already_joined": "Ошибка",
+    "already_joined_message": "Вы уже присоединилсь к настоящей программе. Пожалуйста, перезапустите приложение.",
+    "deposit_must_be_greater": "Ошибка",
+    "deposit_must_be_greater_message": "Для полного доступа к партнерской программе необходимо пополнить счета Накопительный/Стабильный+ или купить подписку, общей стоимостью не менее 100 долларов.",
+    "must_be_partner": "Ошибка",
+    "must_be_partner_message": "У Вас нет вышестоящего партнера для присоединения к программе. Пожалуйста, обратитесь в службу поддержки"
+  },
+  "SunriseAmbassadorActivity": {
+    "backButtonText": "Активность",
+    "helpButtonText": "Как начисляют Sollar",
+    "sollarCondition": "Необходимая активность",
+    "totalReceived": "Итоговое возможное вознаграждение",
+    "partnersDetailsTitle": "Прирост количества партнеров",
+    "cashDetailsTitle": "Прирост объема денег в структуре",
+    "max": "Предыдущий максимум",
+    "helpTitle": "Правила начисления Sollars за активность",
+    "rule1Title": "Правило 1",
+    "rule1Text": "Прирост количества партнеров в структуре и прирост объема денег в структуре считается только по 3 линиям.",
+    "rule2Title": "Правило 2",
+    "rule2Text": "За каждого нового пользователя в 1ой линии у Амбассадора за отчетный месяц, который прошел КУС, но НЕ ПОЛУЧИЛ статус, начисляется 1 Sollar. Если новый пользователь прошел КУС и ПОЛУЧИЛ статус, то Sollars за КУС за него НЕ НАЧИСЛЯЮТСЯ, и амбассадор получит Sollars по данному пользователю согласно Правилу 3.",
+    "rule3Title": "Правило 3",
+    "rule3Text": "За прирост количества пользователей по каждому статусу, относительно предыдущего максимума начисляются Sollars:\nSpark - 2 Sollars;\nRay - 3 Sollars;\nLight - 5 Sollars;\nShine - 8 Sollars;\nSun - 13 Sollars",
+    "rule4Title": "Правило 4",
+    "rule4Text": "1 соллар начисляется за каждый 1% прироста в объёме от предыдущего максимума по каждой валюте за месяц, но не более 34 солларов по каждой валюте.",
+    "rule5Title": "Правило 5",
+    "rule5Text": "Для амбассадоров от регионального начисляется 100% от суммы Sollars за активность каждого прямого амбассадора в структуре (любого статуса), при этом минимум 2 нижестоящих прямых амбассадора должны выполнить свою активность и личная активность самого амбассадора должна быть выполнена.",
+    "rule6Title": "Правило 6",
+    "rule6Text": "Выплата солларов за 4-5 линию не осуществляется (денежные выплаты за 4-5 линию остаются)."
+  },
+  "MonthPicker": {
+    "cancelButton": "Отменить",
+    "okButton": "OK"
+  },
+  "SunrisePartnerScreen": {
+    "title": "Партнер",
+    "partnerInfo": "Информация о партнере",
+    "phoneNumber": "Телефон",
+    "email": "E-mail",
+    "registrationDate": "Дата регистрации",
+    "statusDate": "Дата присвоения статуса",
+    "referrer": "Реферер",
+    "statusAbsent": "Статус не установлен"
+  },
+  "referralSystem": {
+    "shareMessage": "Amir Wallet - это новый этап ваших отношений с цифровой валютой!"
+  },
+  "MaintenanceView": {
+    "sorry": "Извините, произошла техническая ошибка. Мы скоро ее починим. Спасибо за Ваше терпение."
+  },
+  "TokenSale": {
+    "title": "Токены",
+    "welcome": "Платформа Amir Capital для запуска токенов",
+    "price": "Цена продажи",
+    "tokensAvailable": "Доступно токенов",
+    "buttonBuy": "Купить",
+    "buttonEdit": "Редактировать",
+    "salesStart": "Старт продаж",
+    "salesEnd": "Окончание продаж",
+    "participants": "Участники",
+    "available": "Доступно",
+    "notFound": "Произошла ошибка, пожалуйста, попробуйте позднее",
+    "description": "Полное описание проекта",
+    "successTitle": "Успешная операция",
+    "successText": "Покупка успешно выполнена",
+    "details": "Подробности"
+  },
+  "TokenSaleBuy": {
+    "buy": "Купить",
+    "currency": "Выберите криптовалюту:",
+    "give": "Отдаю",
+    "get": "Получаю",
+    "amountPlaceholder": "Введите сумму"
+  },
+  "TokenSaleStore": {
+    "enterInteger": "Получаемая сумма должна быть кратной цене",
+    "invalidDecimal": "Цена недействительна",
+    "minPriceUSDT": "Пожалуйста, укажите сумму USDT не менее минимального значения токена",
+    "minPriceSOL": "Пожалуйста, укажите сумму SGC не менее минимального значения токена",
+    "minPrice": "Пожалуйста, укажите сумму {{currency}} не менее минимального значения токена",
+    "maxUSDTPrice": "Сумма USDT превышает значение оставшихся токенов",
+    "maxSOLPrice": "Сумма SGC превышает значение оставшихся токенов",
+    "maxPrice": "Сумма {{currency}} превышает значение оставшихся токенов"
+  },
+  "TokenSaleWallet": {
+    "buyToken": "Купить",
+    "editToken": "Редактировать",
+    "info": "Информация",
+    "equivalentInUSDT": "Эквивалент в USDT",
+    "transactionHistory": "История операций",
+    "to": "куда: ",
+    "from": "откуда: ",
+    "message": "сообщение: "
+  },
+  "TokenSaleEdit": {
+    "editTokenSale": "Редактировать токенсейл",
+    "price": "Цена продажи",
+    "participants": "Участники",
+    "availablePaySol": "Продажа за SGC",
+    "availablePayments": "Продажа за",
+    "atLeastSelectOne": "Пожалуйста, выберите хотя бы один вариант",
+    "isPublished": "Опубликовано",
+    "all": "Все",
+    "specific": "Только выбранные",
+    "yes": "Да",
+    "no": "Нет",
+    "priceTitle": "Цена продажи",
+    "newPrice": "Новая цена",
+    "allUsers": "Все",
+    "selectUserCategory": "Выбрать категорию",
+    "participantsTitle": "Участники",
+    "whoCanBuyTokens": "Кто может купить токены:",
+    "sollarTitle": "Продажа за Sollar",
+    "amountPlaceholder": "Введите сумму",
+    "save": "Сохранить",
+    "successTitle": "Успешная операция",
+    "successText": "Изменения успешно сохранены"
+  },
+  "WithdrawErrors": {
+    "undefined": "Ошибка",
+    "undefined_message": "Произошла ошибка, пожалуйста, попробуйте позднее",
+    "must_have_fee_speed": "Ошибка",
+    "must_have_fee_speed_message": "Пожалуйста, выберите скорость транзакции",
+    "twofa_check_failed": "Ошибка"
+  },
+  "AccountDomain": {
+    "delAccountAskTitle": "Удаление аккаунта!",
+    "delAccountAskMessage": "Вы уверенны, что хотите удалить аккаунт?\nДля последующего восстановления аккаунта нужно написать в службу поддержки support@amirwallet.com",
+    "delAccountAnswerSuccess": "Аккаунт успешно удален",
+    "Cancel": "Отмена"
+  },
+  "AccountDomainErrors": {
+    "login_user_was_deleted": "Учетная запись удалена - пишите в support@amirwallet.com"
+  },
+  "PermissionDomain": {
+    "featureNotAvailable": "Камера недоступна на устройстве",
+    "allowCamera": "Необходим доступ к камере",
+    "allowLocation": "Необходим доступ к геолокации",
+    "openSettings": "Открыть настройки?",
+    "cancel": "Отмена",
+    "ok": "Ок"
+  },
+  "PermissionDomainErrors": {
+    "somethingWentWrong": "Error!",
+    "somethingWentWrong_message": "Something went wrong!"
+  },
+  "CommonInterface": {
+    "no_internet": "ИНТЕРНЕТ-СОЕДИНЕНИЕ НЕДОСТУПНО",
+    "save": "Сохранить",
+    "successTitle": "Успешная операция",
+    "successText": "Токен успешно обновлен"
+  },
+  "SecurityServiceDomainErrors": {
+    "undefined": "Ошибка",
+    "undefined_message": "Произошла ошибка, пожалуйста, попробуйте позднее",
+    "must_have_fee_speed": "Ошибка",
+    "must_have_fee_speed_message": "Пожалуйста, выберите скорость транзакции",
+    "twofa_check_failed": "Ошибка",
+    "twofa_check_failed_message": "Ошибка 2фа"
+  },
+  "DeleteAccount": {
+    "backButtonText": "Удалить аккаунт",
+    "message_1_1": "Вы можете отправить письмо с запросом на удаление на ",
+    "message_1_email": "support@amir.capital",
+    "message_1_link": "mailto:support@amir.capital",
+    "message_1_2": ". Через 5 лет после получения запроса мы удалим аккаунт.",
+    "message_2": "Компания Amir Capital Group OÜ (регистрационный номер No 14698286) зарегистрированная по адресу: Estonia, Harju maakond, Tallinn, Lasnamäe linnaosa, Valukoja tn 8/2, 11415 работает по Эстонским лицензиям. Согласно статье 47 (Сохранение данных) главы 4 (Сбор, хранения и защита данных) «Закона о предотвращении отмывания денег и финансированию терроризма» (Принят 26.10.2017 RT I, 17.11.2017, 2 Вступил в силу 27.11.2017, часть 3 статьи 19 и статьи 76–80 с 01.09.2018 и статьи 81 и 95 с 01.01.2019) должен хранить данные клиентов в течение не менее пяти лет после прекращения деловых отношений."
+  },
+  "Review": {
+    "Title": "Оценка ⭐ ⭐ ⭐ ⭐ ⭐",
+    "Message": "Помоги сделать наш кошелек Amir Wallet ещё лучше и удобнее👇 \nОцени и оставь свой честный отзыв, напиши что хотел бы изменить или добавить именно Ты! Для нас это действительно важно🙌",
+    "NotNow": "Не сейчас",
+    "Review": "Оценить",
+    "NoTY": "Нет, спасибо"
+  },
+  "ShopDomain": {
+    "sollarGiftRulesTitle": "Правила Sollar Gifts",
+    "sollarGiftRules1": "Я ",
+    "sollarGiftRules2": "согласен с правилами ",
+    "sollarGiftRules3": "обмена SGC на товары в премиальной бонусной программе - “SollarGifts”",
+    "yes": "Да",
+    "no": "Нет",
+    "didAgree": "Для участия в программе Sollar Gifts Вам необходимо ознакомиться и согласиться с правилами",
+    "showAgree": "Показать соглашение"
+  },
+  "SunriseDomain": {
+    "title": "Кодекс Партнера",
+    "desc_1": "Для продолжения работы в личном кабинете Вам необходимо ознакомиться и принять правила ",
+    "desc_2": "Кодекса Партнера Amir",
+    "confirm": "Ознакомлен и согласен с кодексом Партнера",
+    "no": "Нет",
+    "yes": "Отправить",
+    "didAgree": "Согласно 'Кодексу Партнера Amir' Вам необходимо ознакомиться и согласиться со следующими правилами",
+    "showAgree": "Показать соглашение"
+  },
+  "TwoFAWarning": {
+    "twofa_title": "2FA не установлена.",
+    "twofa_text": "2FA должен быть установлен перед любыми расходными транзакциями.",
+    "kyc_title": "Требуется проверка KYC",
+    "kyc_text1": "Пока вы не пройдете верификацию, у вас будет ограниченный доступ в личный кабинет. установлен общий дневной лимит на транзакции:",
+    "kyc_text2": "- Вывод на внешний кошелек - эквивалент до 1000 USDT во всех валютах",
+    "kyc_text3": "- Перевод клиентам фонда Amir Capital - эквивалент до 1000 USDT во всех валютах",
+    "kyc_text4": "- Покупка токенов компании - без ограничений"
+  },
+  "TransactionLimitExceeded": {
+    "text": "Превышен лимит транзакции. Чтобы снять ограничение на сумму транзакций, пройдите верификацию"
+  },
+  "ReferralLinkDomainErrors": {
+    "changeShowContacts": "Ошибка при попытке изменить значение 'Показывать свои контакты'",
+    "referral_email_already_exists": "Ошибка при отправке приглашения",
+    "referral_email_already_exists_message": "Данного пользователя нельзя пригласить еще раз",
+    "account_not_found": "Ошибка",
+    "account_not_found_message": "Пользователь не найден",
+    "already_joined": "Ошибка",
+    "already_joined_message": "Вы уже присоединилсь к настоящей программе. Пожалуйста, перезапустите приложение.",
+    "deposit_must_be_greater": "Ошибка",
+    "deposit_must_be_greater_message": "Для полного доступа к партнерской программе необходимо пополнить счета Накопительный/Стабильный+ или купить подписку, общей стоимостью не менее 100 долларов.",
+    "must_be_partner": "Ошибка",
+    "must_be_partner_message": "У Вас нет вышестоящего партнера для присоединения к программе. Пожалуйста, обратитесь в службу поддержки"
+  },
+  "UI": {
+    "successSavedTitle": "",
+    "successSavedText": "Изменения были успешно сохранены!",
+    "unsupportedURL": "Данная ссылка больше не поддерживается:",
+    "to": "Куда:",
+    "from": "Откуда:",
+    "to: ": "куда: ",
+    "from: ": "откуда: ",
+    "message: ": "сообщение: ",
+    "btcWallet": "Кошелек BTC",
+    "ethWallet": "Кошелек ETH",
+    "usdtWallet": "Кошелек Tether",
+    "awtWallet": "Кошелек AWT",
+    "btcSaving": "Накопительный BTC",
+    "ethSaving": "Накопительный ETH",
+    "usdtSaving": "Накопительный USDT",
+    "fromwallet": "со счета кошелька",
+    "fromsavings": "с накопительного счета"
+  },
+  "UIErrors": {
+    "amountIsInvalidError": "Неверный форма суммы"
+  }
+}

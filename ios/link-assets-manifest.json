@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Exo2-Bold.ttf",
+      "sha1": "2f5646c4e0ebf47515f7d214db680d9df39eca8e"
+    },
+    {
+      "path": "assets/fonts/Exo2-BoldItalic.ttf",
+      "sha1": "e38b15e2606af004391f6ecbbfac17dfcaa8d2c3"
+    },
+    {
+      "path": "assets/fonts/Exo2-Italic.ttf",
+      "sha1": "576abfc8244e25af7e9eea256576151cdf07924b"
+    },
+    {
+      "path": "assets/fonts/Exo2-Light.ttf",
+      "sha1": "ea02d119fa785880928d38fe3c8e074c537ea22f"
+    },
+    {
+      "path": "assets/fonts/Exo2-LightItalic.ttf",
+      "sha1": "737beedffc1e950619e369f3b3f4aec672b97f95"
+    },
+    {
+      "path": "assets/fonts/Exo2-Medium.ttf",
+      "sha1": "c2c80eebb9e86a777ce3f36a3c5725fbc78a3a68"
+    },
+    {
+      "path": "assets/fonts/Exo2-MediumItalic.ttf",
+      "sha1": "042aba44f22f6058b2237e233d29337cb632f1b6"
+    },
+    {
+      "path": "assets/fonts/Exo2-Regular.ttf",
+      "sha1": "61208ea183132814093c1ab8539e96a3266666ed"
+    },
+    {
+      "path": "assets/fonts/Exo2-SemiBold.ttf",
+      "sha1": "f3ba22bf00062ab014d0776be2bf90d6a20e085c"
+    },
+    {
+      "path": "assets/fonts/Exo2-SemiBoldItalic.ttf",
+      "sha1": "212b403038708b4c2b36b1658acc7eb28e16ad2a"
+    }
+  ]
+}
